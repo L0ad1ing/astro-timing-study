@@ -1,0 +1,538 @@
+{
+  "POST_HOC_VERDICT": "All 17 surviving rules are Prize rules driven by the Olympic calendar, not astrology: 41% of held-out prize events fall during an Olympic Games (Feb winter Games, Jul/Aug summer Games, every 4 years); Mars-Saturn's ~2-year cycle against controls at odd-year offsets encodes it. With Games-period events removed, 0 of 17 pass the pre-registered bar. See docs/results_discovery_v2_parity_check.json and scripts/discovery_v2_parity_check.py. The pre-registered output below is kept unchanged.",
+  "generated_at": "2026-10-01T16:39:00.381668+00:00",
+  "prereg": "docs/prereg_discovery_v2.md",
+  "code_commit": "40c6d2e",
+  "results": "results_discovery_v2_20261001_1239.json",
+  "n_rules_tested": 220,
+  "rule": "same sign as training and two-sided p < 0.01/220, adjusted for age, calendar year and sex, on held-out months",
+  "rules": [
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 <= -0.08885 AND transit Sun to natal Pluto within \u00b177.9\u00b0 of a multiple of 360\u00b0",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          "<=",
+          -0.088847
+        ],
+        [
+          "transit Sun to natal Pluto cos1",
+          ">",
+          0.208863
+        ]
+      ],
+      "direction": "protective",
+      "train_mh_z": -12.348,
+      "train_adj_z": -13.697,
+      "train_beta": -1.9198,
+      "train_rate_event": 0.0975,
+      "train_rate_control": 0.3326,
+      "test_beta": -1.7103,
+      "test_z": -10.825,
+      "test_p": 2.6159551648318464e-27,
+      "test_odds_ratio": 0.368,
+      "test_rate_event": 0.1274,
+      "test_rate_control": 0.3143,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 <= -0.1818 AND sky Mercury-Pluto within \u00b1155.4\u00b0 of a multiple of 360\u00b0",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          "<=",
+          -0.181793
+        ],
+        [
+          "sky Mercury-Pluto cos1",
+          ">",
+          -0.909158
+        ]
+      ],
+      "direction": "protective",
+      "train_mh_z": -11.308,
+      "train_adj_z": -12.448,
+      "train_beta": -1.2423,
+      "train_rate_event": 0.2315,
+      "train_rate_control": 0.4934,
+      "test_beta": -0.8453,
+      "test_z": -7.716,
+      "test_p": 1.201146114402045e-14,
+      "test_odds_ratio": 0.608,
+      "test_rate_event": 0.3106,
+      "test_rate_control": 0.4998,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 > -0.1818 AND sky Sun-Pluto within \u00b1116.3\u00b0 of a multiple of 360\u00b0",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          ">",
+          -0.181793
+        ],
+        [
+          "sky Sun-Pluto cos1",
+          ">",
+          -0.4427
+        ]
+      ],
+      "direction": "risk",
+      "train_mh_z": 11.244,
+      "train_adj_z": 12.315,
+      "train_beta": 1.3035,
+      "train_rate_event": 0.4489,
+      "train_rate_control": 0.2069,
+      "test_beta": 0.5775,
+      "test_z": 4.374,
+      "test_p": 1.2211574788590695e-05,
+      "test_odds_ratio": 1.43,
+      "test_rate_event": 0.377,
+      "test_rate_control": 0.2753,
+      "same_sign": true,
+      "bh_q": 0.0002,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 <= -0.1166 AND sky Mercury-Pluto within \u00b1151.8\u00b0 of a multiple of 360\u00b0",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          "<=",
+          -0.116589
+        ],
+        [
+          "sky Mercury-Pluto cos1",
+          ">",
+          -0.881653
+        ]
+      ],
+      "direction": "protective",
+      "train_mh_z": -11.39,
+      "train_adj_z": -12.22,
+      "train_beta": -1.2226,
+      "train_rate_event": 0.2385,
+      "train_rate_control": 0.5042,
+      "test_beta": -0.9058,
+      "test_z": -8.29,
+      "test_p": 1.1297900526398433e-16,
+      "test_odds_ratio": 0.579,
+      "test_rate_event": 0.3072,
+      "test_rate_control": 0.5115,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 > -0.1166 AND sky Sun-Pluto within \u00b1116.3\u00b0 of a multiple of 360\u00b0",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          ">",
+          -0.116589
+        ],
+        [
+          "sky Sun-Pluto cos1",
+          ">",
+          -0.4427
+        ]
+      ],
+      "direction": "risk",
+      "train_mh_z": 11.194,
+      "train_adj_z": 12.116,
+      "train_beta": 1.3066,
+      "train_rate_event": 0.436,
+      "train_rate_control": 0.1939,
+      "test_beta": 0.5776,
+      "test_z": 4.405,
+      "test_p": 1.0563165102066083e-05,
+      "test_odds_ratio": 1.444,
+      "test_rate_event": 0.3682,
+      "test_rate_control": 0.2627,
+      "same_sign": true,
+      "bh_q": 0.0001,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 > -0.1166 AND transit Sun to natal Pluto within \u00b149.9\u00b0 of a multiple of 360\u00b0",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          ">",
+          -0.116589
+        ],
+        [
+          "transit Sun to natal Pluto cos1",
+          ">",
+          0.643718
+        ]
+      ],
+      "direction": "risk",
+      "train_mh_z": 10.617,
+      "train_adj_z": 12.014,
+      "train_beta": 2.1782,
+      "train_rate_event": 0.2338,
+      "train_rate_control": 0.0733,
+      "test_beta": 1.7733,
+      "test_z": 8.495,
+      "test_p": 1.974418057866941e-17,
+      "test_odds_ratio": 2.932,
+      "test_rate_event": 0.2059,
+      "test_rate_control": 0.0876,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 > -0.08885 AND sky Mercury-Pluto within \u00b1119.4\u00b0 of a multiple of 360\u00b0",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          ">",
+          -0.088847
+        ],
+        [
+          "sky Mercury-Pluto cos1",
+          ">",
+          -0.490468
+        ]
+      ],
+      "direction": "risk",
+      "train_mh_z": 11.849,
+      "train_adj_z": 11.812,
+      "train_beta": 1.1702,
+      "train_rate_event": 0.4971,
+      "train_rate_control": 0.2319,
+      "test_beta": 0.8451,
+      "test_z": 7.228,
+      "test_p": 4.889155958104515e-13,
+      "test_odds_ratio": 1.667,
+      "test_rate_event": 0.4363,
+      "test_rate_control": 0.2667,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 > 0.5046 AND transit Mercury to natal Pluto within \u00b152.2\u00b0 of a multiple of 360\u00b0",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          ">",
+          0.504595
+        ],
+        [
+          "transit Mercury to natal Pluto cos1",
+          ">",
+          0.613397
+        ]
+      ],
+      "direction": "risk",
+      "train_mh_z": 13.367,
+      "train_adj_z": 11.719,
+      "train_beta": 1.9883,
+      "train_rate_event": 0.2315,
+      "train_rate_control": 0.0332,
+      "test_beta": 1.0776,
+      "test_z": 5.358,
+      "test_p": 8.422641465242383e-08,
+      "test_odds_ratio": 2.721,
+      "test_rate_event": 0.1414,
+      "test_rate_control": 0.0503,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 <= -0.3968 AND transit Sun to natal Pluto within \u00b149.9\u00b0 of a multiple of 360\u00b0",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          "<=",
+          -0.396817
+        ],
+        [
+          "transit Sun to natal Pluto cos1",
+          ">",
+          0.643718
+        ]
+      ],
+      "direction": "protective",
+      "train_mh_z": -9.517,
+      "train_adj_z": -11.255,
+      "train_beta": -2.0788,
+      "train_rate_event": 0.0482,
+      "train_rate_control": 0.1843,
+      "test_beta": -1.7566,
+      "test_z": -8.208,
+      "test_p": 2.2497251929148934e-16,
+      "test_odds_ratio": 0.357,
+      "test_rate_event": 0.0593,
+      "test_rate_control": 0.1666,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Neptune-Node sin8 > 0.4015 AND transit Saturn to natal Uranus more than 81.4\u00b0 from every multiple of 360\u00b0",
+      "conditions": [
+        [
+          "sky Neptune-Node sin8",
+          ">",
+          0.401543
+        ],
+        [
+          "transit Saturn to natal Uranus cos1",
+          "<=",
+          0.148964
+        ]
+      ],
+      "direction": "risk",
+      "train_mh_z": 12.507,
+      "train_adj_z": 11.105,
+      "train_beta": 1.2096,
+      "train_rate_event": 0.3431,
+      "train_rate_control": 0.1146,
+      "test_beta": 1.1176,
+      "test_z": 8.724,
+      "test_p": 2.6845928514013398e-18,
+      "test_odds_ratio": 2.352,
+      "test_rate_event": 0.2897,
+      "test_rate_control": 0.1217,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 <= -0.8871 AND transit Sun to natal Pluto within \u00b179.0\u00b0 of a multiple of 180\u00b0",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          "<=",
+          -0.887051
+        ],
+        [
+          "transit Sun to natal Pluto cos2",
+          ">",
+          -0.926752
+        ]
+      ],
+      "direction": "protective",
+      "train_mh_z": -9.689,
+      "train_adj_z": -10.927,
+      "train_beta": -1.9315,
+      "train_rate_event": 0.0517,
+      "train_rate_control": 0.1993,
+      "test_beta": -1.8183,
+      "test_z": -9.48,
+      "test_p": 2.553085474971623e-21,
+      "test_odds_ratio": 0.3,
+      "test_rate_event": 0.0663,
+      "test_rate_control": 0.2254,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 <= -0.1818 AND sky Mercury-Node more than 5.8\u00b0 from every multiple of 60\u00b0",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          "<=",
+          -0.181793
+        ],
+        [
+          "sky Mercury-Node cos6",
+          "<=",
+          0.821124
+        ]
+      ],
+      "direction": "protective",
+      "train_mh_z": -10.578,
+      "train_adj_z": -10.798,
+      "train_beta": -1.0737,
+      "train_rate_event": 0.2115,
+      "train_rate_control": 0.4448,
+      "test_beta": -0.5324,
+      "test_z": -4.638,
+      "test_p": 3.513878934483489e-06,
+      "test_odds_ratio": 0.682,
+      "test_rate_event": 0.2775,
+      "test_rate_control": 0.3996,
+      "same_sign": true,
+      "bh_q": 0.0001,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Neptune-Node sin6 > -0.9934 AND sky Mars-Saturn sin1 <= -0.1818",
+      "conditions": [
+        [
+          "sky Neptune-Node sin6",
+          ">",
+          -0.993385
+        ],
+        [
+          "sky Mars-Saturn sin1",
+          "<=",
+          -0.181793
+        ]
+      ],
+      "direction": "protective",
+      "train_mh_z": -10.103,
+      "train_adj_z": -10.706,
+      "train_beta": -1.0278,
+      "train_rate_event": 0.309,
+      "train_rate_control": 0.541,
+      "test_beta": -0.9939,
+      "test_z": -9.009,
+      "test_p": 2.0759239158987175e-19,
+      "test_odds_ratio": 0.554,
+      "test_rate_event": 0.3037,
+      "test_rate_control": 0.5209,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Neptune-Node sin8 > -0.4696 AND sky Mars-Saturn sin1 > -0.8989",
+      "conditions": [
+        [
+          "sky Neptune-Node sin8",
+          ">",
+          -0.469591
+        ],
+        [
+          "sky Mars-Saturn sin1",
+          ">",
+          -0.898886
+        ]
+      ],
+      "direction": "risk",
+      "train_mh_z": 11.624,
+      "train_adj_z": 10.683,
+      "train_beta": 1.0122,
+      "train_rate_event": 0.7109,
+      "train_rate_control": 0.4234,
+      "test_beta": 0.9327,
+      "test_z": 8.618,
+      "test_p": 6.8047796056291256e-18,
+      "test_odds_ratio": 1.844,
+      "test_rate_event": 0.6667,
+      "test_rate_control": 0.4405,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 > -0.8989 AND sky Pluto-Node within \u00b115.1\u00b0 of a multiple of 45\u00b0",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          ">",
+          -0.898886
+        ],
+        [
+          "sky Pluto-Node cos8",
+          ">",
+          -0.507874
+        ]
+      ],
+      "direction": "risk",
+      "train_mh_z": 11.484,
+      "train_adj_z": 10.679,
+      "train_beta": 0.9932,
+      "train_rate_event": 0.7192,
+      "train_rate_control": 0.4355,
+      "test_beta": 0.9967,
+      "test_z": 9.306,
+      "test_p": 1.3220653931816742e-20,
+      "test_odds_ratio": 1.868,
+      "test_rate_event": 0.6928,
+      "test_rate_control": 0.4477,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 > -0.8871 AND sky Uranus-Node within \u00b143.7\u00b0 of a multiple of 90\u00b0",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          ">",
+          -0.887051
+        ],
+        [
+          "sky Uranus-Node cos4",
+          ">",
+          -0.995679
+        ]
+      ],
+      "direction": "risk",
+      "train_mh_z": 10.361,
+      "train_adj_z": 10.622,
+      "train_beta": 1.5419,
+      "train_rate_event": 0.9177,
+      "train_rate_control": 0.7343,
+      "test_beta": 1.9536,
+      "test_z": 11.289,
+      "test_p": 1.483694193841453e-29,
+      "test_odds_ratio": 4.014,
+      "test_rate_event": 0.9215,
+      "test_rate_control": 0.6848,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    },
+    {
+      "event_type": "Prize",
+      "text": "sky Mars-Saturn sin1 > -0.3968 AND sky Neptune-Node sin8 > -0.3985",
+      "conditions": [
+        [
+          "sky Mars-Saturn sin1",
+          ">",
+          -0.396817
+        ],
+        [
+          "sky Neptune-Node sin8",
+          ">",
+          -0.398452
+        ]
+      ],
+      "direction": "risk",
+      "train_mh_z": 11.641,
+      "train_adj_z": 10.489,
+      "train_beta": 0.9746,
+      "train_rate_event": 0.5699,
+      "train_rate_control": 0.2847,
+      "test_beta": 0.9063,
+      "test_z": 8.375,
+      "test_p": 5.5024496569879285e-17,
+      "test_odds_ratio": 1.696,
+      "test_rate_event": 0.5201,
+      "test_rate_control": 0.3143,
+      "same_sign": true,
+      "bh_q": 0.0,
+      "survives": true
+    }
+  ]
+}

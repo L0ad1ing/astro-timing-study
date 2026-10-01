@@ -1,0 +1,438 @@
+{
+  "run_at": "2026-09-30T21:31:25.940643+00:00",
+  "half": "training (0)",
+  "chance": {
+    "top1": 0.05,
+    "top3": 0.15
+  },
+  "categories": {
+    "Prize": {
+      "sets": 724,
+      "c_index": 0.5306,
+      "c_ci": [
+        0.5037,
+        0.558
+      ],
+      "placebo_c": {
+        "placebo_c": 0.4924,
+        "ci": [
+          0.4632,
+          0.52
+        ],
+        "sets": 704
+      },
+      "subgroups": {
+        "AA": {
+          "c": 0.5169,
+          "ci": [
+            0.4873,
+            0.5467
+          ],
+          "sets": 561
+        },
+        "A": {
+          "c": 0.5598,
+          "ci": [
+            0.4909,
+            0.6268
+          ],
+          "sets": 138
+        },
+        "complete_controls": {
+          "c": 0.5264,
+          "ci": [
+            0.4993,
+            0.5526
+          ],
+          "sets": 682
+        }
+      },
+      "window": {
+        "events": 714,
+        "top1": 0.0686,
+        "top1_ci": [
+          0.049,
+          0.089
+        ],
+        "top3": 0.1625,
+        "top3_ci": [
+          0.1345,
+          0.1891
+        ]
+      },
+      "placebo_window": {
+        "events": 723,
+        "top1": 0.0415,
+        "top1_ci": [
+          0.0277,
+          0.0567
+        ],
+        "top3": 0.1438,
+        "top3_ci": [
+          0.1203,
+          0.1701
+        ],
+        "passed": true
+      },
+      "mismatched": {
+        "mismatched_c": [
+          0.4999,
+          0.5002,
+          0.5123
+        ],
+        "mean": 0.5041
+      },
+      "verdict": "no window signal",
+      "lockbox": {
+        "file": "Prize.lgb.txt",
+        "sha256": "9702de6132f75a311bd7ed49831c76a0e4f849df62cd2c637a71426d6c6ede77",
+        "params": {
+          "objective": "lambdarank",
+          "metric": "ndcg",
+          "ndcg_eval_at": [
+            1
+          ],
+          "learning_rate": 0.03,
+          "max_depth": 4,
+          "num_leaves": 15,
+          "min_child_samples": 150,
+          "feature_fraction": 0.5,
+          "bagging_fraction": 0.8,
+          "bagging_freq": 1,
+          "lambda_l2": 5.0,
+          "verbose": -1,
+          "seed": 7
+        },
+        "rounds": 300,
+        "feature_schema": "c4edf4f90f0c18c7",
+        "n_features": 694,
+        "frozen_at": "2026-09-30T21:32:05.956280+00:00",
+        "training_sets": 724,
+        "cv_c_index": 0.5306
+      }
+    },
+    "Job_Start": {
+      "sets": 541,
+      "c_index": 0.5126,
+      "c_ci": [
+        0.4826,
+        0.5411
+      ],
+      "placebo_c": {
+        "placebo_c": 0.5038,
+        "ci": [
+          0.4709,
+          0.5336
+        ],
+        "sets": 532
+      },
+      "subgroups": {
+        "AA": {
+          "c": 0.5215,
+          "ci": [
+            0.4862,
+            0.5537
+          ],
+          "sets": 423
+        },
+        "A": {
+          "c": 0.4944,
+          "ci": [
+            0.4194,
+            0.5833
+          ],
+          "sets": 90
+        },
+        "complete_controls": {
+          "c": 0.5105,
+          "ci": [
+            0.4806,
+            0.5392
+          ],
+          "sets": 523
+        }
+      },
+      "window": {
+        "events": 537,
+        "top1": 0.0857,
+        "top1_ci": [
+          0.0605,
+          0.1099
+        ],
+        "top3": 0.1862,
+        "top3_ci": [
+          0.1527,
+          0.2197
+        ]
+      },
+      "placebo_window": {
+        "events": 541,
+        "top1": 0.0444,
+        "top1_ci": [
+          0.0286,
+          0.0628
+        ],
+        "top3": 0.1497,
+        "top3_ci": [
+          0.121,
+          0.1793
+        ],
+        "passed": true
+      },
+      "mismatched": {
+        "mismatched_c": [
+          0.5003,
+          0.5117,
+          0.4895
+        ],
+        "mean": 0.5005
+      },
+      "verdict": "window signal above chance",
+      "lockbox": {
+        "file": "Job_Start.lgb.txt",
+        "sha256": "79b234363d99e86324cc1a02602e834c2ff8c83e59eeb66fefa25e9762e037a4",
+        "params": {
+          "objective": "lambdarank",
+          "metric": "ndcg",
+          "ndcg_eval_at": [
+            1
+          ],
+          "learning_rate": 0.03,
+          "max_depth": 4,
+          "num_leaves": 15,
+          "min_child_samples": 150,
+          "feature_fraction": 0.5,
+          "bagging_fraction": 0.8,
+          "bagging_freq": 1,
+          "lambda_l2": 5.0,
+          "verbose": -1,
+          "seed": 7
+        },
+        "rounds": 300,
+        "feature_schema": "c4edf4f90f0c18c7",
+        "n_features": 694,
+        "frozen_at": "2026-09-30T21:32:35.826738+00:00",
+        "training_sets": 541,
+        "cv_c_index": 0.5126
+      }
+    },
+    "Job_End": {
+      "sets": 320,
+      "c_index": 0.5177,
+      "c_ci": [
+        0.4817,
+        0.5537
+      ],
+      "placebo_c": {
+        "placebo_c": 0.5027,
+        "ci": [
+          0.4579,
+          0.5421
+        ],
+        "sets": 307
+      },
+      "subgroups": {
+        "AA": {
+          "c": 0.5199,
+          "ci": [
+            0.476,
+            0.5634
+          ],
+          "sets": 259
+        },
+        "A": {
+          "c": 0.4866,
+          "ci": [
+            0.3929,
+            0.5827
+          ],
+          "sets": 56
+        },
+        "complete_controls": {
+          "c": 0.5167,
+          "ci": [
+            0.4808,
+            0.5534
+          ],
+          "sets": 300
+        }
+      },
+      "window": {
+        "events": 317,
+        "top1": 0.0442,
+        "top1_ci": [
+          0.0252,
+          0.0679
+        ],
+        "top3": 0.1199,
+        "top3_ci": [
+          0.0883,
+          0.1577
+        ]
+      },
+      "placebo_window": {
+        "events": 320,
+        "top1": 0.0531,
+        "top1_ci": [
+          0.0281,
+          0.0798
+        ],
+        "top3": 0.1562,
+        "top3_ci": [
+          0.1187,
+          0.1938
+        ],
+        "passed": true
+      },
+      "mismatched": {
+        "mismatched_c": [
+          0.5091,
+          0.5219,
+          0.5387
+        ],
+        "mean": 0.5232
+      },
+      "verdict": "FAILS mismatched-chart test",
+      "lockbox": {
+        "file": "Job_End.lgb.txt",
+        "sha256": "18e035236da55e110feeaa2257d9112ea512be12d3b3ca6771e5631141f42338",
+        "params": {
+          "objective": "lambdarank",
+          "metric": "ndcg",
+          "ndcg_eval_at": [
+            1
+          ],
+          "learning_rate": 0.03,
+          "max_depth": 4,
+          "num_leaves": 15,
+          "min_child_samples": 150,
+          "feature_fraction": 0.5,
+          "bagging_fraction": 0.8,
+          "bagging_freq": 1,
+          "lambda_l2": 5.0,
+          "verbose": -1,
+          "seed": 7
+        },
+        "rounds": 300,
+        "feature_schema": "c4edf4f90f0c18c7",
+        "n_features": 694,
+        "frozen_at": "2026-09-30T21:32:53.938682+00:00",
+        "training_sets": 320,
+        "cv_c_index": 0.5177
+      }
+    },
+    "Trial": {
+      "sets": 293,
+      "c_index": 0.5448,
+      "c_ci": [
+        0.5027,
+        0.5848
+      ],
+      "placebo_c": {
+        "placebo_c": 0.4899,
+        "ci": [
+          0.4434,
+          0.5362
+        ],
+        "sets": 230
+      },
+      "subgroups": {
+        "AA": {
+          "c": 0.5509,
+          "ci": [
+            0.5014,
+            0.5953
+          ],
+          "sets": 225
+        },
+        "A": {
+          "c": 0.4984,
+          "ci": [
+            0.3962,
+            0.6109
+          ],
+          "sets": 53
+        },
+        "complete_controls": {
+          "c": 0.523,
+          "ci": [
+            0.4767,
+            0.5784
+          ],
+          "sets": 212
+        }
+      },
+      "window": {
+        "events": 271,
+        "top1": 0.0701,
+        "top1_ci": [
+          0.0443,
+          0.1033
+        ],
+        "top3": 0.1771,
+        "top3_ci": [
+          0.1346,
+          0.2214
+        ]
+      },
+      "placebo_window": {
+        "events": 290,
+        "top1": 0.0621,
+        "top1_ci": [
+          0.0361,
+          0.0897
+        ],
+        "top3": 0.1552,
+        "top3_ci": [
+          0.1172,
+          0.1931
+        ],
+        "passed": true
+      },
+      "mismatched": {
+        "mismatched_c": [
+          0.4828,
+          0.5046,
+          0.4827
+        ],
+        "mean": 0.49
+      },
+      "verdict": "no window signal",
+      "lockbox": {
+        "file": "Trial.lgb.txt",
+        "sha256": "5340772ed19197c09e2e5e6980f5b0a22673a35dcf9deb94e5a968c24a349f5c",
+        "params": {
+          "objective": "lambdarank",
+          "metric": "ndcg",
+          "ndcg_eval_at": [
+            1
+          ],
+          "learning_rate": 0.03,
+          "max_depth": 4,
+          "num_leaves": 15,
+          "min_child_samples": 150,
+          "feature_fraction": 0.5,
+          "bagging_fraction": 0.8,
+          "bagging_freq": 1,
+          "lambda_l2": 5.0,
+          "verbose": -1,
+          "seed": 7
+        },
+        "rounds": 300,
+        "feature_schema": "c4edf4f90f0c18c7",
+        "n_features": 694,
+        "frozen_at": "2026-09-30T21:33:10.772959+00:00",
+        "training_sets": 293,
+        "cv_c_index": 0.5448
+      }
+    },
+    "Relationship_Begin": {
+      "sets": 110,
+      "verdict": "too few events"
+    },
+    "Relationship_End": {
+      "sets": 59,
+      "verdict": "too few events"
+    }
+  }
+}

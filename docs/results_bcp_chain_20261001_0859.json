@@ -1,0 +1,186 @@
+{
+  "run_at": "2026-10-01T08:59:19.531428",
+  "prereg": "docs/prereg_bcp_chain.md @ a6ff4a8",
+  "results": {
+    "Marriage": {
+      "events": 7349,
+      "c": 0.5015,
+      "ci": [
+        0.4953,
+        0.508
+      ],
+      "main_story_event_year": 0.0825,
+      "main_story_control_years": 0.0816
+    },
+    "Prize": {
+      "events": 1445,
+      "c": 0.5054,
+      "ci": [
+        0.4916,
+        0.5187
+      ],
+      "main_story_event_year": 0.1806,
+      "main_story_control_years": 0.1727
+    },
+    "Arrest": {
+      "events": 1235,
+      "c": 0.4983,
+      "ci": [
+        0.4794,
+        0.5165
+      ],
+      "main_story_event_year": 0.1628,
+      "main_story_control_years": 0.1747
+    },
+    "Career_Peak": {
+      "events": 1229,
+      "c": 0.5174,
+      "ci": [
+        0.5019,
+        0.5342
+      ],
+      "main_story_event_year": 0.0887,
+      "main_story_control_years": 0.0814
+    },
+    "Job_Start": {
+      "events": 1132,
+      "c": 0.5029,
+      "ci": [
+        0.4863,
+        0.521
+      ],
+      "main_story_event_year": 0.1025,
+      "main_story_control_years": 0.0892
+    },
+    "Death of mate": {
+      "events": 996,
+      "c": 0.4943,
+      "ci": [
+        0.478,
+        0.514
+      ],
+      "main_story_event_year": 0.0753,
+      "main_story_control_years": 0.0794
+    },
+    "Death of father": {
+      "events": 790,
+      "c": 0.4984,
+      "ci": [
+        0.4767,
+        0.5204
+      ],
+      "main_story_event_year": 0.081,
+      "main_story_control_years": 0.0754
+    },
+    "Divorce": {
+      "events": 711,
+      "c": 0.5074,
+      "ci": [
+        0.4851,
+        0.5298
+      ],
+      "main_story_event_year": 0.0872,
+      "main_story_control_years": 0.0769
+    },
+    "Job_End": {
+      "events": 647,
+      "c": 0.5077,
+      "ci": [
+        0.4829,
+        0.5288
+      ],
+      "main_story_event_year": 0.1793,
+      "main_story_control_years": 0.1638
+    },
+    "Illness": {
+      "events": 554,
+      "c": 0.5203,
+      "ci": [
+        0.4929,
+        0.5459
+      ],
+      "main_story_event_year": 0.0866,
+      "main_story_control_years": 0.0781
+    },
+    "Trial": {
+      "events": 548,
+      "c": 0.496,
+      "ci": [
+        0.4743,
+        0.52
+      ],
+      "main_story_event_year": 0.062,
+      "main_story_control_years": 0.0873
+    },
+    "Death of mother": {
+      "events": 508,
+      "c": 0.4796,
+      "ci": [
+        0.4543,
+        0.5079
+      ],
+      "main_story_event_year": 0.0984,
+      "main_story_control_years": 0.0996
+    },
+    "Accident": {
+      "events": 468,
+      "c": 0.5005,
+      "ci": [
+        0.4748,
+        0.5248
+      ],
+      "main_story_event_year": 0.0876,
+      "main_story_control_years": 0.088
+    },
+    "Death of sibling": {
+      "events": 295,
+      "c": 0.5054,
+      "ci": [
+        0.4752,
+        0.5365
+      ],
+      "main_story_event_year": 0.0746,
+      "main_story_control_years": 0.0774
+    },
+    "Death of child": {
+      "events": 280,
+      "c": 0.499,
+      "ci": [
+        0.4675,
+        0.5328
+      ],
+      "main_story_event_year": 0.0821,
+      "main_story_control_years": 0.0821
+    },
+    "Relationship_Begin": {
+      "events": 185,
+      "c": 0.5011,
+      "ci": [
+        0.4601,
+        0.5458
+      ],
+      "main_story_event_year": 0.1459,
+      "main_story_control_years": 0.1703
+    },
+    "Relationship_End": {
+      "events": 110,
+      "c": 0.5595,
+      "ci": [
+        0.5015,
+        0.6184
+      ],
+      "main_story_event_year": 0.1455,
+      "main_story_control_years": 0.0765
+    },
+    "Birth_Child": {
+      "events": 81,
+      "c": 0.4671,
+      "ci": [
+        0.4192,
+        0.5233
+      ],
+      "main_story_event_year": 0.0617,
+      "main_story_control_years": 0.1142
+    }
+  }
+}

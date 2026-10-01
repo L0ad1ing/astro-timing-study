@@ -1,0 +1,266 @@
+{
+  "run_at": "2026-09-30T21:56:26.779728+00:00",
+  "prereg": "docs/prereg_rao.md @ 81c426f",
+  "sets": 3663,
+  "gender_known": 3657,
+  "book_table": {
+    "rao_p1_vim_dasha_conn": {
+      "wedding_dates": 0.996,
+      "control_dates": 0.996,
+      "odds_ratio": 0.769,
+      "ci": [
+        0.286,
+        2.068
+      ]
+    },
+    "rao_p2_chara_dasha_conn": {
+      "wedding_dates": 0.938,
+      "control_dates": 0.941,
+      "odds_ratio": 0.956,
+      "ci": [
+        0.809,
+        1.131
+      ]
+    },
+    "rao_p3_vivah_saham_transit": {
+      "wedding_dates": 0.437,
+      "control_dates": 0.44,
+      "odds_ratio": 0.987,
+      "ci": [
+        0.921,
+        1.059
+      ]
+    },
+    "rao_p4_double_transit": {
+      "wedding_dates": 0.814,
+      "control_dates": 0.818,
+      "odds_ratio": 0.963,
+      "ci": [
+        0.871,
+        1.066
+      ]
+    },
+    "rao_p5_piya_milan": {
+      "wedding_dates": 0.309,
+      "control_dates": 0.316,
+      "odds_ratio": 0.969,
+      "ci": [
+        0.895,
+        1.048
+      ]
+    },
+    "rao_p6_karaka_activation": {
+      "wedding_dates": 0.443,
+      "control_dates": 0.432,
+      "odds_ratio": 1.04,
+      "ci": [
+        0.969,
+        1.115
+      ]
+    },
+    "rao_p7_planet_cluster": {
+      "wedding_dates": 0.554,
+      "control_dates": 0.562,
+      "odds_ratio": 0.907,
+      "ci": [
+        0.76,
+        1.083
+      ]
+    },
+    "rao_p8_lord_swap": {
+      "wedding_dates": 0.44,
+      "control_dates": 0.456,
+      "odds_ratio": 0.924,
+      "ci": [
+        0.849,
+        1.006
+      ]
+    },
+    "rao_o1_moon_trigger": {
+      "wedding_dates": 0.307,
+      "control_dates": 0.302,
+      "odds_ratio": 1.021,
+      "ci": [
+        0.947,
+        1.101
+      ]
+    },
+    "rao_o2_saturn_dk": {
+      "wedding_dates": 0.509,
+      "control_dates": 0.514,
+      "odds_ratio": 0.968,
+      "ci": [
+        0.893,
+        1.049
+      ]
+    },
+    "rao_o3_d9_5_11_axis": {
+      "wedding_dates": 0.977,
+      "control_dates": 0.973,
+      "odds_ratio": 1.239,
+      "ci": [
+        0.953,
+        1.61
+      ]
+    },
+    "six_or_more_of_P1_P8": {
+      "wedding_dates": 0.343,
+      "control_dates": 0.343,
+      "odds_ratio": 1.002,
+      "ci": [
+        0.921,
+        1.089
+      ]
+    }
+  },
+  "rao_only": {
+    "c_index": 0.4995,
+    "c_ci": [
+      0.488,
+      0.5127
+    ],
+    "placebo_c": {
+      "placebo_c": 0.4916,
+      "ci": [
+        0.4781,
+        0.5061
+      ],
+      "sets": 2984
+    },
+    "window": {
+      "events": 3039,
+      "top1": 0.0461,
+      "top1_ci": [
+        0.0385,
+        0.0535
+      ],
+      "top3": 0.1445,
+      "top3_ci": [
+        0.131,
+        0.1566
+      ]
+    },
+    "placebo_window": {
+      "events": 3651,
+      "top1": 0.0507,
+      "top1_ci": [
+        0.0446,
+        0.0583
+      ],
+      "top3": 0.1561,
+      "top3_ci": [
+        0.1449,
+        0.168
+      ],
+      "passed": true
+    },
+    "mismatched": {
+      "mismatched_c": [
+        0.5059,
+        0.5107,
+        0.4887
+      ],
+      "mean": 0.5018
+    }
+  },
+  "full": {
+    "c_index": 0.5144,
+    "c_ci": [
+      0.503,
+      0.5262
+    ],
+    "placebo_c": {
+      "placebo_c": 0.5061,
+      "ci": [
+        0.4935,
+        0.5187
+      ],
+      "sets": 2984
+    },
+    "window": {
+      "events": 3039,
+      "top1": 0.0543,
+      "top1_ci": [
+        0.0467,
+        0.0632
+      ],
+      "top3": 0.1461,
+      "top3_ci": [
+        0.1336,
+        0.1573
+      ]
+    },
+    "placebo_window": {
+      "events": 3651,
+      "top1": 0.0419,
+      "top1_ci": [
+        0.0359,
+        0.0486
+      ],
+      "top3": 0.1446,
+      "top3_ci": [
+        0.1337,
+        0.1568
+      ],
+      "passed": true
+    },
+    "mismatched": {
+      "mismatched_c": [
+        0.486,
+        0.4898,
+        0.5087
+      ],
+      "mean": 0.4948
+    }
+  },
+  "full_plus_rao": {
+    "c_index": 0.5123,
+    "c_ci": [
+      0.4997,
+      0.5254
+    ],
+    "placebo_c": {
+      "placebo_c": 0.5101,
+      "ci": [
+        0.4978,
+        0.5222
+      ],
+      "sets": 2984
+    },
+    "window": {
+      "events": 3039,
+      "top1": 0.0536,
+      "top1_ci": [
+        0.0464,
+        0.0614
+      ],
+      "top3": 0.1547,
+      "top3_ci": [
+        0.1423,
+        0.1672
+      ]
+    },
+    "placebo_window": {
+      "events": 3651,
+      "top1": 0.0408,
+      "top1_ci": [
+        0.0348,
+        0.0474
+      ],
+      "top3": 0.1408,
+      "top3_ci": [
+        0.1291,
+        0.1516
+      ],
+      "passed": true
+    },
+    "mismatched": {
+      "mismatched_c": [
+        0.4827,
+        0.5051,
+        0.4961
+      ],
+      "mean": 0.4946
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Sun": {"karaka": ["father", "authority", "government", "vitality", "reputation"], "dasha_theme": "visibility, recognition, dealings with authority, the father; ego and self-assertion come to the fore", "nature": "malefic (mild)"},
+  "Moon": {"karaka": ["mother", "mind", "emotions", "home", "the public"], "dasha_theme": "emotional life, home and mother, changes of residence, public dealings; fluctuating and receptive", "nature": "benefic when waxing"},
+  "Mars": {"karaka": ["siblings", "land", "courage", "conflict", "surgery"], "dasha_theme": "energy, competition, property, siblings; decisive action, disputes, accidents or surgery if afflicted", "nature": "malefic"},
+  "Mercury": {"karaka": ["intellect", "speech", "trade", "friends", "maternal relatives", "education"], "dasha_theme": "learning, writing, contracts, commerce, communication and networks", "nature": "neutral (takes on its associations)"},
+  "Jupiter": {"karaka": ["children", "teachers", "wisdom", "wealth", "husband (in a woman's chart)"], "dasha_theme": "growth, teaching and mentors, children, faith, expansion of resources", "nature": "benefic"},
+  "Venus": {"karaka": ["spouse (in a man's chart)", "love", "comfort", "vehicles", "arts"], "dasha_theme": "relationships and marriage, pleasure, beauty, vehicles and luxuries, creative work", "nature": "benefic"},
+  "Saturn": {"karaka": ["longevity", "work", "discipline", "delay", "the elderly", "servants"], "dasha_theme": "responsibility, hard work, structure, delay and endurance; slow but durable results", "nature": "malefic"},
+  "Rahu": {"karaka": ["foreign things", "ambition", "technology", "obsession", "sudden events"], "dasha_theme": "ambition and unconventional paths, foreign connections, sudden rises and confusions", "nature": "malefic (shadow)"},
+  "Ketu": {"karaka": ["spirituality", "detachment", "loss", "past karma", "the occult"], "dasha_theme": "withdrawal, spiritual interest, endings and letting go, sudden separations", "nature": "malefic (shadow)"}
+}

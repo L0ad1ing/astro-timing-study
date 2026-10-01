@@ -1,0 +1,3498 @@
+{
+ "run_at": "2026-10-01T10:05:04.694890",
+ "prereg": "docs/prereg_methods.md @ 469eb54 + b213685",
+ "methods": [
+  "V1_vimshottari",
+  "V2_bcp_chain",
+  "V3_chara",
+  "V4_tajika_muntha",
+  "V5_double_transit",
+  "V6_jupiter_transit",
+  "TJ2_annual_lagna",
+  "TJ3_mudda_dasha",
+  "N1_tara",
+  "N2_janma_transit",
+  "N3_star_lord",
+  "W1_progressions",
+  "W2_solar_arc",
+  "W3_solar_return",
+  "W4_outer_transits",
+  "H1_profection",
+  "H2_zodiacal_releasing",
+  "H3_zr_fortune",
+  "MD1_firdaria",
+  "MD2_distribution",
+  "MD3_lord_of_year_transit",
+  "M1_medical_transits",
+  "M2_vedic_medical"
+ ],
+ "per_event": {
+  "Prize": {
+   "events": 1445,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.399,
+     "control_rate": 0.397,
+     "odds_ratio": 1.017,
+     "ci": [
+      0.87,
+      1.189
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.403,
+     "control_rate": 0.391,
+     "odds_ratio": 1.055,
+     "ci": [
+      0.937,
+      1.187
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.368,
+     "control_rate": 0.377,
+     "odds_ratio": 0.965,
+     "ci": [
+      0.86,
+      1.082
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.17,
+     "control_rate": 0.165,
+     "odds_ratio": 1.036,
+     "ci": [
+      0.893,
+      1.202
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.184,
+     "control_rate": 0.202,
+     "odds_ratio": 0.898,
+     "ci": [
+      0.777,
+      1.038
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.565,
+     "control_rate": 0.543,
+     "odds_ratio": 1.081,
+     "ci": [
+      0.97,
+      1.204
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.174,
+     "control_rate": 0.189,
+     "odds_ratio": 0.911,
+     "ci": [
+      0.788,
+      1.053
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.215,
+     "control_rate": 0.23,
+     "odds_ratio": 0.913,
+     "ci": [
+      0.79,
+      1.055
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.551,
+     "control_rate": 0.565,
+     "odds_ratio": 0.949,
+     "ci": [
+      0.849,
+      1.062
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.126,
+     "control_rate": 0.112,
+     "odds_ratio": 1.13,
+     "ci": [
+      0.954,
+      1.338
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.276,
+     "control_rate": 0.257,
+     "odds_ratio": 1.135,
+     "ci": [
+      0.976,
+      1.321
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.127,
+     "control_rate": 0.142,
+     "odds_ratio": 0.865,
+     "ci": [
+      0.725,
+      1.032
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.408,
+     "control_rate": 0.398,
+     "odds_ratio": 1.06,
+     "ci": [
+      0.928,
+      1.212
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.177,
+     "control_rate": 0.167,
+     "odds_ratio": 1.067,
+     "ci": [
+      0.922,
+      1.235
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.385,
+     "control_rate": 0.382,
+     "odds_ratio": 1.008,
+     "ci": [
+      0.896,
+      1.135
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.23,
+     "control_rate": 0.237,
+     "odds_ratio": 0.969,
+     "ci": [
+      0.845,
+      1.11
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.165,
+     "control_rate": 0.159,
+     "odds_ratio": 1.055,
+     "ci": [
+      0.891,
+      1.248
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.161,
+     "control_rate": 0.164,
+     "odds_ratio": 0.972,
+     "ci": [
+      0.822,
+      1.148
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.428,
+     "control_rate": 0.425,
+     "odds_ratio": 1.024,
+     "ci": [
+      0.888,
+      1.181
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.168,
+     "control_rate": 0.164,
+     "odds_ratio": 1.141,
+     "ci": [
+      0.867,
+      1.503
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.099,
+     "control_rate": 0.087,
+     "odds_ratio": 1.185,
+     "ci": [
+      0.964,
+      1.457
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  },
+  "Arrest": {
+   "events": 1235,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.673,
+     "control_rate": 0.692,
+     "odds_ratio": 0.871,
+     "ci": [
+      0.73,
+      1.039
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.631,
+     "control_rate": 0.619,
+     "odds_ratio": 1.057,
+     "ci": [
+      0.921,
+      1.213
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.499,
+     "control_rate": 0.481,
+     "odds_ratio": 1.075,
+     "ci": [
+      0.951,
+      1.214
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.309,
+     "control_rate": 0.309,
+     "odds_ratio": 1.007,
+     "ci": [
+      0.879,
+      1.153
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.3,
+     "control_rate": 0.274,
+     "odds_ratio": 1.138,
+     "ci": [
+      0.995,
+      1.301
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.669,
+     "control_rate": 0.657,
+     "odds_ratio": 1.05,
+     "ci": [
+      0.928,
+      1.187
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.251,
+     "control_rate": 0.261,
+     "odds_ratio": 0.958,
+     "ci": [
+      0.837,
+      1.097
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.446,
+     "control_rate": 0.461,
+     "odds_ratio": 0.943,
+     "ci": [
+      0.828,
+      1.075
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.333,
+     "control_rate": 0.33,
+     "odds_ratio": 1.009,
+     "ci": [
+      0.882,
+      1.155
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.103,
+     "control_rate": 0.11,
+     "odds_ratio": 0.943,
+     "ci": [
+      0.772,
+      1.151
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.417,
+     "control_rate": 0.404,
+     "odds_ratio": 1.069,
+     "ci": [
+      0.921,
+      1.242
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.15,
+     "control_rate": 0.15,
+     "odds_ratio": 1.032,
+     "ci": [
+      0.858,
+      1.241
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.362,
+     "control_rate": 0.371,
+     "odds_ratio": 0.941,
+     "ci": [
+      0.808,
+      1.095
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.285,
+     "control_rate": 0.26,
+     "odds_ratio": 1.123,
+     "ci": [
+      0.983,
+      1.283
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.382,
+     "control_rate": 0.363,
+     "odds_ratio": 1.102,
+     "ci": [
+      0.966,
+      1.257
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.389,
+     "control_rate": 0.414,
+     "odds_ratio": 0.897,
+     "ci": [
+      0.779,
+      1.034
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.429,
+     "control_rate": 0.422,
+     "odds_ratio": 1.037,
+     "ci": [
+      0.896,
+      1.199
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.409,
+     "control_rate": 0.404,
+     "odds_ratio": 1.047,
+     "ci": [
+      0.905,
+      1.212
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.572,
+     "control_rate": 0.575,
+     "odds_ratio": 0.988,
+     "ci": [
+      0.852,
+      1.145
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.426,
+     "control_rate": 0.429,
+     "odds_ratio": 1.017,
+     "ci": [
+      0.807,
+      1.283
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.198,
+     "control_rate": 0.167,
+     "odds_ratio": 1.265,
+     "ci": [
+      1.073,
+      1.492
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  },
+  "Trial": {
+   "events": 548,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.73,
+     "control_rate": 0.727,
+     "odds_ratio": 1.048,
+     "ci": [
+      0.799,
+      1.375
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.611,
+     "control_rate": 0.618,
+     "odds_ratio": 1.002,
+     "ci": [
+      0.814,
+      1.232
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.469,
+     "control_rate": 0.485,
+     "odds_ratio": 0.952,
+     "ci": [
+      0.793,
+      1.142
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.341,
+     "control_rate": 0.307,
+     "odds_ratio": 1.137,
+     "ci": [
+      0.937,
+      1.38
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.283,
+     "control_rate": 0.293,
+     "odds_ratio": 0.95,
+     "ci": [
+      0.776,
+      1.164
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.693,
+     "control_rate": 0.651,
+     "odds_ratio": 1.171,
+     "ci": [
+      0.974,
+      1.409
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.276,
+     "control_rate": 0.252,
+     "odds_ratio": 1.124,
+     "ci": [
+      0.92,
+      1.375
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.422,
+     "control_rate": 0.472,
+     "odds_ratio": 0.805,
+     "ci": [
+      0.661,
+      0.982
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.336,
+     "control_rate": 0.323,
+     "odds_ratio": 1.048,
+     "ci": [
+      0.857,
+      1.28
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.091,
+     "control_rate": 0.11,
+     "odds_ratio": 0.816,
+     "ci": [
+      0.594,
+      1.121
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.405,
+     "control_rate": 0.434,
+     "odds_ratio": 0.871,
+     "ci": [
+      0.69,
+      1.099
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.172,
+     "control_rate": 0.159,
+     "odds_ratio": 1.117,
+     "ci": [
+      0.853,
+      1.462
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.369,
+     "control_rate": 0.401,
+     "odds_ratio": 0.852,
+     "ci": [
+      0.682,
+      1.065
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.248,
+     "control_rate": 0.284,
+     "odds_ratio": 0.839,
+     "ci": [
+      0.68,
+      1.035
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.398,
+     "control_rate": 0.376,
+     "odds_ratio": 1.093,
+     "ci": [
+      0.898,
+      1.33
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.449,
+     "control_rate": 0.424,
+     "odds_ratio": 1.126,
+     "ci": [
+      0.917,
+      1.383
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.438,
+     "control_rate": 0.4,
+     "odds_ratio": 1.183,
+     "ci": [
+      0.951,
+      1.47
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.387,
+     "control_rate": 0.404,
+     "odds_ratio": 0.911,
+     "ci": [
+      0.727,
+      1.141
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.599,
+     "control_rate": 0.593,
+     "odds_ratio": 1.044,
+     "ci": [
+      0.83,
+      1.313
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.44,
+     "control_rate": 0.435,
+     "odds_ratio": 1.055,
+     "ci": [
+      0.741,
+      1.504
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.186,
+     "control_rate": 0.176,
+     "odds_ratio": 1.073,
+     "ci": [
+      0.827,
+      1.392
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  },
+  "Marriage": {
+   "events": 7349,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.527,
+     "control_rate": 0.528,
+     "odds_ratio": 1.005,
+     "ci": [
+      0.941,
+      1.074
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.449,
+     "control_rate": 0.448,
+     "odds_ratio": 1.0,
+     "ci": [
+      0.949,
+      1.053
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.393,
+     "control_rate": 0.386,
+     "odds_ratio": 1.029,
+     "ci": [
+      0.977,
+      1.083
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.235,
+     "control_rate": 0.236,
+     "odds_ratio": 0.994,
+     "ci": [
+      0.939,
+      1.052
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.21,
+     "control_rate": 0.209,
+     "odds_ratio": 0.998,
+     "ci": [
+      0.939,
+      1.062
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.554,
+     "control_rate": 0.56,
+     "odds_ratio": 0.977,
+     "ci": [
+      0.93,
+      1.026
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.243,
+     "control_rate": 0.246,
+     "odds_ratio": 0.983,
+     "ci": [
+      0.929,
+      1.04
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.331,
+     "control_rate": 0.32,
+     "odds_ratio": 1.056,
+     "ci": [
+      0.999,
+      1.117
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.56,
+     "control_rate": 0.556,
+     "odds_ratio": 1.017,
+     "ci": [
+      0.966,
+      1.071
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.115,
+     "control_rate": 0.111,
+     "odds_ratio": 1.032,
+     "ci": [
+      0.954,
+      1.116
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.267,
+     "control_rate": 0.269,
+     "odds_ratio": 0.993,
+     "ci": [
+      0.928,
+      1.062
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.108,
+     "control_rate": 0.103,
+     "odds_ratio": 1.054,
+     "ci": [
+      0.965,
+      1.152
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.281,
+     "control_rate": 0.281,
+     "odds_ratio": 0.999,
+     "ci": [
+      0.935,
+      1.067
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.236,
+     "control_rate": 0.228,
+     "odds_ratio": 1.035,
+     "ci": [
+      0.979,
+      1.095
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.263,
+     "control_rate": 0.271,
+     "odds_ratio": 0.965,
+     "ci": [
+      0.91,
+      1.024
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.29,
+     "control_rate": 0.296,
+     "odds_ratio": 0.968,
+     "ci": [
+      0.916,
+      1.023
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.156,
+     "control_rate": 0.153,
+     "odds_ratio": 1.022,
+     "ci": [
+      0.95,
+      1.1
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.154,
+     "control_rate": 0.148,
+     "odds_ratio": 1.05,
+     "ci": [
+      0.976,
+      1.131
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.401,
+     "control_rate": 0.404,
+     "odds_ratio": 0.98,
+     "ci": [
+      0.92,
+      1.043
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.386,
+     "control_rate": 0.384,
+     "odds_ratio": 1.053,
+     "ci": [
+      0.962,
+      1.152
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.09,
+     "control_rate": 0.085,
+     "odds_ratio": 1.076,
+     "ci": [
+      0.978,
+      1.183
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  },
+  "Job_Start": {
+   "events": 1132,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.388,
+     "control_rate": 0.393,
+     "odds_ratio": 0.967,
+     "ci": [
+      0.811,
+      1.153
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.399,
+     "control_rate": 0.388,
+     "odds_ratio": 1.053,
+     "ci": [
+      0.921,
+      1.205
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.39,
+     "control_rate": 0.377,
+     "odds_ratio": 1.055,
+     "ci": [
+      0.929,
+      1.199
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.173,
+     "control_rate": 0.169,
+     "odds_ratio": 1.032,
+     "ci": [
+      0.874,
+      1.219
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.209,
+     "control_rate": 0.207,
+     "odds_ratio": 1.016,
+     "ci": [
+      0.87,
+      1.188
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.564,
+     "control_rate": 0.553,
+     "odds_ratio": 1.044,
+     "ci": [
+      0.923,
+      1.181
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.183,
+     "control_rate": 0.182,
+     "odds_ratio": 1.005,
+     "ci": [
+      0.855,
+      1.183
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.22,
+     "control_rate": 0.221,
+     "odds_ratio": 0.997,
+     "ci": [
+      0.845,
+      1.176
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.542,
+     "control_rate": 0.556,
+     "odds_ratio": 0.948,
+     "ci": [
+      0.833,
+      1.079
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.116,
+     "control_rate": 0.116,
+     "odds_ratio": 0.998,
+     "ci": [
+      0.823,
+      1.211
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.249,
+     "control_rate": 0.266,
+     "odds_ratio": 0.891,
+     "ci": [
+      0.751,
+      1.058
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.143,
+     "control_rate": 0.146,
+     "odds_ratio": 0.974,
+     "ci": [
+      0.802,
+      1.182
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.352,
+     "control_rate": 0.386,
+     "odds_ratio": 0.833,
+     "ci": [
+      0.714,
+      0.971
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.174,
+     "control_rate": 0.18,
+     "odds_ratio": 0.962,
+     "ci": [
+      0.817,
+      1.133
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.364,
+     "control_rate": 0.372,
+     "odds_ratio": 0.966,
+     "ci": [
+      0.843,
+      1.106
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.243,
+     "control_rate": 0.233,
+     "odds_ratio": 1.061,
+     "ci": [
+      0.912,
+      1.234
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.183,
+     "control_rate": 0.149,
+     "odds_ratio": 1.319,
+     "ci": [
+      1.098,
+      1.584
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.154,
+     "control_rate": 0.162,
+     "odds_ratio": 0.929,
+     "ci": [
+      0.767,
+      1.125
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.424,
+     "control_rate": 0.441,
+     "odds_ratio": 0.908,
+     "ci": [
+      0.774,
+      1.066
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.173,
+     "control_rate": 0.171,
+     "odds_ratio": 1.023,
+     "ci": [
+      0.764,
+      1.369
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.069,
+     "control_rate": 0.079,
+     "odds_ratio": 0.854,
+     "ci": [
+      0.658,
+      1.109
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  },
+  "Death": {
+   "events": 5000,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.527,
+     "control_rate": 0.521,
+     "odds_ratio": 1.042,
+     "ci": [
+      0.962,
+      1.128
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.425,
+     "control_rate": 0.446,
+     "odds_ratio": 0.919,
+     "ci": [
+      0.864,
+      0.979
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.396,
+     "control_rate": 0.39,
+     "odds_ratio": 1.027,
+     "ci": [
+      0.965,
+      1.092
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.227,
+     "control_rate": 0.241,
+     "odds_ratio": 0.928,
+     "ci": [
+      0.864,
+      0.997
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.201,
+     "control_rate": 0.21,
+     "odds_ratio": 0.951,
+     "ci": [
+      0.882,
+      1.025
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.555,
+     "control_rate": 0.556,
+     "odds_ratio": 0.993,
+     "ci": [
+      0.933,
+      1.057
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.176,
+     "control_rate": 0.177,
+     "odds_ratio": 0.992,
+     "ci": [
+      0.91,
+      1.081
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.301,
+     "control_rate": 0.309,
+     "odds_ratio": 0.962,
+     "ci": [
+      0.9,
+      1.029
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.32,
+     "control_rate": 0.334,
+     "odds_ratio": 0.937,
+     "ci": [
+      0.878,
+      1.001
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.116,
+     "control_rate": 0.111,
+     "odds_ratio": 1.052,
+     "ci": [
+      0.959,
+      1.154
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.256,
+     "control_rate": 0.256,
+     "odds_ratio": 0.996,
+     "ci": [
+      0.92,
+      1.079
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.118,
+     "control_rate": 0.115,
+     "odds_ratio": 1.027,
+     "ci": [
+      0.93,
+      1.134
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.269,
+     "control_rate": 0.271,
+     "odds_ratio": 0.985,
+     "ci": [
+      0.915,
+      1.062
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.193,
+     "control_rate": 0.197,
+     "odds_ratio": 0.97,
+     "ci": [
+      0.893,
+      1.052
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.269,
+     "control_rate": 0.261,
+     "odds_ratio": 1.042,
+     "ci": [
+      0.972,
+      1.117
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.272,
+     "control_rate": 0.291,
+     "odds_ratio": 0.915,
+     "ci": [
+      0.855,
+      0.979
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.332,
+     "control_rate": 0.34,
+     "odds_ratio": 0.959,
+     "ci": [
+      0.892,
+      1.031
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.342,
+     "control_rate": 0.341,
+     "odds_ratio": 1.006,
+     "ci": [
+      0.937,
+      1.08
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.415,
+     "control_rate": 0.41,
+     "odds_ratio": 1.026,
+     "ci": [
+      0.953,
+      1.105
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.293,
+     "control_rate": 0.284,
+     "odds_ratio": 1.101,
+     "ci": [
+      0.998,
+      1.214
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.074,
+     "control_rate": 0.081,
+     "odds_ratio": 0.909,
+     "ci": [
+      0.805,
+      1.026
+     ],
+     "replicates_in_both_halves": false
+    },
+    "M1_medical_transits": {
+     "event_rate": 0.179,
+     "control_rate": 0.169,
+     "odds_ratio": 1.07,
+     "ci": [
+      0.987,
+      1.159
+     ],
+     "replicates_in_both_halves": false
+    },
+    "M2_vedic_medical": {
+     "event_rate": 0.398,
+     "control_rate": 0.397,
+     "odds_ratio": 1.012,
+     "ci": [
+      0.935,
+      1.094
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  },
+  "Death of mate": {
+   "events": 996,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.535,
+     "control_rate": 0.533,
+     "odds_ratio": 1.02,
+     "ci": [
+      0.85,
+      1.224
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.436,
+     "control_rate": 0.452,
+     "odds_ratio": 0.95,
+     "ci": [
+      0.826,
+      1.092
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.382,
+     "control_rate": 0.39,
+     "odds_ratio": 0.967,
+     "ci": [
+      0.842,
+      1.11
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.248,
+     "control_rate": 0.238,
+     "odds_ratio": 1.052,
+     "ci": [
+      0.904,
+      1.224
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.211,
+     "control_rate": 0.206,
+     "odds_ratio": 1.025,
+     "ci": [
+      0.867,
+      1.212
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.571,
+     "control_rate": 0.561,
+     "odds_ratio": 1.028,
+     "ci": [
+      0.9,
+      1.174
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.236,
+     "control_rate": 0.235,
+     "odds_ratio": 1.016,
+     "ci": [
+      0.872,
+      1.185
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.317,
+     "control_rate": 0.326,
+     "odds_ratio": 0.959,
+     "ci": [
+      0.823,
+      1.118
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.343,
+     "control_rate": 0.331,
+     "odds_ratio": 1.061,
+     "ci": [
+      0.916,
+      1.228
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.096,
+     "control_rate": 0.117,
+     "odds_ratio": 0.818,
+     "ci": [
+      0.65,
+      1.029
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.272,
+     "control_rate": 0.258,
+     "odds_ratio": 1.096,
+     "ci": [
+      0.913,
+      1.315
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.109,
+     "control_rate": 0.115,
+     "odds_ratio": 0.93,
+     "ci": [
+      0.736,
+      1.176
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.28,
+     "control_rate": 0.269,
+     "odds_ratio": 1.083,
+     "ci": [
+      0.903,
+      1.299
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.208,
+     "control_rate": 0.235,
+     "odds_ratio": 0.87,
+     "ci": [
+      0.742,
+      1.021
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.279,
+     "control_rate": 0.255,
+     "odds_ratio": 1.122,
+     "ci": [
+      0.96,
+      1.311
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.289,
+     "control_rate": 0.307,
+     "odds_ratio": 0.931,
+     "ci": [
+      0.802,
+      1.082
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.152,
+     "control_rate": 0.155,
+     "odds_ratio": 0.981,
+     "ci": [
+      0.802,
+      1.2
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.162,
+     "control_rate": 0.161,
+     "odds_ratio": 0.999,
+     "ci": [
+      0.822,
+      1.214
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.394,
+     "control_rate": 0.414,
+     "odds_ratio": 0.913,
+     "ci": [
+      0.768,
+      1.086
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.378,
+     "control_rate": 0.374,
+     "odds_ratio": 1.0,
+     "ci": [
+      0.789,
+      1.269
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.061,
+     "control_rate": 0.086,
+     "odds_ratio": 0.672,
+     "ci": [
+      0.498,
+      0.905
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  },
+  "Birth_Child": {
+   "events": 81,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.556,
+     "control_rate": 0.537,
+     "odds_ratio": 1.112,
+     "ci": [
+      0.575,
+      2.15
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.432,
+     "control_rate": 0.453,
+     "odds_ratio": 0.905,
+     "ci": [
+      0.542,
+      1.511
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.407,
+     "control_rate": 0.324,
+     "odds_ratio": 1.398,
+     "ci": [
+      0.86,
+      2.272
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.173,
+     "control_rate": 0.22,
+     "odds_ratio": 0.728,
+     "ci": [
+      0.377,
+      1.408
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.185,
+     "control_rate": 0.233,
+     "odds_ratio": 0.754,
+     "ci": [
+      0.4,
+      1.424
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.519,
+     "control_rate": 0.579,
+     "odds_ratio": 0.813,
+     "ci": [
+      0.507,
+      1.303
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.148,
+     "control_rate": 0.246,
+     "odds_ratio": 0.553,
+     "ci": [
+      0.289,
+      1.061
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.37,
+     "control_rate": 0.288,
+     "odds_ratio": 1.469,
+     "ci": [
+      0.881,
+      2.448
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.543,
+     "control_rate": 0.524,
+     "odds_ratio": 1.089,
+     "ci": [
+      0.669,
+      1.772
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.074,
+     "control_rate": 0.078,
+     "odds_ratio": 0.953,
+     "ci": [
+      0.39,
+      2.332
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.309,
+     "control_rate": 0.278,
+     "odds_ratio": 1.333,
+     "ci": [
+      0.656,
+      2.711
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.123,
+     "control_rate": 0.117,
+     "odds_ratio": 1.108,
+     "ci": [
+      0.518,
+      2.366
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.222,
+     "control_rate": 0.246,
+     "odds_ratio": 0.89,
+     "ci": [
+      0.471,
+      1.684
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.235,
+     "control_rate": 0.207,
+     "odds_ratio": 1.152,
+     "ci": [
+      0.647,
+      2.05
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.198,
+     "control_rate": 0.311,
+     "odds_ratio": 0.509,
+     "ci": [
+      0.268,
+      0.964
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.247,
+     "control_rate": 0.272,
+     "odds_ratio": 0.892,
+     "ci": [
+      0.501,
+      1.59
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.235,
+     "control_rate": 0.22,
+     "odds_ratio": 1.107,
+     "ci": [
+      0.613,
+      2.001
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.21,
+     "control_rate": 0.256,
+     "odds_ratio": 0.778,
+     "ci": [
+      0.415,
+      1.458
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.457,
+     "control_rate": 0.411,
+     "odds_ratio": 1.256,
+     "ci": [
+      0.731,
+      2.157
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.284,
+     "control_rate": 0.324,
+     "odds_ratio": 0.539,
+     "ci": [
+      0.215,
+      1.353
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.074,
+     "control_rate": 0.084,
+     "odds_ratio": 0.906,
+     "ci": [
+      0.358,
+      2.295
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  },
+  "Career_Peak": {
+   "events": 1229,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.41,
+     "control_rate": 0.391,
+     "odds_ratio": 1.138,
+     "ci": [
+      0.959,
+      1.351
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.39,
+     "control_rate": 0.387,
+     "odds_ratio": 1.012,
+     "ci": [
+      0.89,
+      1.151
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.391,
+     "control_rate": 0.391,
+     "odds_ratio": 0.994,
+     "ci": [
+      0.878,
+      1.125
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.164,
+     "control_rate": 0.16,
+     "odds_ratio": 1.017,
+     "ci": [
+      0.864,
+      1.197
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.212,
+     "control_rate": 0.216,
+     "odds_ratio": 0.98,
+     "ci": [
+      0.844,
+      1.137
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.556,
+     "control_rate": 0.557,
+     "odds_ratio": 0.998,
+     "ci": [
+      0.888,
+      1.122
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.181,
+     "control_rate": 0.17,
+     "odds_ratio": 1.081,
+     "ci": [
+      0.924,
+      1.264
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.227,
+     "control_rate": 0.237,
+     "odds_ratio": 0.941,
+     "ci": [
+      0.807,
+      1.096
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.517,
+     "control_rate": 0.556,
+     "odds_ratio": 0.868,
+     "ci": [
+      0.767,
+      0.982
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.125,
+     "control_rate": 0.102,
+     "odds_ratio": 1.243,
+     "ci": [
+      1.033,
+      1.496
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.288,
+     "control_rate": 0.268,
+     "odds_ratio": 1.149,
+     "ci": [
+      0.976,
+      1.353
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.155,
+     "control_rate": 0.145,
+     "odds_ratio": 1.085,
+     "ci": [
+      0.904,
+      1.303
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.411,
+     "control_rate": 0.393,
+     "odds_ratio": 1.099,
+     "ci": [
+      0.95,
+      1.271
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.197,
+     "control_rate": 0.171,
+     "odds_ratio": 1.158,
+     "ci": [
+      0.994,
+      1.35
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.39,
+     "control_rate": 0.4,
+     "odds_ratio": 0.96,
+     "ci": [
+      0.846,
+      1.09
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.258,
+     "control_rate": 0.232,
+     "odds_ratio": 1.148,
+     "ci": [
+      0.995,
+      1.324
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.168,
+     "control_rate": 0.172,
+     "odds_ratio": 0.97,
+     "ci": [
+      0.813,
+      1.157
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.148,
+     "control_rate": 0.157,
+     "odds_ratio": 0.918,
+     "ci": [
+      0.76,
+      1.11
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.432,
+     "control_rate": 0.441,
+     "odds_ratio": 0.934,
+     "ci": [
+      0.798,
+      1.092
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.181,
+     "control_rate": 0.177,
+     "odds_ratio": 1.134,
+     "ci": [
+      0.846,
+      1.518
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.079,
+     "control_rate": 0.079,
+     "odds_ratio": 1.001,
+     "ci": [
+      0.785,
+      1.276
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  },
+  "Illness": {
+   "events": 554,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.471,
+     "control_rate": 0.506,
+     "odds_ratio": 0.818,
+     "ci": [
+      0.624,
+      1.073
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.431,
+     "control_rate": 0.421,
+     "odds_ratio": 1.071,
+     "ci": [
+      0.878,
+      1.307
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.386,
+     "control_rate": 0.374,
+     "odds_ratio": 1.062,
+     "ci": [
+      0.878,
+      1.285
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.191,
+     "control_rate": 0.212,
+     "odds_ratio": 0.889,
+     "ci": [
+      0.69,
+      1.146
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.233,
+     "control_rate": 0.195,
+     "odds_ratio": 1.27,
+     "ci": [
+      1.012,
+      1.593
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.514,
+     "control_rate": 0.555,
+     "odds_ratio": 0.864,
+     "ci": [
+      0.721,
+      1.037
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.184,
+     "control_rate": 0.173,
+     "odds_ratio": 1.063,
+     "ci": [
+      0.84,
+      1.345
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.307,
+     "control_rate": 0.31,
+     "odds_ratio": 0.972,
+     "ci": [
+      0.783,
+      1.208
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.305,
+     "control_rate": 0.333,
+     "odds_ratio": 0.908,
+     "ci": [
+      0.737,
+      1.118
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.126,
+     "control_rate": 0.115,
+     "odds_ratio": 1.118,
+     "ci": [
+      0.847,
+      1.475
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.274,
+     "control_rate": 0.244,
+     "odds_ratio": 1.254,
+     "ci": [
+      0.974,
+      1.615
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.106,
+     "control_rate": 0.105,
+     "odds_ratio": 0.991,
+     "ci": [
+      0.713,
+      1.378
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.28,
+     "control_rate": 0.266,
+     "odds_ratio": 1.113,
+     "ci": [
+      0.869,
+      1.424
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.218,
+     "control_rate": 0.189,
+     "odds_ratio": 1.171,
+     "ci": [
+      0.937,
+      1.465
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.298,
+     "control_rate": 0.259,
+     "odds_ratio": 1.236,
+     "ci": [
+      0.993,
+      1.537
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.244,
+     "control_rate": 0.275,
+     "odds_ratio": 0.859,
+     "ci": [
+      0.681,
+      1.084
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.35,
+     "control_rate": 0.352,
+     "odds_ratio": 0.994,
+     "ci": [
+      0.785,
+      1.259
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.329,
+     "control_rate": 0.335,
+     "odds_ratio": 1.011,
+     "ci": [
+      0.788,
+      1.296
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.372,
+     "control_rate": 0.387,
+     "odds_ratio": 0.934,
+     "ci": [
+      0.732,
+      1.194
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.307,
+     "control_rate": 0.302,
+     "odds_ratio": 1.064,
+     "ci": [
+      0.739,
+      1.531
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.085,
+     "control_rate": 0.083,
+     "odds_ratio": 1.05,
+     "ci": [
+      0.739,
+      1.491
+     ],
+     "replicates_in_both_halves": false
+    },
+    "M1_medical_transits": {
+     "event_rate": 0.188,
+     "control_rate": 0.169,
+     "odds_ratio": 1.134,
+     "ci": [
+      0.882,
+      1.459
+     ],
+     "replicates_in_both_halves": false
+    },
+    "M2_vedic_medical": {
+     "event_rate": 0.453,
+     "control_rate": 0.456,
+     "odds_ratio": 0.968,
+     "ci": [
+      0.747,
+      1.253
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  },
+  "Death of mother": {
+   "events": 508,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.476,
+     "control_rate": 0.458,
+     "odds_ratio": 1.173,
+     "ci": [
+      0.894,
+      1.539
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.386,
+     "control_rate": 0.407,
+     "odds_ratio": 0.91,
+     "ci": [
+      0.741,
+      1.118
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.376,
+     "control_rate": 0.41,
+     "odds_ratio": 0.875,
+     "ci": [
+      0.72,
+      1.064
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.152,
+     "control_rate": 0.169,
+     "odds_ratio": 0.904,
+     "ci": [
+      0.699,
+      1.17
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.213,
+     "control_rate": 0.205,
+     "odds_ratio": 1.044,
+     "ci": [
+      0.828,
+      1.317
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.571,
+     "control_rate": 0.55,
+     "odds_ratio": 1.069,
+     "ci": [
+      0.888,
+      1.288
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.185,
+     "control_rate": 0.189,
+     "odds_ratio": 0.976,
+     "ci": [
+      0.767,
+      1.242
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.25,
+     "control_rate": 0.274,
+     "odds_ratio": 0.899,
+     "ci": [
+      0.716,
+      1.128
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.36,
+     "control_rate": 0.339,
+     "odds_ratio": 1.075,
+     "ci": [
+      0.874,
+      1.321
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.1,
+     "control_rate": 0.114,
+     "odds_ratio": 0.868,
+     "ci": [
+      0.636,
+      1.184
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.303,
+     "control_rate": 0.266,
+     "odds_ratio": 1.263,
+     "ci": [
+      0.975,
+      1.636
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.112,
+     "control_rate": 0.095,
+     "odds_ratio": 1.199,
+     "ci": [
+      0.862,
+      1.667
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.285,
+     "control_rate": 0.271,
+     "odds_ratio": 1.096,
+     "ci": [
+      0.854,
+      1.408
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.161,
+     "control_rate": 0.188,
+     "odds_ratio": 0.836,
+     "ci": [
+      0.651,
+      1.075
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.303,
+     "control_rate": 0.303,
+     "odds_ratio": 1.004,
+     "ci": [
+      0.809,
+      1.245
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.211,
+     "control_rate": 0.246,
+     "odds_ratio": 0.829,
+     "ci": [
+      0.656,
+      1.047
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.234,
+     "control_rate": 0.198,
+     "odds_ratio": 1.255,
+     "ci": [
+      0.978,
+      1.611
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.205,
+     "control_rate": 0.201,
+     "odds_ratio": 1.037,
+     "ci": [
+      0.799,
+      1.346
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.459,
+     "control_rate": 0.47,
+     "odds_ratio": 0.897,
+     "ci": [
+      0.707,
+      1.139
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.156,
+     "control_rate": 0.163,
+     "odds_ratio": 0.859,
+     "ci": [
+      0.567,
+      1.302
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.071,
+     "control_rate": 0.099,
+     "odds_ratio": 0.683,
+     "ci": [
+      0.465,
+      1.005
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  },
+  "Divorce": {
+   "events": 711,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.534,
+     "control_rate": 0.517,
+     "odds_ratio": 1.129,
+     "ci": [
+      0.918,
+      1.387
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.491,
+     "control_rate": 0.435,
+     "odds_ratio": 1.267,
+     "ci": [
+      1.074,
+      1.495
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.426,
+     "control_rate": 0.381,
+     "odds_ratio": 1.19,
+     "ci": [
+      1.014,
+      1.398
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.238,
+     "control_rate": 0.245,
+     "odds_ratio": 0.963,
+     "ci": [
+      0.806,
+      1.151
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.214,
+     "control_rate": 0.198,
+     "odds_ratio": 1.109,
+     "ci": [
+      0.911,
+      1.35
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.561,
+     "control_rate": 0.536,
+     "odds_ratio": 1.093,
+     "ci": [
+      0.938,
+      1.273
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.239,
+     "control_rate": 0.252,
+     "odds_ratio": 0.948,
+     "ci": [
+      0.793,
+      1.134
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.329,
+     "control_rate": 0.319,
+     "odds_ratio": 1.046,
+     "ci": [
+      0.874,
+      1.251
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.333,
+     "control_rate": 0.32,
+     "odds_ratio": 1.054,
+     "ci": [
+      0.887,
+      1.254
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.115,
+     "control_rate": 0.114,
+     "odds_ratio": 1.011,
+     "ci": [
+      0.785,
+      1.3
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.274,
+     "control_rate": 0.261,
+     "odds_ratio": 1.105,
+     "ci": [
+      0.886,
+      1.378
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.098,
+     "control_rate": 0.106,
+     "odds_ratio": 0.923,
+     "ci": [
+      0.695,
+      1.225
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.271,
+     "control_rate": 0.273,
+     "odds_ratio": 0.98,
+     "ci": [
+      0.788,
+      1.219
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.252,
+     "control_rate": 0.229,
+     "odds_ratio": 1.122,
+     "ci": [
+      0.94,
+      1.339
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.281,
+     "control_rate": 0.248,
+     "odds_ratio": 1.187,
+     "ci": [
+      0.989,
+      1.426
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.293,
+     "control_rate": 0.288,
+     "odds_ratio": 1.024,
+     "ci": [
+      0.859,
+      1.221
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.146,
+     "control_rate": 0.159,
+     "odds_ratio": 0.913,
+     "ci": [
+      0.722,
+      1.153
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.159,
+     "control_rate": 0.158,
+     "odds_ratio": 1.005,
+     "ci": [
+      0.796,
+      1.27
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.426,
+     "control_rate": 0.415,
+     "odds_ratio": 1.07,
+     "ci": [
+      0.882,
+      1.299
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.384,
+     "control_rate": 0.387,
+     "odds_ratio": 0.978,
+     "ci": [
+      0.731,
+      1.308
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.086,
+     "control_rate": 0.092,
+     "odds_ratio": 0.945,
+     "ci": [
+      0.698,
+      1.279
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  },
+  "Death of father": {
+   "events": 790,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.418,
+     "control_rate": 0.412,
+     "odds_ratio": 1.022,
+     "ci": [
+      0.833,
+      1.253
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.376,
+     "control_rate": 0.378,
+     "odds_ratio": 1.003,
+     "ci": [
+      0.849,
+      1.185
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.389,
+     "control_rate": 0.388,
+     "odds_ratio": 1.003,
+     "ci": [
+      0.858,
+      1.172
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.17,
+     "control_rate": 0.155,
+     "odds_ratio": 1.125,
+     "ci": [
+      0.918,
+      1.38
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.228,
+     "control_rate": 0.206,
+     "odds_ratio": 1.116,
+     "ci": [
+      0.932,
+      1.337
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.541,
+     "control_rate": 0.557,
+     "odds_ratio": 0.934,
+     "ci": [
+      0.804,
+      1.086
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.18,
+     "control_rate": 0.18,
+     "odds_ratio": 1.0,
+     "ci": [
+      0.823,
+      1.217
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.246,
+     "control_rate": 0.233,
+     "odds_ratio": 1.063,
+     "ci": [
+      0.88,
+      1.283
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.31,
+     "control_rate": 0.342,
+     "odds_ratio": 0.865,
+     "ci": [
+      0.731,
+      1.024
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.128,
+     "control_rate": 0.11,
+     "odds_ratio": 1.17,
+     "ci": [
+      0.929,
+      1.473
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.277,
+     "control_rate": 0.282,
+     "odds_ratio": 0.947,
+     "ci": [
+      0.774,
+      1.159
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.087,
+     "control_rate": 0.079,
+     "odds_ratio": 1.12,
+     "ci": [
+      0.836,
+      1.501
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.28,
+     "control_rate": 0.291,
+     "odds_ratio": 0.929,
+     "ci": [
+      0.762,
+      1.132
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.146,
+     "control_rate": 0.174,
+     "odds_ratio": 0.837,
+     "ci": [
+      0.677,
+      1.034
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.281,
+     "control_rate": 0.288,
+     "odds_ratio": 0.973,
+     "ci": [
+      0.815,
+      1.161
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.247,
+     "control_rate": 0.221,
+     "odds_ratio": 1.174,
+     "ci": [
+      0.977,
+      1.41
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.154,
+     "control_rate": 0.163,
+     "odds_ratio": 0.938,
+     "ci": [
+      0.745,
+      1.181
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.162,
+     "control_rate": 0.162,
+     "odds_ratio": 1.03,
+     "ci": [
+      0.821,
+      1.292
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.495,
+     "control_rate": 0.483,
+     "odds_ratio": 1.043,
+     "ci": [
+      0.861,
+      1.265
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.147,
+     "control_rate": 0.155,
+     "odds_ratio": 0.897,
+     "ci": [
+      0.635,
+      1.268
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.086,
+     "control_rate": 0.088,
+     "odds_ratio": 0.991,
+     "ci": [
+      0.738,
+      1.33
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  },
+  "Accident": {
+   "events": 468,
+   "methods": {
+    "V1_vimshottari": {
+     "event_rate": 0.427,
+     "control_rate": 0.407,
+     "odds_ratio": 1.14,
+     "ci": [
+      0.866,
+      1.502
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V2_bcp_chain": {
+     "event_rate": 0.442,
+     "control_rate": 0.443,
+     "odds_ratio": 0.989,
+     "ci": [
+      0.803,
+      1.219
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V3_chara": {
+     "event_rate": 0.37,
+     "control_rate": 0.377,
+     "odds_ratio": 0.962,
+     "ci": [
+      0.785,
+      1.178
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V4_tajika_muntha": {
+     "event_rate": 0.244,
+     "control_rate": 0.25,
+     "odds_ratio": 0.957,
+     "ci": [
+      0.764,
+      1.199
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V5_double_transit": {
+     "event_rate": 0.207,
+     "control_rate": 0.227,
+     "odds_ratio": 0.902,
+     "ci": [
+      0.706,
+      1.152
+     ],
+     "replicates_in_both_halves": false
+    },
+    "V6_jupiter_transit": {
+     "event_rate": 0.585,
+     "control_rate": 0.55,
+     "odds_ratio": 1.124,
+     "ci": [
+      0.928,
+      1.362
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ2_annual_lagna": {
+     "event_rate": 0.218,
+     "control_rate": 0.221,
+     "odds_ratio": 0.972,
+     "ci": [
+      0.767,
+      1.231
+     ],
+     "replicates_in_both_halves": false
+    },
+    "TJ3_mudda_dasha": {
+     "event_rate": 0.229,
+     "control_rate": 0.235,
+     "odds_ratio": 0.965,
+     "ci": [
+      0.751,
+      1.239
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N1_tara": {
+     "event_rate": 0.303,
+     "control_rate": 0.337,
+     "odds_ratio": 0.875,
+     "ci": [
+      0.703,
+      1.091
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N2_janma_transit": {
+     "event_rate": 0.118,
+     "control_rate": 0.113,
+     "odds_ratio": 1.032,
+     "ci": [
+      0.759,
+      1.403
+     ],
+     "replicates_in_both_halves": false
+    },
+    "N3_star_lord": {
+     "event_rate": 0.239,
+     "control_rate": 0.242,
+     "odds_ratio": 0.962,
+     "ci": [
+      0.733,
+      1.263
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W1_progressions": {
+     "event_rate": 0.107,
+     "control_rate": 0.105,
+     "odds_ratio": 0.999,
+     "ci": [
+      0.706,
+      1.414
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W2_solar_arc": {
+     "event_rate": 0.303,
+     "control_rate": 0.263,
+     "odds_ratio": 1.322,
+     "ci": [
+      1.022,
+      1.71
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W3_solar_return": {
+     "event_rate": 0.218,
+     "control_rate": 0.219,
+     "odds_ratio": 0.972,
+     "ci": [
+      0.769,
+      1.228
+     ],
+     "replicates_in_both_halves": false
+    },
+    "W4_outer_transits": {
+     "event_rate": 0.252,
+     "control_rate": 0.265,
+     "odds_ratio": 0.923,
+     "ci": [
+      0.734,
+      1.162
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H1_profection": {
+     "event_rate": 0.31,
+     "control_rate": 0.294,
+     "odds_ratio": 1.062,
+     "ci": [
+      0.853,
+      1.322
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H2_zodiacal_releasing": {
+     "event_rate": 0.224,
+     "control_rate": 0.212,
+     "odds_ratio": 1.057,
+     "ci": [
+      0.826,
+      1.352
+     ],
+     "replicates_in_both_halves": false
+    },
+    "H3_zr_fortune": {
+     "event_rate": 0.224,
+     "control_rate": 0.228,
+     "odds_ratio": 0.977,
+     "ci": [
+      0.759,
+      1.258
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD1_firdaria": {
+     "event_rate": 0.442,
+     "control_rate": 0.41,
+     "odds_ratio": 1.178,
+     "ci": [
+      0.92,
+      1.507
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD2_distribution": {
+     "event_rate": 0.295,
+     "control_rate": 0.288,
+     "odds_ratio": 1.119,
+     "ci": [
+      0.783,
+      1.6
+     ],
+     "replicates_in_both_halves": false
+    },
+    "MD3_lord_of_year_transit": {
+     "event_rate": 0.083,
+     "control_rate": 0.083,
+     "odds_ratio": 1.026,
+     "ci": [
+      0.683,
+      1.541
+     ],
+     "replicates_in_both_halves": false
+    },
+    "M1_medical_transits": {
+     "event_rate": 0.192,
+     "control_rate": 0.168,
+     "odds_ratio": 1.164,
+     "ci": [
+      0.892,
+      1.519
+     ],
+     "replicates_in_both_halves": false
+    },
+    "M2_vedic_medical": {
+     "event_rate": 0.34,
+     "control_rate": 0.323,
+     "odds_ratio": 1.144,
+     "ci": [
+      0.851,
+      1.538
+     ],
+     "replicates_in_both_halves": false
+    }
+   }
+  }
+ },
+ "agreement": {
+  "V1_vimshottari|V2_bcp_chain": 0.062,
+  "V1_vimshottari|V3_chara": 0.002,
+  "V1_vimshottari|V4_tajika_muntha": 0.028,
+  "V1_vimshottari|V5_double_transit": 0.001,
+  "V1_vimshottari|V6_jupiter_transit": 0.007,
+  "V1_vimshottari|TJ2_annual_lagna": 0.01,
+  "V1_vimshottari|TJ3_mudda_dasha": 0.09,
+  "V1_vimshottari|N1_tara": -0.015,
+  "V1_vimshottari|N2_janma_transit": 0.004,
+  "V1_vimshottari|N3_star_lord": 0.049,
+  "V1_vimshottari|W1_progressions": 0.004,
+  "V1_vimshottari|W2_solar_arc": 0.006,
+  "V1_vimshottari|W3_solar_return": 0.011,
+  "V1_vimshottari|W4_outer_transits": -0.004,
+  "V1_vimshottari|H1_profection": 0.023,
+  "V1_vimshottari|H2_zodiacal_releasing": 0.032,
+  "V1_vimshottari|H3_zr_fortune": 0.02,
+  "V1_vimshottari|MD1_firdaria": 0.012,
+  "V1_vimshottari|MD2_distribution": 0.033,
+  "V1_vimshottari|MD3_lord_of_year_transit": 0.005,
+  "V1_vimshottari|M1_medical_transits": 0.009,
+  "V1_vimshottari|M2_vedic_medical": 0.112,
+  "V2_bcp_chain|V3_chara": 0.001,
+  "V2_bcp_chain|V4_tajika_muntha": 0.017,
+  "V2_bcp_chain|V5_double_transit": 0.005,
+  "V2_bcp_chain|V6_jupiter_transit": 0.006,
+  "V2_bcp_chain|TJ2_annual_lagna": 0.005,
+  "V2_bcp_chain|TJ3_mudda_dasha": 0.049,
+  "V2_bcp_chain|N1_tara": -0.01,
+  "V2_bcp_chain|N2_janma_transit": 0.008,
+  "V2_bcp_chain|N3_star_lord": 0.048,
+  "V2_bcp_chain|W1_progressions": 0.001,
+  "V2_bcp_chain|W2_solar_arc": 0.014,
+  "V2_bcp_chain|W3_solar_return": 0.014,
+  "V2_bcp_chain|W4_outer_transits": 0.008,
+  "V2_bcp_chain|H1_profection": -0.041,
+  "V2_bcp_chain|H2_zodiacal_releasing": 0.02,
+  "V2_bcp_chain|H3_zr_fortune": 0.017,
+  "V2_bcp_chain|MD1_firdaria": -0.002,
+  "V2_bcp_chain|MD2_distribution": 0.022,
+  "V2_bcp_chain|MD3_lord_of_year_transit": 0.006,
+  "V2_bcp_chain|M1_medical_transits": 0.009,
+  "V2_bcp_chain|M2_vedic_medical": 0.009,
+  "V3_chara|V4_tajika_muntha": 0.006,
+  "V3_chara|V5_double_transit": 0.008,
+  "V3_chara|V6_jupiter_transit": 0.014,
+  "V3_chara|TJ2_annual_lagna": -0.002,
+  "V3_chara|TJ3_mudda_dasha": -0.003,
+  "V3_chara|N1_tara": 0.001,
+  "V3_chara|N2_janma_transit": -0.003,
+  "V3_chara|N3_star_lord": 0.007,
+  "V3_chara|W1_progressions": -0.006,
+  "V3_chara|W2_solar_arc": -0.005,
+  "V3_chara|W3_solar_return": 0.0,
+  "V3_chara|W4_outer_transits": 0.003,
+  "V3_chara|H1_profection": 0.008,
+  "V3_chara|H2_zodiacal_releasing": -0.0,
+  "V3_chara|H3_zr_fortune": -0.002,
+  "V3_chara|MD1_firdaria": 0.005,
+  "V3_chara|MD2_distribution": 0.005,
+  "V3_chara|MD3_lord_of_year_transit": -0.0,
+  "V3_chara|M1_medical_transits": 0.008,
+  "V3_chara|M2_vedic_medical": 0.006,
+  "V4_tajika_muntha|V5_double_transit": 0.004,
+  "V4_tajika_muntha|V6_jupiter_transit": 0.003,
+  "V4_tajika_muntha|TJ2_annual_lagna": -0.0,
+  "V4_tajika_muntha|TJ3_mudda_dasha": 0.023,
+  "V4_tajika_muntha|N1_tara": -0.009,
+  "V4_tajika_muntha|N2_janma_transit": -0.001,
+  "V4_tajika_muntha|N3_star_lord": 0.01,
+  "V4_tajika_muntha|W1_progressions": 0.004,
+  "V4_tajika_muntha|W2_solar_arc": -0.001,
+  "V4_tajika_muntha|W3_solar_return": 0.008,
+  "V4_tajika_muntha|W4_outer_transits": -0.006,
+  "V4_tajika_muntha|H1_profection": 0.456,
+  "V4_tajika_muntha|H2_zodiacal_releasing": 0.024,
+  "V4_tajika_muntha|H3_zr_fortune": 0.024,
+  "V4_tajika_muntha|MD1_firdaria": 0.023,
+  "V4_tajika_muntha|MD2_distribution": 0.013,
+  "V4_tajika_muntha|MD3_lord_of_year_transit": -0.002,
+  "V4_tajika_muntha|M1_medical_transits": -0.003,
+  "V4_tajika_muntha|M2_vedic_medical": 0.002,
+  "V5_double_transit|V6_jupiter_transit": 0.459,
+  "V5_double_transit|TJ2_annual_lagna": 0.01,
+  "V5_double_transit|TJ3_mudda_dasha": 0.006,
+  "V5_double_transit|N1_tara": 0.001,
+  "V5_double_transit|N2_janma_transit": 0.001,
+  "V5_double_transit|N3_star_lord": 0.003,
+  "V5_double_transit|W1_progressions": -0.001,
+  "V5_double_transit|W2_solar_arc": 0.001,
+  "V5_double_transit|W3_solar_return": 0.006,
+  "V5_double_transit|W4_outer_transits": 0.019,
+  "V5_double_transit|H1_profection": 0.004,
+  "V5_double_transit|H2_zodiacal_releasing": 0.008,
+  "V5_double_transit|H3_zr_fortune": 0.002,
+  "V5_double_transit|MD1_firdaria": -0.0,
+  "V5_double_transit|MD2_distribution": 0.008,
+  "V5_double_transit|MD3_lord_of_year_transit": 0.022,
+  "V5_double_transit|M1_medical_transits": 0.0,
+  "V5_double_transit|M2_vedic_medical": 0.005,
+  "V6_jupiter_transit|TJ2_annual_lagna": 0.007,
+  "V6_jupiter_transit|TJ3_mudda_dasha": 0.0,
+  "V6_jupiter_transit|N1_tara": -0.0,
+  "V6_jupiter_transit|N2_janma_transit": 0.002,
+  "V6_jupiter_transit|N3_star_lord": 0.012,
+  "V6_jupiter_transit|W1_progressions": -0.005,
+  "V6_jupiter_transit|W2_solar_arc": 0.002,
+  "V6_jupiter_transit|W3_solar_return": 0.001,
+  "V6_jupiter_transit|W4_outer_transits": 0.029,
+  "V6_jupiter_transit|H1_profection": 0.011,
+  "V6_jupiter_transit|H2_zodiacal_releasing": 0.014,
+  "V6_jupiter_transit|H3_zr_fortune": 0.008,
+  "V6_jupiter_transit|MD1_firdaria": 0.009,
+  "V6_jupiter_transit|MD2_distribution": 0.02,
+  "V6_jupiter_transit|MD3_lord_of_year_transit": 0.015,
+  "V6_jupiter_transit|M1_medical_transits": -0.005,
+  "V6_jupiter_transit|M2_vedic_medical": 0.004,
+  "TJ2_annual_lagna|TJ3_mudda_dasha": 0.01,
+  "TJ2_annual_lagna|N1_tara": 0.006,
+  "TJ2_annual_lagna|N2_janma_transit": 0.009,
+  "TJ2_annual_lagna|N3_star_lord": 0.012,
+  "TJ2_annual_lagna|W1_progressions": -0.003,
+  "TJ2_annual_lagna|W2_solar_arc": -0.001,
+  "TJ2_annual_lagna|W3_solar_return": -0.032,
+  "TJ2_annual_lagna|W4_outer_transits": -0.008,
+  "TJ2_annual_lagna|H1_profection": -0.0,
+  "TJ2_annual_lagna|H2_zodiacal_releasing": -0.008,
+  "TJ2_annual_lagna|H3_zr_fortune": -0.009,
+  "TJ2_annual_lagna|MD1_firdaria": 0.02,
+  "TJ2_annual_lagna|MD2_distribution": 0.036,
+  "TJ2_annual_lagna|MD3_lord_of_year_transit": 0.002,
+  "TJ2_annual_lagna|M1_medical_transits": -0.0,
+  "TJ2_annual_lagna|M2_vedic_medical": 0.001,
+  "TJ3_mudda_dasha|N1_tara": -0.016,
+  "TJ3_mudda_dasha|N2_janma_transit": -0.006,
+  "TJ3_mudda_dasha|N3_star_lord": 0.05,
+  "TJ3_mudda_dasha|W1_progressions": 0.011,
+  "TJ3_mudda_dasha|W2_solar_arc": 0.008,
+  "TJ3_mudda_dasha|W3_solar_return": 0.013,
+  "TJ3_mudda_dasha|W4_outer_transits": -0.003,
+  "TJ3_mudda_dasha|H1_profection": 0.02,
+  "TJ3_mudda_dasha|H2_zodiacal_releasing": 0.015,
+  "TJ3_mudda_dasha|H3_zr_fortune": 0.027,
+  "TJ3_mudda_dasha|MD1_firdaria": 0.006,
+  "TJ3_mudda_dasha|MD2_distribution": 0.023,
+  "TJ3_mudda_dasha|MD3_lord_of_year_transit": 0.004,
+  "TJ3_mudda_dasha|M1_medical_transits": 0.007,
+  "TJ3_mudda_dasha|M2_vedic_medical": 0.007,
+  "N1_tara|N2_janma_transit": -0.001,
+  "N1_tara|N3_star_lord": -0.002,
+  "N1_tara|W1_progressions": 0.005,
+  "N1_tara|W2_solar_arc": 0.008,
+  "N1_tara|W3_solar_return": -0.001,
+  "N1_tara|W4_outer_transits": 0.01,
+  "N1_tara|H1_profection": -0.003,
+  "N1_tara|H2_zodiacal_releasing": -0.036,
+  "N1_tara|H3_zr_fortune": -0.038,
+  "N1_tara|MD1_firdaria": -0.01,
+  "N1_tara|MD2_distribution": 0.003,
+  "N1_tara|MD3_lord_of_year_transit": -0.007,
+  "N1_tara|M1_medical_transits": 0.007,
+  "N1_tara|M2_vedic_medical": 0.012,
+  "N2_janma_transit|N3_star_lord": 0.005,
+  "N2_janma_transit|W1_progressions": 0.004,
+  "N2_janma_transit|W2_solar_arc": -0.0,
+  "N2_janma_transit|W3_solar_return": 0.001,
+  "N2_janma_transit|W4_outer_transits": 0.007,
+  "N2_janma_transit|H1_profection": 0.001,
+  "N2_janma_transit|H2_zodiacal_releasing": -0.002,
+  "N2_janma_transit|H3_zr_fortune": 0.003,
+  "N2_janma_transit|MD1_firdaria": 0.005,
+  "N2_janma_transit|MD2_distribution": 0.003,
+  "N2_janma_transit|MD3_lord_of_year_transit": -0.005,
+  "N2_janma_transit|M1_medical_transits": 0.014,
+  "N2_janma_transit|M2_vedic_medical": 0.006,
+  "N3_star_lord|W1_progressions": 0.003,
+  "N3_star_lord|W2_solar_arc": 0.006,
+  "N3_star_lord|W3_solar_return": 0.006,
+  "N3_star_lord|W4_outer_transits": -0.002,
+  "N3_star_lord|H1_profection": 0.014,
+  "N3_star_lord|H2_zodiacal_releasing": 0.017,
+  "N3_star_lord|H3_zr_fortune": 0.001,
+  "N3_star_lord|MD1_firdaria": 0.007,
+  "N3_star_lord|MD2_distribution": 0.015,
+  "N3_star_lord|MD3_lord_of_year_transit": 0.01,
+  "N3_star_lord|M1_medical_transits": 0.004,
+  "N3_star_lord|M2_vedic_medical": 0.006,
+  "W1_progressions|W2_solar_arc": 0.183,
+  "W1_progressions|W3_solar_return": 0.009,
+  "W1_progressions|W4_outer_transits": 0.014,
+  "W1_progressions|H1_profection": 0.009,
+  "W1_progressions|H2_zodiacal_releasing": 0.009,
+  "W1_progressions|H3_zr_fortune": 0.01,
+  "W1_progressions|MD1_firdaria": 0.013,
+  "W1_progressions|MD2_distribution": 0.006,
+  "W1_progressions|MD3_lord_of_year_transit": 0.006,
+  "W1_progressions|M1_medical_transits": 0.006,
+  "W1_progressions|M2_vedic_medical": -0.0,
+  "W2_solar_arc|W3_solar_return": 0.01,
+  "W2_solar_arc|W4_outer_transits": 0.015,
+  "W2_solar_arc|H1_profection": 0.017,
+  "W2_solar_arc|H2_zodiacal_releasing": 0.014,
+  "W2_solar_arc|H3_zr_fortune": 0.005,
+  "W2_solar_arc|MD1_firdaria": 0.018,
+  "W2_solar_arc|MD2_distribution": 0.008,
+  "W2_solar_arc|MD3_lord_of_year_transit": 0.009,
+  "W2_solar_arc|M1_medical_transits": 0.005,
+  "W2_solar_arc|M2_vedic_medical": 0.01,
+  "W3_solar_return|W4_outer_transits": 0.004,
+  "W3_solar_return|H1_profection": 0.018,
+  "W3_solar_return|H2_zodiacal_releasing": 0.011,
+  "W3_solar_return|H3_zr_fortune": 0.007,
+  "W3_solar_return|MD1_firdaria": 0.023,
+  "W3_solar_return|MD2_distribution": 0.025,
+  "W3_solar_return|MD3_lord_of_year_transit": 0.006,
+  "W3_solar_return|M1_medical_transits": 0.007,
+  "W3_solar_return|M2_vedic_medical": -0.012,
+  "W4_outer_transits|H1_profection": 0.008,
+  "W4_outer_transits|H2_zodiacal_releasing": 0.005,
+  "W4_outer_transits|H3_zr_fortune": -0.001,
+  "W4_outer_transits|MD1_firdaria": 0.023,
+  "W4_outer_transits|MD2_distribution": 0.007,
+  "W4_outer_transits|MD3_lord_of_year_transit": 0.006,
+  "W4_outer_transits|M1_medical_transits": 0.044,
+  "W4_outer_transits|M2_vedic_medical": -0.004,
+  "H1_profection|H2_zodiacal_releasing": 0.028,
+  "H1_profection|H3_zr_fortune": 0.026,
+  "H1_profection|MD1_firdaria": 0.036,
+  "H1_profection|MD2_distribution": 0.05,
+  "H1_profection|MD3_lord_of_year_transit": 0.002,
+  "H1_profection|M1_medical_transits": -0.005,
+  "H1_profection|M2_vedic_medical": -0.007,
+  "H2_zodiacal_releasing|H3_zr_fortune": 0.133,
+  "H2_zodiacal_releasing|MD1_firdaria": 0.013,
+  "H2_zodiacal_releasing|MD2_distribution": 0.015,
+  "H2_zodiacal_releasing|MD3_lord_of_year_transit": 0.012,
+  "H2_zodiacal_releasing|M1_medical_transits": 0.001,
+  "H2_zodiacal_releasing|M2_vedic_medical": 0.003,
+  "H3_zr_fortune|MD1_firdaria": 0.01,
+  "H3_zr_fortune|MD2_distribution": 0.014,
+  "H3_zr_fortune|MD3_lord_of_year_transit": 0.003,
+  "H3_zr_fortune|M1_medical_transits": -0.002,
+  "H3_zr_fortune|M2_vedic_medical": -0.006,
+  "MD1_firdaria|MD2_distribution": 0.035,
+  "MD1_firdaria|MD3_lord_of_year_transit": 0.007,
+  "MD1_firdaria|M1_medical_transits": -0.01,
+  "MD1_firdaria|M2_vedic_medical": -0.002,
+  "MD2_distribution|MD3_lord_of_year_transit": 0.007,
+  "MD2_distribution|M1_medical_transits": -0.001,
+  "MD2_distribution|M2_vedic_medical": -0.016,
+  "MD3_lord_of_year_transit|M1_medical_transits": 0.009,
+  "MD3_lord_of_year_transit|M2_vedic_medical": -0.009,
+  "M1_medical_transits|M2_vedic_medical": 0.001
+ },
+ "consensus": {
+  "Prize": {
+   "c": 0.5021,
+   "ci": [
+    0.4857,
+    0.5213
+   ],
+   "placebo_c": 0.504,
+   "mean_methods_flagging_event": 5.78,
+   "mean_methods_flagging_controls": 5.75
+  },
+  "Arrest": {
+   "c": 0.5093,
+   "ci": [
+    0.4892,
+    0.5311
+   ],
+   "placebo_c": 0.5244,
+   "mean_methods_flagging_event": 8.23,
+   "mean_methods_flagging_controls": 8.15
+  },
+  "Trial": {
+   "c": 0.5056,
+   "ci": [
+    0.477,
+    0.5366
+   ],
+   "placebo_c": 0.5119,
+   "mean_methods_flagging_event": 8.34,
+   "mean_methods_flagging_controls": 8.32
+  },
+  "Marriage": {
+   "c": 0.5055,
+   "ci": [
+    0.4978,
+    0.5126
+   ],
+   "placebo_c": 0.4998,
+   "mean_methods_flagging_event": 6.25,
+   "mean_methods_flagging_controls": 6.22
+  },
+  "Job_Start": {
+   "c": 0.5056,
+   "ci": [
+    0.4867,
+    0.5249
+   ],
+   "placebo_c": 0.504,
+   "mean_methods_flagging_event": 5.71,
+   "mean_methods_flagging_controls": 5.75
+  },
+  "Death": {
+   "c": 0.494,
+   "ci": [
+    0.4846,
+    0.5041
+   ],
+   "placebo_c": 0.5004,
+   "mean_methods_flagging_event": 6.65,
+   "mean_methods_flagging_controls": 6.71
+  },
+  "Death of mate": {
+   "c": 0.4867,
+   "ci": [
+    0.4644,
+    0.5082
+   ],
+   "placebo_c": 0.4952,
+   "mean_methods_flagging_event": 5.96,
+   "mean_methods_flagging_controls": 6.02
+  },
+  "Birth_Child": {
+   "c": 0.4722,
+   "ci": [
+    0.3973,
+    0.5517
+   ],
+   "placebo_c": 0.5156,
+   "mean_methods_flagging_event": 6.0,
+   "mean_methods_flagging_controls": 6.21
+  },
+  "Career_Peak": {
+   "c": 0.5101,
+   "ci": [
+    0.491,
+    0.5302
+   ],
+   "placebo_c": 0.4902,
+   "mean_methods_flagging_event": 5.88,
+   "mean_methods_flagging_controls": 5.8
+  },
+  "Illness": {
+   "c": 0.5184,
+   "ci": [
+    0.4889,
+    0.5485
+   ],
+   "placebo_c": 0.4799,
+   "mean_methods_flagging_event": 6.65,
+   "mean_methods_flagging_controls": 6.62
+  },
+  "Death of mother": {
+   "c": 0.4933,
+   "ci": [
+    0.4623,
+    0.5208
+   ],
+   "placebo_c": 0.5082,
+   "mean_methods_flagging_event": 5.57,
+   "mean_methods_flagging_controls": 5.61
+  },
+  "Divorce": {
+   "c": 0.5288,
+   "ci": [
+    0.5021,
+    0.5528
+   ],
+   "placebo_c": 0.5135,
+   "mean_methods_flagging_event": 6.15,
+   "mean_methods_flagging_controls": 5.93
+  },
+  "Death of father": {
+   "c": 0.5079,
+   "ci": [
+    0.4851,
+    0.5322
+   ],
+   "placebo_c": 0.5053,
+   "mean_methods_flagging_event": 5.35,
+   "mean_methods_flagging_controls": 5.35
+  },
+  "Accident": {
+   "c": 0.5177,
+   "ci": [
+    0.4891,
+    0.5516
+   ],
+   "placebo_c": 0.4749,
+   "mean_methods_flagging_event": 6.37,
+   "mean_methods_flagging_controls": 6.26
+  }
+ }
+}

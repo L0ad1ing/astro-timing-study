@@ -1,0 +1,182 @@
+{
+  "post_hoc": true,
+  "test_sets": 573,
+  "year_indicators": 75,
+  "rules": [
+    {
+      "text": "sky Mars-Saturn sin1 <= -0.08885 AND transit Sun to natal Pluto within \u00b177.9\u00b0 of a multiple of 360\u00b0",
+      "pre_registered_p": 2.6159551648318464e-27,
+      "parity_adjusted_beta": -0.7927,
+      "parity_adjusted_p": 3.1337945490799465e-05,
+      "year_and_season_fe_beta": 0.2274,
+      "year_and_season_fe_p": 0.44570293016881024,
+      "no_games_events_beta": 0.0099,
+      "no_games_events_p": 0.9689860661097328
+    },
+    {
+      "text": "sky Mars-Saturn sin1 <= -0.1818 AND sky Mercury-Pluto within \u00b1155.4\u00b0 of a multiple of 360\u00b0",
+      "pre_registered_p": 1.201146114402045e-14,
+      "parity_adjusted_beta": -0.3873,
+      "parity_adjusted_p": 0.0008606990970685399,
+      "year_and_season_fe_beta": -0.235,
+      "year_and_season_fe_p": 0.35002732843316786,
+      "no_games_events_beta": -0.3145,
+      "no_games_events_p": 0.029893323070769754
+    },
+    {
+      "text": "sky Mars-Saturn sin1 > -0.1818 AND sky Sun-Pluto within \u00b1116.3\u00b0 of a multiple of 360\u00b0",
+      "pre_registered_p": 1.2211574788590695e-05,
+      "parity_adjusted_beta": 0.2386,
+      "parity_adjusted_p": 0.06742417594466507,
+      "year_and_season_fe_beta": -0.2592,
+      "year_and_season_fe_p": 0.44510871536761853,
+      "no_games_events_beta": 0.508,
+      "no_games_events_p": 0.0024135213681546626
+    },
+    {
+      "text": "sky Mars-Saturn sin1 <= -0.1166 AND sky Mercury-Pluto within \u00b1151.8\u00b0 of a multiple of 360\u00b0",
+      "pre_registered_p": 1.1297900526398433e-16,
+      "parity_adjusted_beta": -0.4798,
+      "parity_adjusted_p": 3.3506077876705275e-05,
+      "year_and_season_fe_beta": -0.3994,
+      "year_and_season_fe_p": 0.10842897191284358,
+      "no_games_events_beta": -0.3725,
+      "no_games_events_p": 0.00887492472420331
+    },
+    {
+      "text": "sky Mars-Saturn sin1 > -0.1166 AND sky Sun-Pluto within \u00b1116.3\u00b0 of a multiple of 360\u00b0",
+      "pre_registered_p": 1.0563165102066083e-05,
+      "parity_adjusted_beta": 0.2376,
+      "parity_adjusted_p": 0.06816784604792989,
+      "year_and_season_fe_beta": -0.3426,
+      "year_and_season_fe_p": 0.3005404380780906,
+      "no_games_events_beta": 0.487,
+      "no_games_events_p": 0.0030684211572509293
+    },
+    {
+      "text": "sky Mars-Saturn sin1 > -0.1166 AND transit Sun to natal Pluto within \u00b149.9\u00b0 of a multiple of 360\u00b0",
+      "pre_registered_p": 1.974418057866941e-17,
+      "parity_adjusted_beta": 0.7504,
+      "parity_adjusted_p": 0.0009870496436274626,
+      "year_and_season_fe_beta": -0.5582,
+      "year_and_season_fe_p": 0.09599150127357163,
+      "no_games_events_beta": -0.3037,
+      "no_games_events_p": 0.33657387111941794
+    },
+    {
+      "text": "sky Mars-Saturn sin1 > -0.08885 AND sky Mercury-Pluto within \u00b1119.4\u00b0 of a multiple of 360\u00b0",
+      "pre_registered_p": 4.889155958104515e-13,
+      "parity_adjusted_beta": 0.416,
+      "parity_adjusted_p": 0.0006003403167935173,
+      "year_and_season_fe_beta": 0.2756,
+      "year_and_season_fe_p": 0.3322430048362769,
+      "no_games_events_beta": 0.3348,
+      "no_games_events_p": 0.02830103149159444
+    },
+    {
+      "text": "sky Mars-Saturn sin1 > 0.5046 AND transit Mercury to natal Pluto within \u00b152.2\u00b0 of a multiple of 360\u00b0",
+      "pre_registered_p": 8.422641465242383e-08,
+      "parity_adjusted_beta": 0.3958,
+      "parity_adjusted_p": 0.05255749330100206,
+      "year_and_season_fe_beta": -0.6479,
+      "year_and_season_fe_p": 0.040892278206306774,
+      "no_games_events_beta": -0.8834,
+      "no_games_events_p": 0.0076981151555638935
+    },
+    {
+      "text": "sky Mars-Saturn sin1 <= -0.3968 AND transit Sun to natal Pluto within \u00b149.9\u00b0 of a multiple of 360\u00b0",
+      "pre_registered_p": 2.2497251929148934e-16,
+      "parity_adjusted_beta": -0.7081,
+      "parity_adjusted_p": 0.002461257738700647,
+      "year_and_season_fe_beta": 0.3591,
+      "year_and_season_fe_p": 0.2949914253782877,
+      "no_games_events_beta": 0.2353,
+      "no_games_events_p": 0.466912608580198
+    },
+    {
+      "text": "sky Neptune-Node sin8 > 0.4015 AND transit Saturn to natal Uranus more than 81.4\u00b0 from every multiple of 360\u00b0",
+      "pre_registered_p": 2.6845928514013398e-18,
+      "parity_adjusted_beta": 0.7363,
+      "parity_adjusted_p": 7.424999286475746e-08,
+      "year_and_season_fe_beta": 0.3182,
+      "year_and_season_fe_p": 0.11027028255530016,
+      "no_games_events_beta": -0.0166,
+      "no_games_events_p": 0.927952990126011
+    },
+    {
+      "text": "sky Mars-Saturn sin1 <= -0.8871 AND transit Sun to natal Pluto within \u00b179.0\u00b0 of a multiple of 180\u00b0",
+      "pre_registered_p": 2.553085474971623e-21,
+      "parity_adjusted_beta": -1.0969,
+      "parity_adjusted_p": 4.575230037648761e-08,
+      "year_and_season_fe_beta": -0.9791,
+      "year_and_season_fe_p": 0.00023044797969763644,
+      "no_games_events_beta": -0.5311,
+      "no_games_events_p": 0.022918263298880134
+    },
+    {
+      "text": "sky Mars-Saturn sin1 <= -0.1818 AND sky Mercury-Node more than 5.8\u00b0 from every multiple of 60\u00b0",
+      "pre_registered_p": 3.513878934483489e-06,
+      "parity_adjusted_beta": -0.1024,
+      "parity_adjusted_p": 0.4025679457235253,
+      "year_and_season_fe_beta": -0.0218,
+      "year_and_season_fe_p": 0.9083086523698349,
+      "no_games_events_beta": -0.1693,
+      "no_games_events_p": 0.24399838384763273
+    },
+    {
+      "text": "sky Neptune-Node sin6 > -0.9934 AND sky Mars-Saturn sin1 <= -0.1818",
+      "pre_registered_p": 2.0759239158987175e-19,
+      "parity_adjusted_beta": -0.5346,
+      "parity_adjusted_p": 5.267841098458532e-06,
+      "year_and_season_fe_beta": -0.9046,
+      "year_and_season_fe_p": 0.00032897377503474323,
+      "no_games_events_beta": -0.3706,
+      "no_games_events_p": 0.009950544600541624
+    },
+    {
+      "text": "sky Neptune-Node sin8 > -0.4696 AND sky Mars-Saturn sin1 > -0.8989",
+      "pre_registered_p": 6.8047796056291256e-18,
+      "parity_adjusted_beta": 0.6654,
+      "parity_adjusted_p": 2.0616618215634958e-09,
+      "year_and_season_fe_beta": 0.5511,
+      "year_and_season_fe_p": 0.003750721089741749,
+      "no_games_events_beta": -0.0501,
+      "no_games_events_p": 0.7152510302138385
+    },
+    {
+      "text": "sky Mars-Saturn sin1 > -0.8989 AND sky Pluto-Node within \u00b115.1\u00b0 of a multiple of 45\u00b0",
+      "pre_registered_p": 1.3220653931816742e-20,
+      "parity_adjusted_beta": 0.6716,
+      "parity_adjusted_p": 1.280242279220366e-09,
+      "year_and_season_fe_beta": 0.7784,
+      "year_and_season_fe_p": 0.00010095201333607944,
+      "no_games_events_beta": 0.023,
+      "no_games_events_p": 0.8663155704256456
+    },
+    {
+      "text": "sky Mars-Saturn sin1 > -0.8871 AND sky Uranus-Node within \u00b143.7\u00b0 of a multiple of 90\u00b0",
+      "pre_registered_p": 1.483694193841453e-29,
+      "parity_adjusted_beta": 1.4103,
+      "parity_adjusted_p": 6.568207508610518e-15,
+      "year_and_season_fe_beta": 1.5835,
+      "year_and_season_fe_p": 6.343834648648726e-11,
+      "no_games_events_beta": 0.7902,
+      "no_games_events_p": 0.00023555803992681288
+    },
+    {
+      "text": "sky Mars-Saturn sin1 > -0.3968 AND sky Neptune-Node sin8 > -0.3985",
+      "pre_registered_p": 5.5024496569879285e-17,
+      "parity_adjusted_beta": 0.5469,
+      "parity_adjusted_p": 1.6383178722225453e-06,
+      "year_and_season_fe_beta": 0.573,
+      "year_and_season_fe_p": 0.0063149619278181635,
+      "no_games_events_beta": 0.0903,
+      "no_games_events_p": 0.5239187623987059
+    }
+  ],
+  "still_surviving": {
+    "parity_adjusted_p": 9,
+    "year_and_season_fe_p": 1,
+    "no_games_events_p": 0
+  }
+}

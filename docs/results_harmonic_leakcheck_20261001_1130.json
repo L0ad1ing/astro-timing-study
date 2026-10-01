@@ -1,0 +1,537 @@
+{
+  "run_at": "2026-10-01T15:30:23.629573+00:00",
+  "post_hoc": true,
+  "reason": "sky-only block matched the full model; suspected shared-date leakage",
+  "grouped_cv": {
+    "Death": {
+      "sets": 3000,
+      "fold_sizes": [
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "age_c": 0.9313,
+      "harmonic_c": 0.5243,
+      "sky_c": 0.3363,
+      "delta": {
+        "delta_c": -0.407,
+        "ci95": [
+          -0.4217,
+          -0.3923
+        ],
+        "ci_bonferroni": [
+          -0.4275,
+          -0.3849
+        ]
+      }
+    },
+    "Marriage": {
+      "sets": 3663,
+      "fold_sizes": [
+        733,
+        733,
+        733,
+        732,
+        732
+      ],
+      "age_c": 0.5658,
+      "harmonic_c": 0.4286,
+      "sky_c": 0.3401,
+      "delta": {
+        "delta_c": -0.1372,
+        "ci95": [
+          -0.155,
+          -0.1189
+        ],
+        "ci_bonferroni": [
+          -0.1631,
+          -0.1097
+        ]
+      }
+    },
+    "Death_of_relative": {
+      "sets": 1751,
+      "fold_sizes": [
+        351,
+        350,
+        350,
+        350,
+        350
+      ],
+      "age_c": 0.4915,
+      "harmonic_c": 0.4404,
+      "sky_c": 0.3881,
+      "delta": {
+        "delta_c": -0.0511,
+        "ci95": [
+          -0.0783,
+          -0.0261
+        ],
+        "ci_bonferroni": [
+          -0.0892,
+          -0.0125
+        ]
+      }
+    },
+    "Prize": {
+      "sets": 724,
+      "fold_sizes": [
+        145,
+        145,
+        145,
+        145,
+        144
+      ],
+      "age_c": 0.4996,
+      "harmonic_c": 0.5124,
+      "sky_c": 0.4832,
+      "delta": {
+        "delta_c": 0.0128,
+        "ci95": [
+          -0.0296,
+          0.0527
+        ],
+        "ci_bonferroni": [
+          -0.0495,
+          0.067
+        ]
+      }
+    },
+    "Arrest": {
+      "sets": 620,
+      "fold_sizes": [
+        124,
+        124,
+        124,
+        124,
+        124
+      ],
+      "age_c": 0.4669,
+      "harmonic_c": 0.4841,
+      "sky_c": 0.4559,
+      "delta": {
+        "delta_c": 0.0172,
+        "ci95": [
+          -0.0272,
+          0.0584
+        ],
+        "ci_bonferroni": [
+          -0.0472,
+          0.0864
+        ]
+      }
+    },
+    "Career_Peak": {
+      "sets": 608,
+      "fold_sizes": [
+        122,
+        122,
+        122,
+        121,
+        121
+      ],
+      "age_c": 0.4938,
+      "harmonic_c": 0.5055,
+      "sky_c": 0.4337,
+      "delta": {
+        "delta_c": 0.0117,
+        "ci95": [
+          -0.0266,
+          0.0521
+        ],
+        "ci_bonferroni": [
+          -0.0463,
+          0.0685
+        ]
+      }
+    },
+    "Job_Start": {
+      "sets": 541,
+      "fold_sizes": [
+        109,
+        108,
+        108,
+        108,
+        108
+      ],
+      "age_c": 0.5248,
+      "harmonic_c": 0.4144,
+      "sky_c": 0.4344,
+      "delta": {
+        "delta_c": -0.1104,
+        "ci95": [
+          -0.1532,
+          -0.0666
+        ],
+        "ci_bonferroni": [
+          -0.1729,
+          -0.0443
+        ]
+      }
+    },
+    "Divorce": {
+      "sets": 371,
+      "fold_sizes": [
+        75,
+        74,
+        74,
+        74,
+        74
+      ],
+      "age_c": 0.4708,
+      "harmonic_c": 0.4951,
+      "sky_c": 0.4573,
+      "delta": {
+        "delta_c": 0.0243,
+        "ci95": [
+          -0.0301,
+          0.0774
+        ],
+        "ci_bonferroni": [
+          -0.0569,
+          0.1049
+        ]
+      }
+    },
+    "Job_End": {
+      "sets": 320,
+      "fold_sizes": [
+        64,
+        64,
+        64,
+        64,
+        64
+      ],
+      "age_c": 0.4915,
+      "harmonic_c": 0.4594,
+      "sky_c": 0.4174,
+      "delta": {
+        "delta_c": -0.0322,
+        "ci95": [
+          -0.0843,
+          0.0233
+        ],
+        "ci_bonferroni": [
+          -0.1017,
+          0.0444
+        ]
+      }
+    },
+    "Trial": {
+      "sets": 293,
+      "fold_sizes": [
+        59,
+        59,
+        59,
+        58,
+        58
+      ],
+      "age_c": 0.4986,
+      "harmonic_c": 0.4733,
+      "sky_c": 0.4263,
+      "delta": {
+        "delta_c": -0.0253,
+        "ci95": [
+          -0.0829,
+          0.0333
+        ],
+        "ci_bonferroni": [
+          -0.1121,
+          0.0617
+        ]
+      }
+    },
+    "Illness": {
+      "sets": 273,
+      "fold_sizes": [
+        55,
+        55,
+        55,
+        54,
+        54
+      ],
+      "age_c": 0.5443,
+      "harmonic_c": 0.5031,
+      "sky_c": 0.4875,
+      "delta": {
+        "delta_c": -0.0412,
+        "ci95": [
+          -0.1038,
+          0.0237
+        ],
+        "ci_bonferroni": [
+          -0.1338,
+          0.0554
+        ]
+      }
+    },
+    "Accident": {
+      "sets": 228,
+      "fold_sizes": [
+        46,
+        46,
+        46,
+        45,
+        45
+      ],
+      "age_c": 0.5152,
+      "harmonic_c": 0.4327,
+      "sky_c": 0.4232,
+      "delta": {
+        "delta_c": -0.0824,
+        "ci95": [
+          -0.1455,
+          -0.0197
+        ],
+        "ci_bonferroni": [
+          -0.1782,
+          0.0104
+        ]
+      }
+    }
+  },
+  "confirmation_half1": {
+    "Death_of_relative": {
+      "sets": 1559,
+      "all": {
+        "delta_c": 0.0548,
+        "ci95": [
+          0.0249,
+          0.0831
+        ],
+        "ci_bonferroni": [
+          0.0249,
+          0.0831
+        ]
+      },
+      "harmonic_c_all": 0.5701,
+      "age_c_all": 0.5153,
+      "seen_month": {
+        "sets": 968,
+        "harmonic_c": 0.6462,
+        "age_c": 0.4988,
+        "delta": {
+          "delta_c": 0.1473,
+          "ci95": [
+            0.1127,
+            0.1826
+          ],
+          "ci_bonferroni": [
+            0.1127,
+            0.1826
+          ]
+        }
+      },
+      "unseen_month": {
+        "sets": 591,
+        "harmonic_c": 0.4454,
+        "age_c": 0.5422,
+        "delta": {
+          "delta_c": -0.0967,
+          "ci95": [
+            -0.1406,
+            -0.0508
+          ],
+          "ci_bonferroni": [
+            -0.1406,
+            -0.0508
+          ]
+        }
+      }
+    },
+    "Prize": {
+      "sets": 721,
+      "all": {
+        "delta_c": 0.1742,
+        "ci95": [
+          0.1342,
+          0.2127
+        ],
+        "ci_bonferroni": [
+          0.1342,
+          0.2127
+        ]
+      },
+      "harmonic_c_all": 0.7094,
+      "age_c_all": 0.5352,
+      "seen_month": {
+        "sets": 488,
+        "harmonic_c": 0.8309,
+        "age_c": 0.5293,
+        "delta": {
+          "delta_c": 0.3017,
+          "ci95": [
+            0.2556,
+            0.3439
+          ],
+          "ci_bonferroni": [
+            0.2556,
+            0.3439
+          ]
+        }
+      },
+      "unseen_month": {
+        "sets": 233,
+        "harmonic_c": 0.4549,
+        "age_c": 0.5476,
+        "delta": {
+          "delta_c": -0.0926,
+          "ci95": [
+            -0.1567,
+            -0.0227
+          ],
+          "ci_bonferroni": [
+            -0.1567,
+            -0.0227
+          ]
+        }
+      }
+    },
+    "Arrest": {
+      "sets": 615,
+      "all": {
+        "delta_c": 0.1176,
+        "ci95": [
+          0.0741,
+          0.1612
+        ],
+        "ci_bonferroni": [
+          0.0741,
+          0.1612
+        ]
+      },
+      "harmonic_c_all": 0.6106,
+      "age_c_all": 0.493,
+      "seen_month": {
+        "sets": 351,
+        "harmonic_c": 0.7448,
+        "age_c": 0.4949,
+        "delta": {
+          "delta_c": 0.2499,
+          "ci95": [
+            0.193,
+            0.304
+          ],
+          "ci_bonferroni": [
+            0.193,
+            0.304
+          ]
+        }
+      },
+      "unseen_month": {
+        "sets": 264,
+        "harmonic_c": 0.4321,
+        "age_c": 0.4904,
+        "delta": {
+          "delta_c": -0.0582,
+          "ci95": [
+            -0.1248,
+            0.0085
+          ],
+          "ci_bonferroni": [
+            -0.1248,
+            0.0085
+          ]
+        }
+      }
+    },
+    "Career_Peak": {
+      "sets": 621,
+      "all": {
+        "delta_c": 0.0633,
+        "ci95": [
+          0.0215,
+          0.1047
+        ],
+        "ci_bonferroni": [
+          0.0215,
+          0.1047
+        ]
+      },
+      "harmonic_c_all": 0.5751,
+      "age_c_all": 0.5118,
+      "seen_month": {
+        "sets": 299,
+        "harmonic_c": 0.6934,
+        "age_c": 0.5194,
+        "delta": {
+          "delta_c": 0.1741,
+          "ci95": [
+            0.1175,
+            0.2338
+          ],
+          "ci_bonferroni": [
+            0.1175,
+            0.2338
+          ]
+        }
+      },
+      "unseen_month": {
+        "sets": 322,
+        "harmonic_c": 0.4653,
+        "age_c": 0.5048,
+        "delta": {
+          "delta_c": -0.0395,
+          "ci95": [
+            -0.0947,
+            0.0164
+          ],
+          "ci_bonferroni": [
+            -0.0947,
+            0.0164
+          ]
+        }
+      }
+    },
+    "Trial": {
+      "sets": 255,
+      "all": {
+        "delta_c": 0.0654,
+        "ci95": [
+          0.0082,
+          0.1234
+        ],
+        "ci_bonferroni": [
+          0.0082,
+          0.1234
+        ]
+      },
+      "harmonic_c_all": 0.5941,
+      "age_c_all": 0.5288,
+      "seen_month": {
+        "sets": 97,
+        "harmonic_c": 0.7388,
+        "age_c": 0.5494,
+        "delta": {
+          "delta_c": 0.1894,
+          "ci95": [
+            0.1134,
+            0.2642
+          ],
+          "ci_bonferroni": [
+            0.1134,
+            0.2642
+          ]
+        }
+      },
+      "unseen_month": {
+        "sets": 158,
+        "harmonic_c": 0.5053,
+        "age_c": 0.5161,
+        "delta": {
+          "delta_c": -0.0108,
+          "ci95": [
+            -0.0913,
+            0.0641
+          ],
+          "ci_bonferroni": [
+            -0.0913,
+            0.0641
+          ]
+        }
+      }
+    }
+  }
+}

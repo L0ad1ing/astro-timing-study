@@ -1,0 +1,6 @@
+data/*
+!data/README.md
+*.npz
+__pycache__/
+.venv/
+lockbox/
