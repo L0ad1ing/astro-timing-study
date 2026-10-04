@@ -257,8 +257,9 @@ person's chart as the null).
   components, ishta/kashta, combustion, planetary war, avasthas, functional nature) attached to every timing-activated
   planet. 0 of 11 event types improved on the base model (dC −0.064 to +0.024).
 - **Classical texts encoded in full as a rule engine.** Every predictive statement of Brihat Parasara Hora Sastra
-  (both volumes), Mantreswara's Phaladeepika (all 28 chapters) and K.S. Krishnamurti's KP Readers I–VI, and, as a
-  separate set, the later KP literature, was turned into a cited rule (about 5,200 rules, 2,700 of them timing rules),
+  (both volumes), Mantreswara's Phaladeepika (all 28 chapters), Kalyana Varma's Saravali (both volumes, all 55
+  chapters) and K.S. Krishnamurti's KP Readers I–VI, and, as a separate set, the later KP literature, was turned into a
+  cited rule (about 7,700 rules, 2,900 of them timing rules),
   with each book's own strength weighting and cancellations. Each book was scored on about 27,000 case-control sets
   across 18 event types:
 
@@ -269,7 +270,8 @@ person's chart as the null).
   | BPHS + Phaladeepika | 0 | 0 |
   | KP Readers (core, then full read) | 0, 0 | 0, 0 |
   | Later KP books | 0 (arrest: failed on half 0, then passed on half 1 — see below) | 0 |
-  | All three classical books together | 0 | 0 |
+  | Saravali (vol. I, then complete) | 0, 0 | 0, 0 |
+  | BPHS + Phaladeepika + KP Readers together | 0 | 0 |
 
   The closest call was the later KP books on arrests: on the first half they beat the wrong chart after correction
   but not chance, so they failed. A single pre-registered check on the held-back half (615 arrests) then **passed**:
@@ -279,7 +281,9 @@ person's chart as the null).
   (+0.030 [−0.001, +0.063]). It is carried by two "12th-house" dasha-period rules (imprisonment). It is one result
   among several dozen rule-set × event tests, sits at the edge of every interval, and both halves of the data are now
   used, so it should be treated as a lead for an independent dataset, not as a finding. Per-rule results went the
-  books' way about as often as against them (for BPHS, 143 for and 143 against at p < .05). The rule base itself is
+  books' way about as often as against them (for BPHS, 143 for and 143 against at p < .05; for the complete Saravali,
+  13 for and 7 against out of 545). Saravali's closest type was illness (dC +0.054, Bonferroni interval
+  [−0.041, +0.142]). The rule base itself is
   not included in this public copy because it paraphrases copyrighted translations.
 
 ## 5. The two things that looked real and weren't

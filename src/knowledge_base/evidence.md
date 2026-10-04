@@ -6,7 +6,7 @@ from people the model never saw, checked with placebo, mismatched-chart and shuf
 - No chart-specific signal: comparing a person's event date with their own other years gives C-index 0.47-0.51
   (0.50 = chance), the same as with a random other person's chart. (An earlier figure of 0.53-0.55 was withdrawn on
   2026-10-04: it came from cross-validation folds that leaked shared event dates.)
-- Every classical text encoded in full and tested (BPHS, Phaladeepika, KP Readers, later KP books) timed 0 of 18
+- Every classical text encoded in full and tested (BPHS, Phaladeepika, Saravali, KP Readers, later KP books) timed 0 of 18
   event types better than a wrong chart.
 - It does not translate into picking the time window: out of 20 three-month windows the real one is ranked
   first about 5-7% of the time (chance 5%) and in the top three 15-20% (chance 15%).
