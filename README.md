@@ -7,9 +7,20 @@ This repository is a large, pre-registered test of that question. It uses about 
 23 classical timing techniques from seven traditions, a published marriage-timing rulebook, a practitioner's own
 method, machine learning on raw planetary geometry, and an automated search for new rules.
 
-**The answer, in one line:** once the test was airtight, nothing did better than chance. Not a single technique,
-not combinations of techniques, not the machine. Twice, something looked like a real signal; both times it turned
+**The answer, in one line:** once the test was airtight, almost nothing did better than chance. Not a single
+technique, not combinations of techniques, not the machine. The one exception so far is small and narrow: a set of
+later Krishnamurti Paddhati (KP) rules for arrests passed a pre-registered check on held-back data at C = 0.52
+(section 4b); it needs an independent dataset before it means much. Twice, something looked like a real signal; both times it turned
 out to be a quirk of the data, and both are explained below because they are the most useful part of the study.
+
+> **Correction (2026-10-04).** An earlier version of this README reported a small within-person signal of
+> C ≈ 0.53–0.55 for the 706-feature model (Experiment 1). That number is withdrawn. It was measured with
+> cross-validation folds grouped by person only; 13–41% of events share an exact date with another person in the
+> data (award nights, co-defendants, spouses), so those folds let the model recognise dates it had seen in training.
+> The same mechanism produced the "harmonic" false alarm in section 5. Re-run with folds grouped by person **and**
+> event month, the same 706-feature model scores **0.472–0.510** across 11 event types, and the version given a
+> random other person's chart scores the same (0.487–0.523). There is no within-person signal left to explain.
+> Later pre-registered tests, summarised in section 4b, are also null.
 
 ---
 
@@ -114,15 +125,18 @@ works, it should "fire" on the event date more often than on the controls.
   - transits to the D9 and D10 charts
 
   These were fed into a gradient-boosted ranking model (LightGBM).
-- **Result:** a small within-person signal for a few event types, around **0.53–0.55**, which passed the
-  fake-date and swapped-chart checks. **It did not translate into usable timing.** When asked to pick which of 20
+- **Result (corrected 2026-10-04):** first reported as a small within-person signal of about 0.53–0.55 that
+  passed the fake-date and swapped-chart checks. That figure came from person-grouped folds, which leak shared event
+  dates (see the correction at the top and section 5). With folds grouped by person and event month the model scores
+  0.472–0.510, the same as with a wrong chart. **It never translated into usable timing either.** When asked to pick which of 20
   three-month windows an event fell in, the model ranked the right one first 5–7% of the time, against 5% for
   guessing.
 - **A caught false alarm:** an early model seemed to time *own death* well (11.8% top-window hits, against 5%).
   The shifted-window check scored the same, because the model was simply recognising the *latest* dasha period of a
   life. That is why the shifted-window check is mandatory.
-- **New event types** (training half): Prize 0.531, Trial 0.545, Job start 0.513, Job end 0.518 (Job end failed the
-  swapped-chart check). None picked windows above chance in a way that held up.
+- **New event types** (training half, person-grouped folds, so subject to the same leak): Prize 0.531, Trial 0.545,
+  Job start 0.513, Job end 0.518 (Job end failed the swapped-chart check). None picked windows above chance in a way
+  that held up.
 
 ### Experiment 2: K.N. Rao's marriage-timing rules
 
@@ -233,6 +247,41 @@ had seen during training, and −0.10 to −0.01 for months it hadn't.
 | Adjust for each calendar year and the Olympic season pattern | 1 |
 | **Remove events that took place during an Olympic Games** | **0** |
 
+## 4b. Later pre-registered tests (2026-10-02 to 2026-10-04)
+
+These were run after the first release, each pre-registered before running, with the leak-proof design (folds grouped
+by person and month where a model is fitted; event dates against the same person's other dates; a random other
+person's chart as the null).
+
+- **Planetary strength and dignity.** 613 features (dignity in D1/D9 with compound friendship, Shadbala and its
+  components, ishta/kashta, combustion, planetary war, avasthas, functional nature) attached to every timing-activated
+  planet. 0 of 11 event types improved on the base model (dC −0.064 to +0.024).
+- **Classical texts encoded in full as a rule engine.** Every predictive statement of Brihat Parasara Hora Sastra
+  (both volumes), Mantreswara's Phaladeepika (all 28 chapters) and K.S. Krishnamurti's KP Readers I–VI, and, as a
+  separate set, the later KP literature, was turned into a cited rule (about 5,200 rules, 2,700 of them timing rules),
+  with each book's own strength weighting and cancellations. Each book was scored on about 27,000 case-control sets
+  across 18 event types:
+
+  | Rule set | Types passing (of 18) | Single rules significant after FDR |
+  |---|---|---|
+  | BPHS | 0 | 0 |
+  | Phaladeepika | 0 | 0 in its favour, 2 against |
+  | BPHS + Phaladeepika | 0 | 0 |
+  | KP Readers (core, then full read) | 0, 0 | 0, 0 |
+  | Later KP books | 0 (arrest: failed on half 0, then passed on half 1 — see below) | 0 |
+  | All three classical books together | 0 | 0 |
+
+  The closest call was the later KP books on arrests: on the first half they beat the wrong chart after correction
+  but not chance, so they failed. A single pre-registered check on the held-back half (615 arrests) then **passed**:
+  C 0.520 [0.504, 0.540] against 0.488 for a wrong chart, dC +0.032 [+0.005, +0.059], clean placebo. Post-hoc checks
+  (not part of the verdict): it survives a bootstrap clustered by event date (dC [+0.005, +0.062]) and by person
+  ([+0.003, +0.059]), but on held-back dates that never occur in the first half the interval touches zero
+  (+0.030 [−0.001, +0.063]). It is carried by two "12th-house" dasha-period rules (imprisonment). It is one result
+  among several dozen rule-set × event tests, sits at the edge of every interval, and both halves of the data are now
+  used, so it should be treated as a lead for an independent dataset, not as a finding. Per-rule results went the
+  books' way about as often as against them (for BPHS, 143 for and 143 against at p < .05). The rule base itself is
+  not included in this public copy because it paraphrases copyrighted translations.
+
 ## 5. The two things that looked real and weren't
 
 These apply to any machine-learning study on dated records, not only astrology.
@@ -300,10 +349,10 @@ That's a different claim, and it isn't about prediction.
 
 ## 8. FAQ
 
-**Isn't 0.53–0.55 a real signal?**
-It may be a real *statistical* difference, and it survived the fake-date and swapped-chart checks. But it never
-turned into the ability to say *when*, and nothing at the level of individual techniques or rules replicated.
-Whatever it is, it isn't usable timing, and it may reflect subtler properties of the data.
+**Wasn't there a 0.53–0.55 signal?**
+No. That figure was withdrawn on 2026-10-04. It came from cross-validation folds grouped only by person, and many
+events share exact dates with other people's events, so the model could recognise dates it had trained on. With folds
+grouped by person and month the same model scores 0.47–0.51, no better than with a wrong chart.
 
 **Why not use ordinary people's data?**
 There is no large public dataset of ordinary people's birth times with dated life events. Astro-Databank is the

@@ -598,11 +598,13 @@ Event types with fewer than 150 sets are skipped.
 
 ### 4.7 Results to date
 
-**Earlier 706-feature models** (Abraxas, summarised in `evidence.md`): within-person C ≈ 0.53–0.55 for
-marriage, death of a relative and arrest. Window prediction was near chance: top-1 about 5–7% (chance 5%),
+**Earlier 706-feature models** (Abraxas, summarised in `evidence.md`): first reported as within-person C ≈ 0.53–0.55
+for marriage, death of a relative and arrest. **Withdrawn 2026-10-04:** those folds were grouped by person only, which
+leaks shared event dates (13–41% of events share an exact date with someone else's). With folds grouped by person and
+event month the same model gives 0.472–0.510 across 11 types, equal to the wrong-chart control (0.487–0.523). Window prediction was near chance: top-1 about 5–7% (chance 5%),
 top-3 15–20% (chance 15%).
 
-**New event types** (`results_20260930_1733.json`, training half):
+**New event types** (`results_20260930_1733.json`, training half; person-grouped folds, so subject to the leak above):
 
 | Event | Sets | C [95% CI] | Placebo C | Window top-1 / top-3 | Placebo window passed | Mismatched C | Verdict |
 |---|---|---|---|---|---|---|---|
@@ -672,8 +674,8 @@ With 18 event types tested per convention, one or two intervals just clearing 0.
 
 **Personal blind tests** (one volunteer chart with a verified birth time): 1 hit in 4 blind period tests, which is chance level.
 
-**Overall:** a small chart-specific signal within each person (C ≈ 0.53–0.55) that does not turn into picking
-the right window. No single classical rule, no rule set (Rao) and no consensus of 23 methods beat the same
+**Overall (corrected 2026-10-04):** no chart-specific signal once folds are grouped by date as well as person (the
+earlier 0.53–0.55 was shared-date leakage), and no ability to pick the right window. No single classical rule, no rule set (Rao) and no consensus of 23 methods beat the same
 person's ordinary dates.
 
 ---
