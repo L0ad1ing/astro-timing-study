@@ -1,0 +1,1593 @@
+{
+  "run_at": "2026-10-05T04:45:53.032173+00:00",
+  "prereg": "docs/prereg_full_programme.md",
+  "people": 35682,
+  "natal_rules": 5896,
+  "testable_rules": 1914,
+  "untestable_domains": [
+    "appearance",
+    "business",
+    "career",
+    "character",
+    "children_male",
+    "conduct",
+    "courage",
+    "dreams",
+    "ears",
+    "enemies",
+    "expenditure",
+    "eyes",
+    "fame",
+    "family",
+    "family_wealth",
+    "fortune",
+    "friends",
+    "hardship",
+    "home",
+    "honesty",
+    "honour",
+    "husband",
+    "in_laws",
+    "inheritance",
+    "intellect",
+    "learning",
+    "parents",
+    "profession",
+    "property",
+    "relatives",
+    "religion",
+    "renunciation",
+    "servants",
+    "siblings",
+    "speech",
+    "spirituality",
+    "spouse",
+    "spouse_foreign",
+    "spouse_health",
+    "spouse_wealth",
+    "stature",
+    "status",
+    "travel",
+    "travel_success",
+    "travel_water",
+    "twin",
+    "wealth"
+  ],
+  "results": {
+    "BPHS": {
+      "long_life": {
+        "n": 15816,
+        "events": null,
+        "rules": 65,
+        "c_real": 0.504,
+        "c_donor": 0.5004,
+        "c_placebo": 0.4969,
+        "dC": 0.0035,
+        "bonf": [
+          -0.0069,
+          0.0139
+        ],
+        "c_real_lo95": 0.4987,
+        "placebo_dC": -0.0035,
+        "pass": false
+      },
+      "violent_death": {
+        "n": 5511,
+        "events": 2283,
+        "rules": 3,
+        "c_real": 0.4952,
+        "c_donor": 0.4972,
+        "c_placebo": 0.4965,
+        "dC": -0.0021,
+        "bonf": [
+          -0.0274,
+          0.0248
+        ],
+        "c_real_lo95": 0.4831,
+        "placebo_dC": -0.0008,
+        "pass": false
+      },
+      "married": {
+        "n": 35682,
+        "events": 4673,
+        "rules": 41,
+        "c_real": 0.4902,
+        "c_donor": 0.5014,
+        "c_placebo": 0.4938,
+        "dC": -0.0112,
+        "bonf": [
+          -0.0289,
+          0.0078
+        ],
+        "c_real_lo95": 0.4808,
+        "placebo_dC": -0.0078,
+        "pass": false
+      },
+      "divorce": {
+        "n": 4673,
+        "events": 307,
+        "rules": 41,
+        "c_real": 0.4941,
+        "c_donor": 0.4919,
+        "c_placebo": 0.5063,
+        "dC": 0.0022,
+        "bonf": [
+          -0.0673,
+          0.0639
+        ],
+        "c_real_lo95": 0.4623,
+        "placebo_dC": 0.0152,
+        "pass": false
+      },
+      "widowhood": {
+        "n": 35682,
+        "events": 553,
+        "rules": 17,
+        "c_real": 0.5412,
+        "c_donor": 0.5425,
+        "c_placebo": 0.5649,
+        "dC": -0.0013,
+        "bonf": [
+          -0.0518,
+          0.047
+        ],
+        "c_real_lo95": 0.518,
+        "placebo_dC": 0.0225,
+        "pass": false
+      },
+      "father_lost_young": {
+        "n": 35682,
+        "events": 128,
+        "rules": 23,
+        "c_real": 0.503,
+        "c_donor": 0.5016,
+        "c_placebo": 0.5126,
+        "dC": 0.0014,
+        "bonf": [
+          -0.0969,
+          0.1137
+        ],
+        "c_real_lo95": 0.4571,
+        "placebo_dC": 0.0114,
+        "pass": false
+      },
+      "mother_lost_young": {
+        "n": 35682,
+        "events": 77,
+        "rules": 20,
+        "c_real": 0.5522,
+        "c_donor": 0.494,
+        "c_placebo": 0.5334,
+        "dC": 0.0582,
+        "bonf": [
+          -0.0568,
+          0.1785
+        ],
+        "c_real_lo95": 0.4912,
+        "placebo_dC": 0.0394,
+        "pass": false
+      },
+      "children": {
+        "n": 35682,
+        "events": 344,
+        "rules": 107,
+        "c_real": 0.4986,
+        "c_donor": 0.5025,
+        "c_placebo": 0.4923,
+        "dC": -0.0039,
+        "bonf": [
+          -0.0705,
+          0.0601
+        ],
+        "c_real_lo95": 0.4696,
+        "placebo_dC": -0.0101,
+        "pass": false
+      },
+      "child_death": {
+        "n": 35682,
+        "events": 172,
+        "rules": 107,
+        "c_real": 0.5016,
+        "c_donor": 0.4805,
+        "c_placebo": 0.4614,
+        "dC": 0.0212,
+        "bonf": [
+          -0.065,
+          0.116
+        ],
+        "c_real_lo95": 0.4579,
+        "placebo_dC": -0.0187,
+        "pass": false
+      },
+      "illness": {
+        "n": 35682,
+        "events": 298,
+        "rules": 45,
+        "c_real": 0.5372,
+        "c_donor": 0.508,
+        "c_placebo": 0.4903,
+        "dC": 0.0292,
+        "bonf": [
+          -0.0426,
+          0.0941
+        ],
+        "c_real_lo95": 0.5039,
+        "placebo_dC": -0.0178,
+        "pass": false
+      }
+    },
+    "Phaladeepika": {
+      "long_life": {
+        "n": 15816,
+        "events": null,
+        "rules": 66,
+        "c_real": 0.5035,
+        "c_donor": 0.5008,
+        "c_placebo": 0.4992,
+        "dC": 0.0028,
+        "bonf": [
+          -0.0078,
+          0.0129
+        ],
+        "c_real_lo95": 0.4986,
+        "placebo_dC": -0.0015,
+        "pass": false
+      },
+      "violent_death": {
+        "n": 5511,
+        "events": 2283,
+        "rules": 3,
+        "c_real": 0.4951,
+        "c_donor": 0.5045,
+        "c_placebo": 0.5026,
+        "dC": -0.0094,
+        "bonf": [
+          -0.0303,
+          0.0162
+        ],
+        "c_real_lo95": 0.483,
+        "placebo_dC": -0.0017,
+        "pass": false
+      },
+      "married": {
+        "n": 35682,
+        "events": 4673,
+        "rules": 48,
+        "c_real": 0.5009,
+        "c_donor": 0.494,
+        "c_placebo": 0.5015,
+        "dC": 0.0069,
+        "bonf": [
+          -0.0107,
+          0.0254
+        ],
+        "c_real_lo95": 0.4923,
+        "placebo_dC": 0.0077,
+        "pass": false
+      },
+      "divorce": {
+        "n": 4673,
+        "events": 307,
+        "rules": 48,
+        "c_real": 0.467,
+        "c_donor": 0.5106,
+        "c_placebo": 0.5065,
+        "dC": -0.0437,
+        "bonf": [
+          -0.1083,
+          0.0211
+        ],
+        "c_real_lo95": 0.436,
+        "placebo_dC": -0.0044,
+        "pass": false
+      },
+      "widowhood": {
+        "n": 35682,
+        "events": 553,
+        "rules": 11,
+        "c_real": 0.5678,
+        "c_donor": 0.5612,
+        "c_placebo": 0.5697,
+        "dC": 0.0066,
+        "bonf": [
+          -0.0437,
+          0.0503
+        ],
+        "c_real_lo95": 0.544,
+        "placebo_dC": 0.0087,
+        "pass": false
+      },
+      "father_lost_young": {
+        "n": 35682,
+        "events": 128,
+        "rules": 20,
+        "c_real": 0.5185,
+        "c_donor": 0.4952,
+        "c_placebo": 0.5399,
+        "dC": 0.0233,
+        "bonf": [
+          -0.0726,
+          0.121
+        ],
+        "c_real_lo95": 0.4723,
+        "placebo_dC": 0.043,
+        "pass": false
+      },
+      "mother_lost_young": {
+        "n": 35682,
+        "events": 77,
+        "rules": 19,
+        "c_real": 0.5274,
+        "c_donor": 0.4814,
+        "c_placebo": 0.5352,
+        "dC": 0.0461,
+        "bonf": [
+          -0.069,
+          0.1731
+        ],
+        "c_real_lo95": 0.4636,
+        "placebo_dC": 0.0538,
+        "pass": false
+      },
+      "children": {
+        "n": 35682,
+        "events": 344,
+        "rules": 53,
+        "c_real": 0.5223,
+        "c_donor": 0.4956,
+        "c_placebo": 0.5034,
+        "dC": 0.0267,
+        "bonf": [
+          -0.0361,
+          0.0912
+        ],
+        "c_real_lo95": 0.4898,
+        "placebo_dC": 0.0077,
+        "pass": false
+      },
+      "child_death": {
+        "n": 35682,
+        "events": 172,
+        "rules": 53,
+        "c_real": 0.4861,
+        "c_donor": 0.503,
+        "c_placebo": 0.4745,
+        "dC": -0.0169,
+        "bonf": [
+          -0.1067,
+          0.0769
+        ],
+        "c_real_lo95": 0.4442,
+        "placebo_dC": -0.0279,
+        "pass": false
+      },
+      "illness": {
+        "n": 35682,
+        "events": 298,
+        "rules": 43,
+        "c_real": 0.5194,
+        "c_donor": 0.4752,
+        "c_placebo": 0.4837,
+        "dC": 0.0442,
+        "bonf": [
+          -0.0209,
+          0.1113
+        ],
+        "c_real_lo95": 0.4864,
+        "placebo_dC": 0.0084,
+        "pass": false
+      }
+    },
+    "KP Readers": {
+      "long_life": {
+        "n": 15816,
+        "events": null,
+        "rules": 13,
+        "c_real": 0.4963,
+        "c_donor": 0.4987,
+        "c_placebo": 0.4988,
+        "dC": -0.0023,
+        "bonf": [
+          -0.0128,
+          0.0076
+        ],
+        "c_real_lo95": 0.4916,
+        "placebo_dC": 0.0,
+        "pass": false
+      },
+      "violent_death": {
+        "n": 5511,
+        "events": 2283,
+        "rules": 13,
+        "c_real": 0.4914,
+        "c_donor": 0.5072,
+        "c_placebo": 0.5112,
+        "dC": -0.0158,
+        "bonf": [
+          -0.0476,
+          0.0151
+        ],
+        "c_real_lo95": 0.4757,
+        "placebo_dC": 0.0041,
+        "pass": false
+      },
+      "married": {
+        "n": 35682,
+        "events": 4673,
+        "rules": 83,
+        "c_real": 0.4962,
+        "c_donor": 0.4917,
+        "c_placebo": 0.4975,
+        "dC": 0.0045,
+        "bonf": [
+          -0.0133,
+          0.0222
+        ],
+        "c_real_lo95": 0.4868,
+        "placebo_dC": 0.0059,
+        "pass": false
+      },
+      "divorce": {
+        "n": 4673,
+        "events": 307,
+        "rules": 83,
+        "c_real": 0.4779,
+        "c_donor": 0.5012,
+        "c_placebo": 0.4833,
+        "dC": -0.0233,
+        "bonf": [
+          -0.0994,
+          0.043
+        ],
+        "c_real_lo95": 0.4446,
+        "placebo_dC": -0.0186,
+        "pass": false
+      },
+      "widowhood": {
+        "n": 35682,
+        "events": 553,
+        "rules": 1,
+        "c_real": 0.4999,
+        "c_donor": 0.4988,
+        "c_placebo": 0.5053,
+        "dC": 0.0011,
+        "bonf": [
+          -0.0153,
+          0.0167
+        ],
+        "c_real_lo95": 0.493,
+        "placebo_dC": 0.0066,
+        "pass": false
+      },
+      "father_lost_young": {
+        "n": 35682,
+        "events": 128,
+        "rules": 3,
+        "c_real": 0.4787,
+        "c_donor": 0.5072,
+        "c_placebo": 0.4898,
+        "dC": -0.0285,
+        "bonf": [
+          -0.1138,
+          0.0551
+        ],
+        "c_real_lo95": 0.4442,
+        "placebo_dC": -0.0172,
+        "pass": false
+      },
+      "mother_lost_young": {
+        "n": 35682,
+        "events": 77,
+        "rules": 7,
+        "c_real": 0.4708,
+        "c_donor": 0.4977,
+        "c_placebo": 0.5301,
+        "dC": -0.027,
+        "bonf": [
+          -0.1341,
+          0.0842
+        ],
+        "c_real_lo95": 0.4196,
+        "placebo_dC": 0.0324,
+        "pass": false
+      },
+      "children": {
+        "n": 35682,
+        "events": 344,
+        "rules": 56,
+        "c_real": 0.515,
+        "c_donor": 0.4918,
+        "c_placebo": 0.4866,
+        "dC": 0.0232,
+        "bonf": [
+          -0.0392,
+          0.0838
+        ],
+        "c_real_lo95": 0.4849,
+        "placebo_dC": -0.0051,
+        "pass": false
+      },
+      "child_death": {
+        "n": 35682,
+        "events": 172,
+        "rules": 56,
+        "c_real": 0.4855,
+        "c_donor": 0.5053,
+        "c_placebo": 0.5293,
+        "dC": -0.0198,
+        "bonf": [
+          -0.1047,
+          0.0688
+        ],
+        "c_real_lo95": 0.4399,
+        "placebo_dC": 0.0244,
+        "pass": false
+      },
+      "arrest": {
+        "n": 35682,
+        "events": 567,
+        "rules": 4,
+        "c_real": 0.5212,
+        "c_donor": 0.5063,
+        "c_placebo": 0.5159,
+        "dC": 0.0149,
+        "bonf": [
+          -0.0075,
+          0.0367
+        ],
+        "c_real_lo95": 0.5068,
+        "placebo_dC": 0.0094,
+        "pass": false
+      },
+      "illness": {
+        "n": 35682,
+        "events": 298,
+        "rules": 94,
+        "c_real": 0.4648,
+        "c_donor": 0.5015,
+        "c_placebo": 0.5155,
+        "dC": -0.0367,
+        "bonf": [
+          -0.1014,
+          0.0314
+        ],
+        "c_real_lo95": 0.4314,
+        "placebo_dC": 0.0138,
+        "pass": false
+      }
+    },
+    "KP modern": {
+      "long_life": {
+        "n": 15816,
+        "events": null,
+        "rules": 14,
+        "c_real": 0.4991,
+        "c_donor": 0.4962,
+        "c_placebo": 0.5028,
+        "dC": 0.0028,
+        "bonf": [
+          -0.0084,
+          0.0147
+        ],
+        "c_real_lo95": 0.4935,
+        "placebo_dC": 0.0066,
+        "pass": false
+      },
+      "violent_death": {
+        "n": 5511,
+        "events": 2283,
+        "rules": 7,
+        "c_real": 0.5105,
+        "c_donor": 0.4996,
+        "c_placebo": 0.4937,
+        "dC": 0.0108,
+        "bonf": [
+          -0.022,
+          0.0432
+        ],
+        "c_real_lo95": 0.4948,
+        "placebo_dC": -0.0066,
+        "pass": false
+      },
+      "married": {
+        "n": 35682,
+        "events": 4673,
+        "rules": 30,
+        "c_real": 0.4965,
+        "c_donor": 0.4961,
+        "c_placebo": 0.5001,
+        "dC": 0.0004,
+        "bonf": [
+          -0.0178,
+          0.0194
+        ],
+        "c_real_lo95": 0.4878,
+        "placebo_dC": 0.0041,
+        "pass": false
+      },
+      "divorce": {
+        "n": 4673,
+        "events": 307,
+        "rules": 30,
+        "c_real": 0.5029,
+        "c_donor": 0.5266,
+        "c_placebo": 0.4941,
+        "dC": -0.0237,
+        "bonf": [
+          -0.0896,
+          0.0593
+        ],
+        "c_real_lo95": 0.4683,
+        "placebo_dC": -0.0322,
+        "pass": false
+      },
+      "children": {
+        "n": 35682,
+        "events": 344,
+        "rules": 9,
+        "c_real": 0.5276,
+        "c_donor": 0.5086,
+        "c_placebo": 0.5007,
+        "dC": 0.019,
+        "bonf": [
+          -0.035,
+          0.0789
+        ],
+        "c_real_lo95": 0.4978,
+        "placebo_dC": -0.0076,
+        "pass": false
+      },
+      "child_death": {
+        "n": 35682,
+        "events": 172,
+        "rules": 9,
+        "c_real": 0.4961,
+        "c_donor": 0.4777,
+        "c_placebo": 0.4934,
+        "dC": 0.0185,
+        "bonf": [
+          -0.0747,
+          0.1043
+        ],
+        "c_real_lo95": 0.4596,
+        "placebo_dC": 0.0154,
+        "pass": false
+      },
+      "arrest": {
+        "n": 35682,
+        "events": 567,
+        "rules": 2,
+        "c_real": 0.5129,
+        "c_donor": 0.5059,
+        "c_placebo": 0.5132,
+        "dC": 0.007,
+        "bonf": [
+          -0.0358,
+          0.0478
+        ],
+        "c_real_lo95": 0.4938,
+        "placebo_dC": 0.0072,
+        "pass": false
+      },
+      "illness": {
+        "n": 35682,
+        "events": 298,
+        "rules": 14,
+        "c_real": 0.4839,
+        "c_donor": 0.4731,
+        "c_placebo": 0.4508,
+        "dC": 0.0108,
+        "bonf": [
+          -0.0638,
+          0.0814
+        ],
+        "c_real_lo95": 0.4507,
+        "placebo_dC": -0.0228,
+        "pass": false
+      }
+    },
+    "Saravali": {
+      "long_life": {
+        "n": 15816,
+        "events": null,
+        "rules": 128,
+        "c_real": 0.5034,
+        "c_donor": 0.4993,
+        "c_placebo": 0.4994,
+        "dC": 0.004,
+        "bonf": [
+          -0.0064,
+          0.0152
+        ],
+        "c_real_lo95": 0.4981,
+        "placebo_dC": 0.0001,
+        "pass": false
+      },
+      "violent_death": {
+        "n": 5511,
+        "events": 2283,
+        "rules": 77,
+        "c_real": 0.5007,
+        "c_donor": 0.4951,
+        "c_placebo": 0.5074,
+        "dC": 0.0055,
+        "bonf": [
+          -0.0227,
+          0.0369
+        ],
+        "c_real_lo95": 0.4858,
+        "placebo_dC": 0.0124,
+        "pass": false
+      },
+      "married": {
+        "n": 35682,
+        "events": 4673,
+        "rules": 129,
+        "c_real": 0.4909,
+        "c_donor": 0.4936,
+        "c_placebo": 0.4994,
+        "dC": -0.0027,
+        "bonf": [
+          -0.0202,
+          0.0155
+        ],
+        "c_real_lo95": 0.4814,
+        "placebo_dC": 0.006,
+        "pass": false
+      },
+      "divorce": {
+        "n": 4673,
+        "events": 307,
+        "rules": 129,
+        "c_real": 0.5295,
+        "c_donor": 0.5434,
+        "c_placebo": 0.4958,
+        "dC": -0.0139,
+        "bonf": [
+          -0.0804,
+          0.0602
+        ],
+        "c_real_lo95": 0.4975,
+        "placebo_dC": -0.0486,
+        "pass": false
+      },
+      "widowhood": {
+        "n": 35682,
+        "events": 553,
+        "rules": 2,
+        "c_real": 0.5542,
+        "c_donor": 0.5583,
+        "c_placebo": 0.5681,
+        "dC": -0.004,
+        "bonf": [
+          -0.0347,
+          0.0273
+        ],
+        "c_real_lo95": 0.5376,
+        "placebo_dC": 0.0101,
+        "pass": false
+      },
+      "father_lost_young": {
+        "n": 35682,
+        "events": 128,
+        "rules": 25,
+        "c_real": 0.5009,
+        "c_donor": 0.4982,
+        "c_placebo": 0.5263,
+        "dC": 0.0027,
+        "bonf": [
+          -0.0968,
+          0.0996
+        ],
+        "c_real_lo95": 0.4543,
+        "placebo_dC": 0.0281,
+        "pass": false
+      },
+      "mother_lost_young": {
+        "n": 35682,
+        "events": 77,
+        "rules": 49,
+        "c_real": 0.4585,
+        "c_donor": 0.4482,
+        "c_placebo": 0.4555,
+        "dC": 0.0104,
+        "bonf": [
+          -0.116,
+          0.1384
+        ],
+        "c_real_lo95": 0.3867,
+        "placebo_dC": 0.008,
+        "pass": false
+      },
+      "children": {
+        "n": 35682,
+        "events": 344,
+        "rules": 104,
+        "c_real": 0.499,
+        "c_donor": 0.5055,
+        "c_placebo": 0.5144,
+        "dC": -0.0065,
+        "bonf": [
+          -0.0633,
+          0.0547
+        ],
+        "c_real_lo95": 0.4677,
+        "placebo_dC": 0.0091,
+        "pass": false
+      },
+      "child_death": {
+        "n": 35682,
+        "events": 172,
+        "rules": 104,
+        "c_real": 0.5195,
+        "c_donor": 0.4994,
+        "c_placebo": 0.4911,
+        "dC": 0.0201,
+        "bonf": [
+          -0.0559,
+          0.1023
+        ],
+        "c_real_lo95": 0.4776,
+        "placebo_dC": -0.0089,
+        "pass": false
+      },
+      "illness": {
+        "n": 35682,
+        "events": 298,
+        "rules": 95,
+        "c_real": 0.4995,
+        "c_donor": 0.4804,
+        "c_placebo": 0.4859,
+        "dC": 0.0191,
+        "bonf": [
+          -0.0431,
+          0.0867
+        ],
+        "c_real_lo95": 0.4673,
+        "placebo_dC": 0.0047,
+        "pass": false
+      }
+    },
+    "Valens": {
+      "long_life": {
+        "n": 15816,
+        "events": null,
+        "rules": 18,
+        "c_real": 0.5017,
+        "c_donor": 0.5023,
+        "c_placebo": 0.5003,
+        "dC": -0.0005,
+        "bonf": [
+          -0.011,
+          0.0106
+        ],
+        "c_real_lo95": 0.4961,
+        "placebo_dC": -0.0019,
+        "pass": false
+      },
+      "violent_death": {
+        "n": 5511,
+        "events": 2283,
+        "rules": 2,
+        "c_real": 0.5055,
+        "c_donor": 0.5012,
+        "c_placebo": 0.4992,
+        "dC": 0.0043,
+        "bonf": [
+          -0.0136,
+          0.0208
+        ],
+        "c_real_lo95": 0.4979,
+        "placebo_dC": -0.0022,
+        "pass": false
+      },
+      "married": {
+        "n": 35682,
+        "events": 4673,
+        "rules": 32,
+        "c_real": 0.4972,
+        "c_donor": 0.5,
+        "c_placebo": 0.4949,
+        "dC": -0.0028,
+        "bonf": [
+          -0.0213,
+          0.0157
+        ],
+        "c_real_lo95": 0.4884,
+        "placebo_dC": -0.0053,
+        "pass": false
+      },
+      "divorce": {
+        "n": 4673,
+        "events": 307,
+        "rules": 32,
+        "c_real": 0.483,
+        "c_donor": 0.4898,
+        "c_placebo": 0.5135,
+        "dC": -0.0068,
+        "bonf": [
+          -0.071,
+          0.0579
+        ],
+        "c_real_lo95": 0.4474,
+        "placebo_dC": 0.0243,
+        "pass": false
+      },
+      "father_lost_young": {
+        "n": 35682,
+        "events": 128,
+        "rules": 7,
+        "c_real": 0.4885,
+        "c_donor": 0.5275,
+        "c_placebo": 0.5271,
+        "dC": -0.039,
+        "bonf": [
+          -0.1431,
+          0.0559
+        ],
+        "c_real_lo95": 0.441,
+        "placebo_dC": -0.0001,
+        "pass": false
+      },
+      "mother_lost_young": {
+        "n": 35682,
+        "events": 77,
+        "rules": 4,
+        "c_real": 0.4798,
+        "c_donor": 0.461,
+        "c_placebo": 0.4808,
+        "dC": 0.0188,
+        "bonf": [
+          -0.082,
+          0.1148
+        ],
+        "c_real_lo95": 0.4176,
+        "placebo_dC": 0.0189,
+        "pass": false
+      },
+      "children": {
+        "n": 35682,
+        "events": 344,
+        "rules": 23,
+        "c_real": 0.4944,
+        "c_donor": 0.4978,
+        "c_placebo": 0.4981,
+        "dC": -0.0034,
+        "bonf": [
+          -0.0625,
+          0.0543
+        ],
+        "c_real_lo95": 0.4648,
+        "placebo_dC": 0.0005,
+        "pass": false
+      },
+      "child_death": {
+        "n": 35682,
+        "events": 172,
+        "rules": 23,
+        "c_real": 0.5241,
+        "c_donor": 0.4587,
+        "c_placebo": 0.5198,
+        "dC": 0.0654,
+        "bonf": [
+          -0.0271,
+          0.1588
+        ],
+        "c_real_lo95": 0.4815,
+        "placebo_dC": 0.0605,
+        "pass": false
+      },
+      "arrest": {
+        "n": 35682,
+        "events": 567,
+        "rules": 27,
+        "c_real": 0.4807,
+        "c_donor": 0.4924,
+        "c_placebo": 0.4748,
+        "dC": -0.0117,
+        "bonf": [
+          -0.0625,
+          0.0405
+        ],
+        "c_real_lo95": 0.4568,
+        "placebo_dC": -0.0178,
+        "pass": false
+      },
+      "illness": {
+        "n": 35682,
+        "events": 298,
+        "rules": 15,
+        "c_real": 0.5134,
+        "c_donor": 0.5141,
+        "c_placebo": 0.4992,
+        "dC": -0.0007,
+        "bonf": [
+          -0.0703,
+          0.0654
+        ],
+        "c_real_lo95": 0.4769,
+        "placebo_dC": -0.0154,
+        "pass": false
+      }
+    },
+    "Lilly": {
+      "long_life": {
+        "n": 15816,
+        "events": null,
+        "rules": 24,
+        "c_real": 0.5048,
+        "c_donor": 0.5026,
+        "c_placebo": 0.4966,
+        "dC": 0.0022,
+        "bonf": [
+          -0.0078,
+          0.0135
+        ],
+        "c_real_lo95": 0.4992,
+        "placebo_dC": -0.006,
+        "pass": false
+      },
+      "violent_death": {
+        "n": 5511,
+        "events": 2283,
+        "rules": 37,
+        "c_real": 0.5072,
+        "c_donor": 0.5023,
+        "c_placebo": 0.5136,
+        "dC": 0.0049,
+        "bonf": [
+          -0.0258,
+          0.035
+        ],
+        "c_real_lo95": 0.4913,
+        "placebo_dC": 0.011,
+        "pass": false
+      },
+      "married": {
+        "n": 35682,
+        "events": 4673,
+        "rules": 32,
+        "c_real": 0.5253,
+        "c_donor": 0.514,
+        "c_placebo": 0.5178,
+        "dC": 0.0113,
+        "bonf": [
+          -0.007,
+          0.0296
+        ],
+        "c_real_lo95": 0.517,
+        "placebo_dC": 0.0038,
+        "pass": false
+      },
+      "several_marriages": {
+        "n": 4673,
+        "events": 1293,
+        "rules": 6,
+        "c_real": 0.4849,
+        "c_donor": 0.506,
+        "c_placebo": 0.5184,
+        "dC": -0.0211,
+        "bonf": [
+          -0.0573,
+          0.0129
+        ],
+        "c_real_lo95": 0.4654,
+        "placebo_dC": 0.0126,
+        "pass": false
+      },
+      "divorce": {
+        "n": 4673,
+        "events": 307,
+        "rules": 32,
+        "c_real": 0.5069,
+        "c_donor": 0.5375,
+        "c_placebo": 0.5209,
+        "dC": -0.0307,
+        "bonf": [
+          -0.0973,
+          0.035
+        ],
+        "c_real_lo95": 0.4746,
+        "placebo_dC": -0.0164,
+        "pass": false
+      },
+      "first_marriage_age": {
+        "n": 4673,
+        "events": null,
+        "rules": 5,
+        "c_real": 0.4651,
+        "c_donor": 0.4705,
+        "c_placebo": 0.4712,
+        "dC": -0.0054,
+        "bonf": [
+          -0.0239,
+          0.0123
+        ],
+        "c_real_lo95": 0.4559,
+        "placebo_dC": 0.0008,
+        "pass": false
+      },
+      "widowhood": {
+        "n": 35682,
+        "events": 553,
+        "rules": 7,
+        "c_real": 0.499,
+        "c_donor": 0.4895,
+        "c_placebo": 0.4943,
+        "dC": 0.0095,
+        "bonf": [
+          -0.0409,
+          0.0571
+        ],
+        "c_real_lo95": 0.4765,
+        "placebo_dC": 0.0045,
+        "pass": false
+      },
+      "father_lost_young": {
+        "n": 35682,
+        "events": 128,
+        "rules": 13,
+        "c_real": 0.5164,
+        "c_donor": 0.5451,
+        "c_placebo": 0.5052,
+        "dC": -0.0287,
+        "bonf": [
+          -0.133,
+          0.0807
+        ],
+        "c_real_lo95": 0.4597,
+        "placebo_dC": -0.0403,
+        "pass": false
+      },
+      "mother_lost_young": {
+        "n": 35682,
+        "events": 77,
+        "rules": 15,
+        "c_real": 0.4671,
+        "c_donor": 0.4903,
+        "c_placebo": 0.4835,
+        "dC": -0.0232,
+        "bonf": [
+          -0.1576,
+          0.1135
+        ],
+        "c_real_lo95": 0.4059,
+        "placebo_dC": -0.0064,
+        "pass": false
+      },
+      "children": {
+        "n": 35682,
+        "events": 344,
+        "rules": 36,
+        "c_real": 0.5108,
+        "c_donor": 0.4897,
+        "c_placebo": 0.4863,
+        "dC": 0.0211,
+        "bonf": [
+          -0.0433,
+          0.0853
+        ],
+        "c_real_lo95": 0.4788,
+        "placebo_dC": -0.0037,
+        "pass": false
+      },
+      "child_death": {
+        "n": 35682,
+        "events": 172,
+        "rules": 36,
+        "c_real": 0.481,
+        "c_donor": 0.4979,
+        "c_placebo": 0.5273,
+        "dC": -0.0169,
+        "bonf": [
+          -0.1022,
+          0.0757
+        ],
+        "c_real_lo95": 0.4357,
+        "placebo_dC": 0.0288,
+        "pass": false
+      },
+      "arrest": {
+        "n": 35682,
+        "events": 567,
+        "rules": 14,
+        "c_real": 0.5081,
+        "c_donor": 0.4915,
+        "c_placebo": 0.4931,
+        "dC": 0.0166,
+        "bonf": [
+          -0.0361,
+          0.0654
+        ],
+        "c_real_lo95": 0.4846,
+        "placebo_dC": 0.0015,
+        "pass": false
+      },
+      "illness": {
+        "n": 35682,
+        "events": 298,
+        "rules": 54,
+        "c_real": 0.4964,
+        "c_donor": 0.4811,
+        "c_placebo": 0.493,
+        "dC": 0.0153,
+        "bonf": [
+          -0.0485,
+          0.0822
+        ],
+        "c_real_lo95": 0.4661,
+        "placebo_dC": 0.0129,
+        "pass": false
+      }
+    },
+    "all": {
+      "long_life": {
+        "n": 15816,
+        "events": null,
+        "rules": 328,
+        "c_real": 0.5038,
+        "c_donor": 0.4997,
+        "c_placebo": 0.4979,
+        "dC": 0.0042,
+        "bonf": [
+          -0.0077,
+          0.0156
+        ],
+        "c_real_lo95": 0.4986,
+        "placebo_dC": -0.0018,
+        "pass": false
+      },
+      "violent_death": {
+        "n": 5511,
+        "events": 2283,
+        "rules": 142,
+        "c_real": 0.4994,
+        "c_donor": 0.499,
+        "c_placebo": 0.5074,
+        "dC": 0.0004,
+        "bonf": [
+          -0.0313,
+          0.031
+        ],
+        "c_real_lo95": 0.4855,
+        "placebo_dC": 0.0083,
+        "pass": false
+      },
+      "married": {
+        "n": 35682,
+        "events": 4673,
+        "rules": 395,
+        "c_real": 0.4979,
+        "c_donor": 0.496,
+        "c_placebo": 0.5005,
+        "dC": 0.0019,
+        "bonf": [
+          -0.0161,
+          0.0224
+        ],
+        "c_real_lo95": 0.4879,
+        "placebo_dC": 0.0044,
+        "pass": false
+      },
+      "several_marriages": {
+        "n": 4673,
+        "events": 1293,
+        "rules": 6,
+        "c_real": 0.4849,
+        "c_donor": 0.506,
+        "c_placebo": 0.5184,
+        "dC": -0.0211,
+        "bonf": [
+          -0.0587,
+          0.0148
+        ],
+        "c_real_lo95": 0.4676,
+        "placebo_dC": 0.013,
+        "pass": false
+      },
+      "divorce": {
+        "n": 4673,
+        "events": 307,
+        "rules": 395,
+        "c_real": 0.4776,
+        "c_donor": 0.5316,
+        "c_placebo": 0.5048,
+        "dC": -0.054,
+        "bonf": [
+          -0.1218,
+          0.0182
+        ],
+        "c_real_lo95": 0.4489,
+        "placebo_dC": -0.0269,
+        "pass": false
+      },
+      "first_marriage_age": {
+        "n": 4673,
+        "events": null,
+        "rules": 5,
+        "c_real": 0.4651,
+        "c_donor": 0.4705,
+        "c_placebo": 0.4712,
+        "dC": -0.0054,
+        "bonf": [
+          -0.0234,
+          0.0118
+        ],
+        "c_real_lo95": 0.4544,
+        "placebo_dC": 0.0006,
+        "pass": false
+      },
+      "widowhood": {
+        "n": 35682,
+        "events": 553,
+        "rules": 38,
+        "c_real": 0.5686,
+        "c_donor": 0.5655,
+        "c_placebo": 0.5783,
+        "dC": 0.0031,
+        "bonf": [
+          -0.0448,
+          0.0502
+        ],
+        "c_real_lo95": 0.5474,
+        "placebo_dC": 0.0127,
+        "pass": false
+      },
+      "father_lost_young": {
+        "n": 35682,
+        "events": 128,
+        "rules": 91,
+        "c_real": 0.5023,
+        "c_donor": 0.5232,
+        "c_placebo": 0.5429,
+        "dC": -0.0208,
+        "bonf": [
+          -0.1243,
+          0.0693
+        ],
+        "c_real_lo95": 0.4562,
+        "placebo_dC": 0.0196,
+        "pass": false
+      },
+      "mother_lost_young": {
+        "n": 35682,
+        "events": 77,
+        "rules": 114,
+        "c_real": 0.4788,
+        "c_donor": 0.4517,
+        "c_placebo": 0.4842,
+        "dC": 0.0271,
+        "bonf": [
+          -0.11,
+          0.1599
+        ],
+        "c_real_lo95": 0.4146,
+        "placebo_dC": 0.0328,
+        "pass": false
+      },
+      "children": {
+        "n": 35682,
+        "events": 344,
+        "rules": 388,
+        "c_real": 0.5276,
+        "c_donor": 0.4934,
+        "c_placebo": 0.5032,
+        "dC": 0.0342,
+        "bonf": [
+          -0.0326,
+          0.1012
+        ],
+        "c_real_lo95": 0.4988,
+        "placebo_dC": 0.0097,
+        "pass": false
+      },
+      "child_death": {
+        "n": 35682,
+        "events": 172,
+        "rules": 388,
+        "c_real": 0.4859,
+        "c_donor": 0.487,
+        "c_placebo": 0.4933,
+        "dC": -0.0011,
+        "bonf": [
+          -0.0866,
+          0.0962
+        ],
+        "c_real_lo95": 0.4418,
+        "placebo_dC": 0.0056,
+        "pass": false
+      },
+      "arrest": {
+        "n": 35682,
+        "events": 567,
+        "rules": 47,
+        "c_real": 0.5011,
+        "c_donor": 0.4969,
+        "c_placebo": 0.4895,
+        "dC": 0.0042,
+        "bonf": [
+          -0.0419,
+          0.0532
+        ],
+        "c_real_lo95": 0.4774,
+        "placebo_dC": -0.0077,
+        "pass": false
+      },
+      "illness": {
+        "n": 35682,
+        "events": 298,
+        "rules": 360,
+        "c_real": 0.5115,
+        "c_donor": 0.4792,
+        "c_placebo": 0.4741,
+        "dC": 0.0323,
+        "bonf": [
+          -0.0308,
+          0.0972
+        ],
+        "c_real_lo95": 0.4849,
+        "placebo_dC": -0.0057,
+        "pass": false
+      }
+    },
+    "per_rule": {
+      "tests": 2542,
+      "fdr_for": 1,
+      "fdr_against": 0,
+      "p05_for": 64,
+      "p05_against": 53,
+      "smallest": [
+        {
+          "id": "BPHS-V1-45-12",
+          "outcome": "long_life",
+          "z_claimed": 4.333,
+          "p": 1.4696529329323596e-05
+        },
+        {
+          "id": "VAL-2.39-U",
+          "outcome": "child_death",
+          "z_claimed": 3.49,
+          "p": 0.00048300491940496035
+        },
+        {
+          "id": "VAL-1.3-T085",
+          "outcome": "children",
+          "z_claimed": 3.434,
+          "p": 0.000595568309613444
+        },
+        {
+          "id": "PD-10-03",
+          "outcome": "married",
+          "z_claimed": 3.347,
+          "p": 0.0008154561004257566
+        },
+        {
+          "id": "BPHS-V1-14-11",
+          "outcome": "mother_lost_young",
+          "z_claimed": 3.172,
+          "p": 0.0015142602596373489
+        },
+        {
+          "id": "EZ-CH-06",
+          "outcome": "child_death",
+          "z_claimed": -3.031,
+          "p": 0.002434292866355902
+        },
+        {
+          "id": "SAR-09-M8",
+          "outcome": "mother_lost_young",
+          "z_claimed": 2.93,
+          "p": 0.0033875653397370236
+        },
+        {
+          "id": "KP4F-CP-02",
+          "outcome": "child_death",
+          "z_claimed": -2.873,
+          "p": 0.004071369621197931
+        },
+        {
+          "id": "LIL-121F-12",
+          "outcome": "mother_lost_young",
+          "z_claimed": 2.812,
+          "p": 0.004916459464606417
+        },
+        {
+          "id": "SAR-10-B68",
+          "outcome": "long_life",
+          "z_claimed": 2.795,
+          "p": 0.00519345973807469
+        },
+        {
+          "id": "KP4F-DL-01",
+          "outcome": "married",
+          "z_claimed": 2.792,
+          "p": 0.005238832791232478
+        },
+        {
+          "id": "KP2F-HE-06",
+          "outcome": "illness",
+          "z_claimed": -2.788,
+          "p": 0.005311584423130788
+        },
+        {
+          "id": "VAL-2.16-MQ",
+          "outcome": "father_lost_young",
+          "z_claimed": -2.781,
+          "p": 0.005416647821660457
+        },
+        {
+          "id": "BPHS-V1-12-04",
+          "outcome": "long_life",
+          "z_claimed": 2.7,
+          "p": 0.006932291871698351
+        },
+        {
+          "id": "PD-15-05b-07",
+          "outcome": "married",
+          "z_claimed": 2.684,
+          "p": 0.0072720382607584745
+        },
+        {
+          "id": "SAR-50-D1132",
+          "outcome": "child_death",
+          "z_claimed": -2.681,
+          "p": 0.007330230083399362
+        },
+        {
+          "id": "BPHS-V1-26-L07H03",
+          "outcome": "child_death",
+          "z_claimed": 2.672,
+          "p": 0.007532156047827132
+        },
+        {
+          "id": "PD-10-16",
+          "outcome": "divorce",
+          "z_claimed": -2.672,
+          "p": 0.007533175162260961
+        },
+        {
+          "id": "SAR-23-A05Ma2",
+          "outcome": "married",
+          "z_claimed": -2.647,
+          "p": 0.008117965947929164
+        },
+        {
+          "id": "SAR-49-H1111",
+          "outcome": "children",
+          "z_claimed": -2.627,
+          "p": 0.008623369965505537
+        },
+        {
+          "id": "SAR-25-S052",
+          "outcome": "child_death",
+          "z_claimed": 2.606,
+          "p": 0.00915552950593796
+        },
+        {
+          "id": "SAR-29-S043",
+          "outcome": "divorce",
+          "z_claimed": 2.604,
+          "p": 0.009225410247330644
+        },
+        {
+          "id": "BPHS-82-15",
+          "outcome": "widowhood",
+          "z_claimed": 2.598,
+          "p": 0.009365685932715785
+        },
+        {
+          "id": "SAR-10-HM",
+          "outcome": "long_life",
+          "z_claimed": 2.557,
+          "p": 0.010544330566972692
+        },
+        {
+          "id": "LIL-155-K6",
+          "outcome": "violent_death",
+          "z_claimed": 2.548,
+          "p": 0.010849053241349129
+        }
+      ]
+    }
+  }
+}

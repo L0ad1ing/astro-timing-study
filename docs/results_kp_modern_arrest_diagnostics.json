@@ -1,0 +1,86 @@
+{
+  "half0_sets": 620,
+  "half1_sets": 615,
+  "half1_sets_sharing_a_date_within_half1": 133,
+  "half1_sets_whose_date_is_in_half0": 113,
+  "half1_distinct_dates": 533,
+  "half1_date_clustered": {
+    "c_actual": 0.5201,
+    "c_ci": [
+      0.5018,
+      0.5401
+    ],
+    "dC": 0.032,
+    "dC_ci": [
+      0.0046,
+      0.0619
+    ]
+  },
+  "half1_one_set_per_date": {
+    "n": 533,
+    "c_actual": 0.5182,
+    "c_ci": [
+      0.4977,
+      0.5394
+    ],
+    "dC": 0.0319,
+    "dC_ci": [
+      0.0022,
+      0.0616
+    ]
+  },
+  "half1_one_per_date_unseen_in_half0": {
+    "n": 459,
+    "c_actual": 0.5193,
+    "c_ci": [
+      0.4975,
+      0.5423
+    ],
+    "dC": 0.0297,
+    "dC_ci": [
+      -0.0012,
+      0.0626
+    ]
+  },
+  "arrest_rules_half1": [
+    {
+      "rule": "JAS-IM-T1",
+      "text": "The lord of 6 in the 6th aspected by Saturn (3rd/10th/7th) and not by Jupiter: imprisonment or government hara",
+      "event_rate": 0.0,
+      "control_rate": 0.0
+    },
+    {
+      "rule": "EZ-IM-T1",
+      "text": "(ez3) The 12th cusp sub lord (Rahu, or connected with Rahu) signifying 2, 3, 8 or 12: imprisonment in the join",
+      "event_rate": 0.13,
+      "control_rate": 0.114
+    },
+    {
+      "rule": "NRM-IMP-T",
+      "text": "House grouping: imprisonment (often Rahu) in the joint period of significators of 2, 3, 8, 12 (promised by the",
+      "event_rate": 0.626,
+      "control_rate": 0.543
+    },
+    {
+      "rule": "SPK-T03",
+      "text": "A period lord whose sub lord signifies 12: runs away, imprisonment or hospitalisation.",
+      "event_rate": 0.366,
+      "control_rate": 0.307
+    }
+  ],
+  "half1_person_clustered": {
+    "sets": 615,
+    "people": 511,
+    "max_sets_one_person": 6,
+    "c_actual": 0.5201,
+    "c_ci_person_clustered": [
+      0.5003,
+      0.5389
+    ],
+    "dC": 0.032,
+    "dC_ci_person_clustered": [
+      0.0031,
+      0.0588
+    ]
+  }
+}

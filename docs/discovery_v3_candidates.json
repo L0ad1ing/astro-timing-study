@@ -1,0 +1,1662 @@
+[
+  {
+    "type": "Death",
+    "feature": "dasha Mercury-Rahu",
+    "f": 650,
+    "z_half0": -3.038,
+    "delta_half0": -0.00599,
+    "sets": 17685,
+    "nonzero": 2440,
+    "direction": "-"
+  },
+  {
+    "type": "Death",
+    "feature": "transit Sun sextile natal MC",
+    "f": 41,
+    "z_half0": -2.918,
+    "delta_half0": -0.0064,
+    "sets": 17685,
+    "nonzero": 1645,
+    "direction": "-"
+  },
+  {
+    "type": "Death",
+    "feature": "transit Sun conj natal Moon",
+    "f": 0,
+    "z_half0": 2.829,
+    "delta_half0": 0.00427,
+    "sets": 17685,
+    "nonzero": 783,
+    "direction": "+"
+  },
+  {
+    "type": "Death",
+    "feature": "transit Jupiter square natal Sun",
+    "f": 182,
+    "z_half0": -2.804,
+    "delta_half0": -0.00467,
+    "sets": 17685,
+    "nonzero": 3419,
+    "direction": "-"
+  },
+  {
+    "type": "Death",
+    "feature": "transit Sun square natal MC",
+    "f": 42,
+    "z_half0": -2.74,
+    "delta_half0": -0.00452,
+    "sets": 17685,
+    "nonzero": 1021,
+    "direction": "-"
+  },
+  {
+    "type": "Death",
+    "feature": "dasha Ketu-Ketu",
+    "f": 573,
+    "z_half0": -2.705,
+    "delta_half0": -0.00205,
+    "sets": 17685,
+    "nonzero": 721,
+    "direction": "-"
+  },
+  {
+    "type": "Death",
+    "feature": "transit Sun opp natal Jupiter",
+    "f": 24,
+    "z_half0": 2.681,
+    "delta_half0": 0.00213,
+    "sets": 17685,
+    "nonzero": 266,
+    "direction": "+"
+  },
+  {
+    "type": "Death",
+    "feature": "progressed Sun square natal Jupiter",
+    "f": 487,
+    "z_half0": -2.569,
+    "delta_half0": -0.00332,
+    "sets": 17685,
+    "nonzero": 1041,
+    "direction": "-"
+  },
+  {
+    "type": "Death",
+    "feature": "transit Mars trine natal Asc",
+    "f": 173,
+    "z_half0": -2.542,
+    "delta_half0": -0.00443,
+    "sets": 17685,
+    "nonzero": 3354,
+    "direction": "-"
+  },
+  {
+    "type": "Death",
+    "feature": "transit Sun opp natal Saturn",
+    "f": 29,
+    "z_half0": 2.537,
+    "delta_half0": 0.00124,
+    "sets": 17685,
+    "nonzero": 146,
+    "direction": "+"
+  },
+  {
+    "type": "Marriage",
+    "feature": "progressed Sun square natal Node",
+    "f": 497,
+    "z_half0": -3.106,
+    "delta_half0": -0.0065,
+    "sets": 3592,
+    "nonzero": 248,
+    "direction": "-"
+  },
+  {
+    "type": "Marriage",
+    "feature": "dasha Ketu-Ketu",
+    "f": 573,
+    "z_half0": -3.022,
+    "delta_half0": -0.00376,
+    "sets": 3592,
+    "nonzero": 68,
+    "direction": "-"
+  },
+  {
+    "type": "Marriage",
+    "feature": "transit Venus conj natal Saturn",
+    "f": 115,
+    "z_half0": 2.89,
+    "delta_half0": 0.00276,
+    "sets": 3592,
+    "nonzero": 56,
+    "direction": "+"
+  },
+  {
+    "type": "Marriage",
+    "feature": "transit Neptune trine natal Asc",
+    "f": 408,
+    "z_half0": 2.786,
+    "delta_half0": 0.00868,
+    "sets": 3592,
+    "nonzero": 538,
+    "direction": "+"
+  },
+  {
+    "type": "Marriage",
+    "feature": "transit Sun conj natal Jupiter",
+    "f": 20,
+    "z_half0": 2.745,
+    "delta_half0": 0.0048,
+    "sets": 3592,
+    "nonzero": 45,
+    "direction": "+"
+  },
+  {
+    "type": "Marriage",
+    "feature": "mahadasha Mercury",
+    "f": 563,
+    "z_half0": 2.702,
+    "delta_half0": 0.00673,
+    "sets": 3592,
+    "nonzero": 511,
+    "direction": "+"
+  },
+  {
+    "type": "Marriage",
+    "feature": "transit Sun sextile natal Mars",
+    "f": 16,
+    "z_half0": -2.688,
+    "delta_half0": -0.01114,
+    "sets": 3592,
+    "nonzero": 243,
+    "direction": "-"
+  },
+  {
+    "type": "Marriage",
+    "feature": "transit Mars conj natal Mercury",
+    "f": 145,
+    "z_half0": 2.686,
+    "delta_half0": 0.00657,
+    "sets": 3592,
+    "nonzero": 260,
+    "direction": "+"
+  },
+  {
+    "type": "Marriage",
+    "feature": "progressed Sun trine natal Saturn",
+    "f": 493,
+    "z_half0": 2.679,
+    "delta_half0": 0.00552,
+    "sets": 3592,
+    "nonzero": 211,
+    "direction": "+"
+  },
+  {
+    "type": "Marriage",
+    "feature": "progressed Sun conj natal Venus",
+    "f": 475,
+    "z_half0": 2.672,
+    "delta_half0": 0.00687,
+    "sets": 3592,
+    "nonzero": 199,
+    "direction": "+"
+  },
+  {
+    "type": "Divorce",
+    "feature": "transit Venus conj natal MC",
+    "f": 130,
+    "z_half0": 2.856,
+    "delta_half0": 0.02174,
+    "sets": 368,
+    "nonzero": 35,
+    "direction": "+"
+  },
+  {
+    "type": "Divorce",
+    "feature": "transit Node square natal Asc",
+    "f": 307,
+    "z_half0": -2.703,
+    "delta_half0": -0.03668,
+    "sets": 368,
+    "nonzero": 76,
+    "direction": "-"
+  },
+  {
+    "type": "Divorce",
+    "feature": "transit Venus trine natal Mercury",
+    "f": 103,
+    "z_half0": -2.446,
+    "delta_half0": -0.024,
+    "sets": 368,
+    "nonzero": 48,
+    "direction": "-"
+  },
+  {
+    "type": "Divorce",
+    "feature": "dasha Rahu-Jupiter",
+    "f": 624,
+    "z_half0": 2.261,
+    "delta_half0": 0.02015,
+    "sets": 368,
+    "nonzero": 48,
+    "direction": "+"
+  },
+  {
+    "type": "Divorce",
+    "feature": "transit Sun sextile natal Moon",
+    "f": 1,
+    "z_half0": 2.257,
+    "delta_half0": 0.0394,
+    "sets": 368,
+    "nonzero": 44,
+    "direction": "+"
+  },
+  {
+    "type": "Divorce",
+    "feature": "transit Mars trine natal Moon",
+    "f": 143,
+    "z_half0": -2.061,
+    "delta_half0": -0.02514,
+    "sets": 368,
+    "nonzero": 65,
+    "direction": "-"
+  },
+  {
+    "type": "Divorce",
+    "feature": "antardasha Sun",
+    "f": 566,
+    "z_half0": -1.993,
+    "delta_half0": -0.03487,
+    "sets": 368,
+    "nonzero": 141,
+    "direction": "-"
+  },
+  {
+    "type": "Divorce",
+    "feature": "transit Neptune trine natal Sun",
+    "f": 368,
+    "z_half0": 1.972,
+    "delta_half0": 0.01834,
+    "sets": 368,
+    "nonzero": 35,
+    "direction": "+"
+  },
+  {
+    "type": "Divorce",
+    "feature": "transit Uranus trine natal Mars",
+    "f": 338,
+    "z_half0": 1.941,
+    "delta_half0": 0.0163,
+    "sets": 368,
+    "nonzero": 32,
+    "direction": "+"
+  },
+  {
+    "type": "Divorce",
+    "feature": "transit Sun trine natal MC",
+    "f": 43,
+    "z_half0": 1.928,
+    "delta_half0": 0.03057,
+    "sets": 368,
+    "nonzero": 36,
+    "direction": "+"
+  },
+  {
+    "type": "Birth_Child",
+    "feature": "antardasha Venus",
+    "f": 565,
+    "z_half0": 0.992,
+    "delta_half0": 0.07037,
+    "sets": 45,
+    "nonzero": 30,
+    "direction": "+"
+  },
+  {
+    "type": "Career_Peak",
+    "feature": "transit Saturn opp natal Mercury",
+    "f": 239,
+    "z_half0": -2.955,
+    "delta_half0": -0.017,
+    "sets": 603,
+    "nonzero": 41,
+    "direction": "-"
+  },
+  {
+    "type": "Career_Peak",
+    "feature": "transit Node trine natal MC",
+    "f": 313,
+    "z_half0": -2.949,
+    "delta_half0": -0.02722,
+    "sets": 603,
+    "nonzero": 116,
+    "direction": "-"
+  },
+  {
+    "type": "Career_Peak",
+    "feature": "transit Neptune square natal MC",
+    "f": 412,
+    "z_half0": 2.911,
+    "delta_half0": 0.02211,
+    "sets": 603,
+    "nonzero": 98,
+    "direction": "+"
+  },
+  {
+    "type": "Career_Peak",
+    "feature": "transit Mars conj natal Sun",
+    "f": 135,
+    "z_half0": -2.753,
+    "delta_half0": -0.01921,
+    "sets": 603,
+    "nonzero": 57,
+    "direction": "-"
+  },
+  {
+    "type": "Career_Peak",
+    "feature": "transit Mars sextile natal MC",
+    "f": 176,
+    "z_half0": 2.739,
+    "delta_half0": 0.02336,
+    "sets": 603,
+    "nonzero": 95,
+    "direction": "+"
+  },
+  {
+    "type": "Career_Peak",
+    "feature": "transit Pluto opp natal Asc",
+    "f": 459,
+    "z_half0": 2.492,
+    "delta_half0": 0.01575,
+    "sets": 603,
+    "nonzero": 51,
+    "direction": "+"
+  },
+  {
+    "type": "Career_Peak",
+    "feature": "transit Node trine natal Moon",
+    "f": 278,
+    "z_half0": -2.489,
+    "delta_half0": -0.02612,
+    "sets": 603,
+    "nonzero": 128,
+    "direction": "-"
+  },
+  {
+    "type": "Career_Peak",
+    "feature": "transit Sun sextile natal Venus",
+    "f": 11,
+    "z_half0": 2.48,
+    "delta_half0": 0.02695,
+    "sets": 603,
+    "nonzero": 49,
+    "direction": "+"
+  },
+  {
+    "type": "Career_Peak",
+    "feature": "progressed Moon opp natal Mars",
+    "f": 529,
+    "z_half0": 2.446,
+    "delta_half0": 0.00967,
+    "sets": 603,
+    "nonzero": 37,
+    "direction": "+"
+  },
+  {
+    "type": "Career_Peak",
+    "feature": "progressed Moon trine natal Mercury",
+    "f": 518,
+    "z_half0": 2.334,
+    "delta_half0": 0.01451,
+    "sets": 603,
+    "nonzero": 72,
+    "direction": "+"
+  },
+  {
+    "type": "Prize",
+    "feature": "transit Mercury trine natal Asc",
+    "f": 83,
+    "z_half0": 2.813,
+    "delta_half0": 0.03142,
+    "sets": 488,
+    "nonzero": 95,
+    "direction": "+"
+  },
+  {
+    "type": "Prize",
+    "feature": "transit Neptune trine natal MC",
+    "f": 413,
+    "z_half0": 2.712,
+    "delta_half0": 0.0222,
+    "sets": 488,
+    "nonzero": 90,
+    "direction": "+"
+  },
+  {
+    "type": "Prize",
+    "feature": "dasha Jupiter-Jupiter",
+    "f": 633,
+    "z_half0": -2.581,
+    "delta_half0": -0.01981,
+    "sets": 488,
+    "nonzero": 73,
+    "direction": "-"
+  },
+  {
+    "type": "Prize",
+    "feature": "transit Mercury square natal Asc",
+    "f": 82,
+    "z_half0": 2.501,
+    "delta_half0": 0.02544,
+    "sets": 488,
+    "nonzero": 70,
+    "direction": "+"
+  },
+  {
+    "type": "Prize",
+    "feature": "transit Mars opp natal MC",
+    "f": 179,
+    "z_half0": 2.288,
+    "delta_half0": 0.01998,
+    "sets": 488,
+    "nonzero": 53,
+    "direction": "+"
+  },
+  {
+    "type": "Prize",
+    "feature": "dasha Ketu-Venus",
+    "f": 574,
+    "z_half0": 2.273,
+    "delta_half0": 0.014,
+    "sets": 488,
+    "nonzero": 37,
+    "direction": "+"
+  },
+  {
+    "type": "Prize",
+    "feature": "transit Uranus opp natal Mercury",
+    "f": 329,
+    "z_half0": 2.241,
+    "delta_half0": 0.01605,
+    "sets": 488,
+    "nonzero": 34,
+    "direction": "+"
+  },
+  {
+    "type": "Prize",
+    "feature": "transit Node trine natal MC",
+    "f": 313,
+    "z_half0": 2.171,
+    "delta_half0": 0.02374,
+    "sets": 488,
+    "nonzero": 80,
+    "direction": "+"
+  },
+  {
+    "type": "Prize",
+    "feature": "dasha Rahu-Mars",
+    "f": 622,
+    "z_half0": 2.164,
+    "delta_half0": 0.01452,
+    "sets": 488,
+    "nonzero": 50,
+    "direction": "+"
+  },
+  {
+    "type": "Prize",
+    "feature": "transit Uranus conj natal Sun",
+    "f": 315,
+    "z_half0": 2.144,
+    "delta_half0": 0.01315,
+    "sets": 488,
+    "nonzero": 32,
+    "direction": "+"
+  },
+  {
+    "type": "Job_Start",
+    "feature": "transit Mercury sextile natal Moon",
+    "f": 51,
+    "z_half0": -2.773,
+    "delta_half0": -0.0268,
+    "sets": 541,
+    "nonzero": 94,
+    "direction": "-"
+  },
+  {
+    "type": "Job_Start",
+    "feature": "transit Node trine natal Sun",
+    "f": 273,
+    "z_half0": 2.626,
+    "delta_half0": 0.02511,
+    "sets": 541,
+    "nonzero": 78,
+    "direction": "+"
+  },
+  {
+    "type": "Job_Start",
+    "feature": "transit Mars square natal Jupiter",
+    "f": 157,
+    "z_half0": -2.609,
+    "delta_half0": -0.01479,
+    "sets": 541,
+    "nonzero": 32,
+    "direction": "-"
+  },
+  {
+    "type": "Job_Start",
+    "feature": "transit Venus opp natal Mercury",
+    "f": 104,
+    "z_half0": -2.588,
+    "delta_half0": -0.01433,
+    "sets": 541,
+    "nonzero": 40,
+    "direction": "-"
+  },
+  {
+    "type": "Job_Start",
+    "feature": "progressed Sun trine natal MC",
+    "f": 508,
+    "z_half0": 2.527,
+    "delta_half0": 0.0134,
+    "sets": 541,
+    "nonzero": 47,
+    "direction": "+"
+  },
+  {
+    "type": "Job_Start",
+    "feature": "transit Saturn square natal Venus",
+    "f": 242,
+    "z_half0": -2.522,
+    "delta_half0": -0.02018,
+    "sets": 541,
+    "nonzero": 96,
+    "direction": "-"
+  },
+  {
+    "type": "Job_Start",
+    "feature": "transit Uranus opp natal Sun",
+    "f": 319,
+    "z_half0": -2.446,
+    "delta_half0": -0.01248,
+    "sets": 541,
+    "nonzero": 30,
+    "direction": "-"
+  },
+  {
+    "type": "Job_Start",
+    "feature": "transit Uranus trine natal Moon",
+    "f": 323,
+    "z_half0": 2.427,
+    "delta_half0": 0.02341,
+    "sets": 541,
+    "nonzero": 102,
+    "direction": "+"
+  },
+  {
+    "type": "Job_Start",
+    "feature": "dasha Jupiter-Mars",
+    "f": 631,
+    "z_half0": 2.36,
+    "delta_half0": 0.01448,
+    "sets": 541,
+    "nonzero": 52,
+    "direction": "+"
+  },
+  {
+    "type": "Job_Start",
+    "feature": "transit Pluto square natal Mercury",
+    "f": 427,
+    "z_half0": 2.343,
+    "delta_half0": 0.01617,
+    "sets": 541,
+    "nonzero": 51,
+    "direction": "+"
+  },
+  {
+    "type": "Job_End",
+    "feature": "progressed Moon trine natal Asc",
+    "f": 548,
+    "z_half0": -3.538,
+    "delta_half0": -0.03292,
+    "sets": 319,
+    "nonzero": 32,
+    "direction": "-"
+  },
+  {
+    "type": "Job_End",
+    "feature": "transit Mars square natal MC",
+    "f": 177,
+    "z_half0": 3.111,
+    "delta_half0": 0.04702,
+    "sets": 319,
+    "nonzero": 64,
+    "direction": "+"
+  },
+  {
+    "type": "Job_End",
+    "feature": "transit Mars sextile natal Moon",
+    "f": 141,
+    "z_half0": -2.972,
+    "delta_half0": -0.03918,
+    "sets": 319,
+    "nonzero": 61,
+    "direction": "-"
+  },
+  {
+    "type": "Job_End",
+    "feature": "dasha Rahu-Ketu",
+    "f": 618,
+    "z_half0": -2.774,
+    "delta_half0": -0.02821,
+    "sets": 319,
+    "nonzero": 33,
+    "direction": "-"
+  },
+  {
+    "type": "Job_End",
+    "feature": "transit Saturn square natal Moon",
+    "f": 232,
+    "z_half0": 2.75,
+    "delta_half0": 0.03292,
+    "sets": 319,
+    "nonzero": 61,
+    "direction": "+"
+  },
+  {
+    "type": "Job_End",
+    "feature": "transit Uranus trine natal Sun",
+    "f": 318,
+    "z_half0": -2.512,
+    "delta_half0": -0.03056,
+    "sets": 319,
+    "nonzero": 48,
+    "direction": "-"
+  },
+  {
+    "type": "Job_End",
+    "feature": "dasha Mercury-Mercury",
+    "f": 653,
+    "z_half0": 2.497,
+    "delta_half0": 0.02168,
+    "sets": 319,
+    "nonzero": 42,
+    "direction": "+"
+  },
+  {
+    "type": "Job_End",
+    "feature": "transit Uranus square natal Sun",
+    "f": 317,
+    "z_half0": 2.431,
+    "delta_half0": 0.02508,
+    "sets": 319,
+    "nonzero": 33,
+    "direction": "+"
+  },
+  {
+    "type": "Job_End",
+    "feature": "transit Jupiter trine natal Asc",
+    "f": 218,
+    "z_half0": -2.413,
+    "delta_half0": -0.03239,
+    "sets": 319,
+    "nonzero": 61,
+    "direction": "-"
+  },
+  {
+    "type": "Job_End",
+    "feature": "dasha Venus-Jupiter",
+    "f": 588,
+    "z_half0": 2.288,
+    "delta_half0": 0.01959,
+    "sets": 319,
+    "nonzero": 35,
+    "direction": "+"
+  },
+  {
+    "type": "Arrest",
+    "feature": "transit Venus sextile natal Mars",
+    "f": 106,
+    "z_half0": -3.116,
+    "delta_half0": -0.02524,
+    "sets": 614,
+    "nonzero": 87,
+    "direction": "-"
+  },
+  {
+    "type": "Arrest",
+    "feature": "antardasha Venus",
+    "f": 565,
+    "z_half0": -2.957,
+    "delta_half0": -0.05917,
+    "sets": 614,
+    "nonzero": 390,
+    "direction": "-"
+  },
+  {
+    "type": "Arrest",
+    "feature": "transit Venus square natal Asc",
+    "f": 127,
+    "z_half0": -2.813,
+    "delta_half0": -0.02809,
+    "sets": 614,
+    "nonzero": 98,
+    "direction": "-"
+  },
+  {
+    "type": "Arrest",
+    "feature": "transit Jupiter sextile natal Sun",
+    "f": 181,
+    "z_half0": -2.73,
+    "delta_half0": -0.0228,
+    "sets": 614,
+    "nonzero": 98,
+    "direction": "-"
+  },
+  {
+    "type": "Arrest",
+    "feature": "dasha Moon-Jupiter",
+    "f": 606,
+    "z_half0": -2.615,
+    "delta_half0": -0.0133,
+    "sets": 614,
+    "nonzero": 48,
+    "direction": "-"
+  },
+  {
+    "type": "Arrest",
+    "feature": "transit Sun trine natal Venus",
+    "f": 13,
+    "z_half0": -2.59,
+    "delta_half0": -0.02565,
+    "sets": 614,
+    "nonzero": 42,
+    "direction": "-"
+  },
+  {
+    "type": "Arrest",
+    "feature": "progressed Sun sextile natal Venus",
+    "f": 476,
+    "z_half0": -2.555,
+    "delta_half0": -0.01452,
+    "sets": 614,
+    "nonzero": 33,
+    "direction": "-"
+  },
+  {
+    "type": "Arrest",
+    "feature": "transit Node trine natal MC",
+    "f": 313,
+    "z_half0": -2.54,
+    "delta_half0": -0.02253,
+    "sets": 614,
+    "nonzero": 99,
+    "direction": "-"
+  },
+  {
+    "type": "Arrest",
+    "feature": "transit Saturn opp natal Asc",
+    "f": 264,
+    "z_half0": -2.46,
+    "delta_half0": -0.01398,
+    "sets": 614,
+    "nonzero": 51,
+    "direction": "-"
+  },
+  {
+    "type": "Arrest",
+    "feature": "transit Pluto opp natal Moon",
+    "f": 424,
+    "z_half0": 2.458,
+    "delta_half0": 0.01221,
+    "sets": 614,
+    "nonzero": 47,
+    "direction": "+"
+  },
+  {
+    "type": "Trial",
+    "feature": "antardasha Moon",
+    "f": 567,
+    "z_half0": 4.11,
+    "delta_half0": 0.09474,
+    "sets": 285,
+    "nonzero": 140,
+    "direction": "+"
+  },
+  {
+    "type": "Trial",
+    "feature": "dasha Saturn-Rahu",
+    "f": 641,
+    "z_half0": -3.14,
+    "delta_half0": -0.03363,
+    "sets": 285,
+    "nonzero": 38,
+    "direction": "-"
+  },
+  {
+    "type": "Trial",
+    "feature": "transit Mercury conj natal Moon",
+    "f": 50,
+    "z_half0": 2.954,
+    "delta_half0": 0.03012,
+    "sets": 285,
+    "nonzero": 36,
+    "direction": "+"
+  },
+  {
+    "type": "Trial",
+    "feature": "dasha Rahu-Moon",
+    "f": 621,
+    "z_half0": 2.635,
+    "delta_half0": 0.02982,
+    "sets": 285,
+    "nonzero": 38,
+    "direction": "+"
+  },
+  {
+    "type": "Trial",
+    "feature": "transit Node trine natal Venus",
+    "f": 288,
+    "z_half0": 2.463,
+    "delta_half0": 0.0231,
+    "sets": 285,
+    "nonzero": 36,
+    "direction": "+"
+  },
+  {
+    "type": "Trial",
+    "feature": "transit Venus trine natal MC",
+    "f": 133,
+    "z_half0": 2.392,
+    "delta_half0": 0.03567,
+    "sets": 285,
+    "nonzero": 51,
+    "direction": "+"
+  },
+  {
+    "type": "Trial",
+    "feature": "transit Node trine natal Mars",
+    "f": 293,
+    "z_half0": 2.383,
+    "delta_half0": 0.03158,
+    "sets": 285,
+    "nonzero": 38,
+    "direction": "+"
+  },
+  {
+    "type": "Trial",
+    "feature": "transit Node square natal MC",
+    "f": 312,
+    "z_half0": 2.251,
+    "delta_half0": 0.03421,
+    "sets": 285,
+    "nonzero": 54,
+    "direction": "+"
+  },
+  {
+    "type": "Trial",
+    "feature": "transit Uranus square natal Mars",
+    "f": 337,
+    "z_half0": -2.233,
+    "delta_half0": -0.02544,
+    "sets": 285,
+    "nonzero": 36,
+    "direction": "-"
+  },
+  {
+    "type": "Trial",
+    "feature": "transit Venus square natal Moon",
+    "f": 97,
+    "z_half0": -2.194,
+    "delta_half0": -0.02953,
+    "sets": 285,
+    "nonzero": 44,
+    "direction": "-"
+  },
+  {
+    "type": "Illness",
+    "feature": "transit Saturn square natal Venus",
+    "f": 242,
+    "z_half0": 2.792,
+    "delta_half0": 0.0386,
+    "sets": 272,
+    "nonzero": 34,
+    "direction": "+"
+  },
+  {
+    "type": "Illness",
+    "feature": "transit Jupiter trine natal Venus",
+    "f": 198,
+    "z_half0": -2.496,
+    "delta_half0": -0.03768,
+    "sets": 272,
+    "nonzero": 36,
+    "direction": "-"
+  },
+  {
+    "type": "Illness",
+    "feature": "transit Uranus square natal Mercury",
+    "f": 327,
+    "z_half0": -2.335,
+    "delta_half0": -0.03033,
+    "sets": 272,
+    "nonzero": 33,
+    "direction": "-"
+  },
+  {
+    "type": "Illness",
+    "feature": "transit Jupiter sextile natal Sun",
+    "f": 181,
+    "z_half0": 2.317,
+    "delta_half0": 0.03094,
+    "sets": 272,
+    "nonzero": 38,
+    "direction": "+"
+  },
+  {
+    "type": "Illness",
+    "feature": "dasha Saturn-Moon",
+    "f": 639,
+    "z_half0": 2.267,
+    "delta_half0": 0.02359,
+    "sets": 272,
+    "nonzero": 32,
+    "direction": "+"
+  },
+  {
+    "type": "Illness",
+    "feature": "transit Saturn square natal Mars",
+    "f": 247,
+    "z_half0": 2.186,
+    "delta_half0": 0.02819,
+    "sets": 272,
+    "nonzero": 42,
+    "direction": "+"
+  },
+  {
+    "type": "Illness",
+    "feature": "transit Saturn square natal Mercury",
+    "f": 237,
+    "z_half0": 2.128,
+    "delta_half0": 0.02145,
+    "sets": 272,
+    "nonzero": 34,
+    "direction": "+"
+  },
+  {
+    "type": "Illness",
+    "feature": "mahadasha Moon",
+    "f": 558,
+    "z_half0": 2.104,
+    "delta_half0": 0.02114,
+    "sets": 272,
+    "nonzero": 37,
+    "direction": "+"
+  },
+  {
+    "type": "Illness",
+    "feature": "transit Jupiter trine natal Mars",
+    "f": 203,
+    "z_half0": -2.008,
+    "delta_half0": -0.0239,
+    "sets": 272,
+    "nonzero": 30,
+    "direction": "-"
+  },
+  {
+    "type": "Illness",
+    "feature": "transit Uranus square natal Asc",
+    "f": 357,
+    "z_half0": -2.004,
+    "delta_half0": -0.02849,
+    "sets": 272,
+    "nonzero": 45,
+    "direction": "-"
+  },
+  {
+    "type": "Accident",
+    "feature": "transit Jupiter sextile natal Mercury",
+    "f": 191,
+    "z_half0": -2.899,
+    "delta_half0": -0.04,
+    "sets": 225,
+    "nonzero": 38,
+    "direction": "-"
+  },
+  {
+    "type": "Accident",
+    "feature": "transit Neptune sextile natal Moon",
+    "f": 371,
+    "z_half0": -2.567,
+    "delta_half0": -0.03259,
+    "sets": 225,
+    "nonzero": 30,
+    "direction": "-"
+  },
+  {
+    "type": "Accident",
+    "feature": "transit Mercury trine natal MC",
+    "f": 88,
+    "z_half0": 2.457,
+    "delta_half0": 0.04074,
+    "sets": 225,
+    "nonzero": 38,
+    "direction": "+"
+  },
+  {
+    "type": "Accident",
+    "feature": "transit Jupiter sextile natal Sun",
+    "f": 181,
+    "z_half0": -2.426,
+    "delta_half0": -0.03,
+    "sets": 225,
+    "nonzero": 32,
+    "direction": "-"
+  },
+  {
+    "type": "Accident",
+    "feature": "transit Venus sextile natal Moon",
+    "f": 96,
+    "z_half0": 2.16,
+    "delta_half0": 0.03333,
+    "sets": 225,
+    "nonzero": 37,
+    "direction": "+"
+  },
+  {
+    "type": "Accident",
+    "feature": "transit Node square natal Moon",
+    "f": 277,
+    "z_half0": 2.117,
+    "delta_half0": 0.03741,
+    "sets": 225,
+    "nonzero": 43,
+    "direction": "+"
+  },
+  {
+    "type": "Accident",
+    "feature": "transit Mercury trine natal Moon",
+    "f": 53,
+    "z_half0": 2.081,
+    "delta_half0": 0.02852,
+    "sets": 225,
+    "nonzero": 35,
+    "direction": "+"
+  },
+  {
+    "type": "Accident",
+    "feature": "transit Neptune trine natal Moon",
+    "f": 373,
+    "z_half0": 1.991,
+    "delta_half0": 0.02296,
+    "sets": 225,
+    "nonzero": 30,
+    "direction": "+"
+  },
+  {
+    "type": "Accident",
+    "feature": "transit Mars square natal Venus",
+    "f": 152,
+    "z_half0": 1.977,
+    "delta_half0": 0.03,
+    "sets": 225,
+    "nonzero": 30,
+    "direction": "+"
+  },
+  {
+    "type": "Accident",
+    "feature": "transit Uranus sextile natal MC",
+    "f": 361,
+    "z_half0": -1.884,
+    "delta_half0": -0.03296,
+    "sets": 225,
+    "nonzero": 37,
+    "direction": "-"
+  },
+  {
+    "type": "Relationship_Begin",
+    "feature": "antardasha Mars",
+    "f": 568,
+    "z_half0": -0.987,
+    "delta_half0": -0.03381,
+    "sets": 106,
+    "nonzero": 46,
+    "direction": "-"
+  },
+  {
+    "type": "Relationship_Begin",
+    "feature": "antardasha Mercury",
+    "f": 572,
+    "z_half0": 0.602,
+    "delta_half0": 0.02909,
+    "sets": 106,
+    "nonzero": 63,
+    "direction": "+"
+  },
+  {
+    "type": "Relationship_Begin",
+    "feature": "antardasha Rahu",
+    "f": 569,
+    "z_half0": 0.506,
+    "delta_half0": 0.02516,
+    "sets": 106,
+    "nonzero": 75,
+    "direction": "+"
+  },
+  {
+    "type": "Relationship_Begin",
+    "feature": "mahadasha Rahu",
+    "f": 560,
+    "z_half0": -0.311,
+    "delta_half0": -0.00629,
+    "sets": 106,
+    "nonzero": 32,
+    "direction": "-"
+  },
+  {
+    "type": "Relationship_Begin",
+    "feature": "antardasha Venus",
+    "f": 565,
+    "z_half0": -0.27,
+    "delta_half0": -0.01179,
+    "sets": 106,
+    "nonzero": 70,
+    "direction": "-"
+  },
+  {
+    "type": "Relationship_Begin",
+    "feature": "antardasha Ketu",
+    "f": 564,
+    "z_half0": -0.266,
+    "delta_half0": -0.00865,
+    "sets": 106,
+    "nonzero": 37,
+    "direction": "-"
+  },
+  {
+    "type": "Relationship_Begin",
+    "feature": "antardasha Saturn",
+    "f": 571,
+    "z_half0": -0.19,
+    "delta_half0": -0.00865,
+    "sets": 106,
+    "nonzero": 67,
+    "direction": "-"
+  },
+  {
+    "type": "Relationship_Begin",
+    "feature": "antardasha Jupiter",
+    "f": 570,
+    "z_half0": 0.15,
+    "delta_half0": 0.00708,
+    "sets": 106,
+    "nonzero": 71,
+    "direction": "+"
+  },
+  {
+    "type": "Relationship_Begin",
+    "feature": "antardasha Moon",
+    "f": 567,
+    "z_half0": 0.088,
+    "delta_half0": 0.00393,
+    "sets": 106,
+    "nonzero": 47,
+    "direction": "+"
+  },
+  {
+    "type": "Relationship_Begin",
+    "feature": "antardasha Sun",
+    "f": 566,
+    "z_half0": -0.072,
+    "delta_half0": -0.00236,
+    "sets": 106,
+    "nonzero": 40,
+    "direction": "-"
+  },
+  {
+    "type": "Relationship_End",
+    "feature": "antardasha Rahu",
+    "f": 569,
+    "z_half0": 1.509,
+    "delta_half0": 0.08192,
+    "sets": 59,
+    "nonzero": 38,
+    "direction": "+"
+  },
+  {
+    "type": "Relationship_End",
+    "feature": "antardasha Saturn",
+    "f": 571,
+    "z_half0": -1.374,
+    "delta_half0": -0.08192,
+    "sets": 59,
+    "nonzero": 32,
+    "direction": "-"
+  },
+  {
+    "type": "Relationship_End",
+    "feature": "antardasha Jupiter",
+    "f": 570,
+    "z_half0": 0.508,
+    "delta_half0": 0.02401,
+    "sets": 59,
+    "nonzero": 32,
+    "direction": "+"
+  },
+  {
+    "type": "Relationship_End",
+    "feature": "antardasha Mercury",
+    "f": 572,
+    "z_half0": 0.338,
+    "delta_half0": 0.01695,
+    "sets": 59,
+    "nonzero": 30,
+    "direction": "+"
+  },
+  {
+    "type": "Relationship_End",
+    "feature": "antardasha Venus",
+    "f": 565,
+    "z_half0": -0.146,
+    "delta_half0": -0.00989,
+    "sets": 59,
+    "nonzero": 36,
+    "direction": "-"
+  },
+  {
+    "type": "Death_of_relative",
+    "feature": "progressed Moon opp natal Sun",
+    "f": 514,
+    "z_half0": -2.938,
+    "delta_half0": -0.00839,
+    "sets": 1728,
+    "nonzero": 96,
+    "direction": "-"
+  },
+  {
+    "type": "Death_of_relative",
+    "feature": "transit Uranus conj natal Venus",
+    "f": 330,
+    "z_half0": -2.848,
+    "delta_half0": -0.01095,
+    "sets": 1728,
+    "nonzero": 106,
+    "direction": "-"
+  },
+  {
+    "type": "Death_of_relative",
+    "feature": "transit Uranus sextile natal Saturn",
+    "f": 346,
+    "z_half0": 2.819,
+    "delta_half0": 0.00526,
+    "sets": 1728,
+    "nonzero": 38,
+    "direction": "+"
+  },
+  {
+    "type": "Death_of_relative",
+    "feature": "transit Mars conj natal Mercury",
+    "f": 145,
+    "z_half0": 2.783,
+    "delta_half0": 0.01066,
+    "sets": 1728,
+    "nonzero": 138,
+    "direction": "+"
+  },
+  {
+    "type": "Death_of_relative",
+    "feature": "dasha Ketu-Sun",
+    "f": 575,
+    "z_half0": 2.778,
+    "delta_half0": 0.0054,
+    "sets": 1728,
+    "nonzero": 38,
+    "direction": "+"
+  },
+  {
+    "type": "Death_of_relative",
+    "feature": "transit Venus opp natal Asc",
+    "f": 129,
+    "z_half0": 2.66,
+    "delta_half0": 0.01128,
+    "sets": 1728,
+    "nonzero": 161,
+    "direction": "+"
+  },
+  {
+    "type": "Death_of_relative",
+    "feature": "progressed Sun trine natal MC",
+    "f": 508,
+    "z_half0": -2.604,
+    "delta_half0": -0.00796,
+    "sets": 1728,
+    "nonzero": 124,
+    "direction": "-"
+  },
+  {
+    "type": "Death_of_relative",
+    "feature": "progressed Moon opp natal Venus",
+    "f": 524,
+    "z_half0": -2.604,
+    "delta_half0": -0.00767,
+    "sets": 1728,
+    "nonzero": 81,
+    "direction": "-"
+  },
+  {
+    "type": "Death_of_relative",
+    "feature": "transit Saturn trine natal Mercury",
+    "f": 238,
+    "z_half0": -2.586,
+    "delta_half0": -0.01403,
+    "sets": 1728,
+    "nonzero": 269,
+    "direction": "-"
+  },
+  {
+    "type": "Death_of_relative",
+    "feature": "transit Node trine natal MC",
+    "f": 313,
+    "z_half0": -2.586,
+    "delta_half0": -0.01403,
+    "sets": 1728,
+    "nonzero": 295,
+    "direction": "-"
+  },
+  {
+    "type": "Death of father",
+    "feature": "transit Venus opp natal Asc",
+    "f": 129,
+    "z_half0": 3.155,
+    "delta_half0": 0.02797,
+    "sets": 444,
+    "nonzero": 45,
+    "direction": "+"
+  },
+  {
+    "type": "Death of father",
+    "feature": "progressed Moon sextile natal Saturn",
+    "f": 536,
+    "z_half0": 2.708,
+    "delta_half0": 0.02534,
+    "sets": 444,
+    "nonzero": 52,
+    "direction": "+"
+  },
+  {
+    "type": "Death of father",
+    "feature": "transit Mars opp natal Mercury",
+    "f": 149,
+    "z_half0": -2.574,
+    "delta_half0": -0.02065,
+    "sets": 444,
+    "nonzero": 39,
+    "direction": "-"
+  },
+  {
+    "type": "Death of father",
+    "feature": "transit Saturn square natal MC",
+    "f": 267,
+    "z_half0": -2.495,
+    "delta_half0": -0.01952,
+    "sets": 444,
+    "nonzero": 61,
+    "direction": "-"
+  },
+  {
+    "type": "Death of father",
+    "feature": "transit Mercury sextile natal Venus",
+    "f": 56,
+    "z_half0": 2.478,
+    "delta_half0": 0.02665,
+    "sets": 444,
+    "nonzero": 63,
+    "direction": "+"
+  },
+  {
+    "type": "Death of father",
+    "feature": "transit Sun sextile natal Moon",
+    "f": 1,
+    "z_half0": -2.371,
+    "delta_half0": -0.03041,
+    "sets": 444,
+    "nonzero": 38,
+    "direction": "-"
+  },
+  {
+    "type": "Death of father",
+    "feature": "transit Venus trine natal MC",
+    "f": 133,
+    "z_half0": 2.342,
+    "delta_half0": 0.02721,
+    "sets": 444,
+    "nonzero": 88,
+    "direction": "+"
+  },
+  {
+    "type": "Death of father",
+    "feature": "progressed Moon trine natal MC",
+    "f": 553,
+    "z_half0": -2.276,
+    "delta_half0": -0.01764,
+    "sets": 444,
+    "nonzero": 42,
+    "direction": "-"
+  },
+  {
+    "type": "Death of father",
+    "feature": "progressed Sun square natal Saturn",
+    "f": 492,
+    "z_half0": 2.265,
+    "delta_half0": 0.01408,
+    "sets": 444,
+    "nonzero": 31,
+    "direction": "+"
+  },
+  {
+    "type": "Death of father",
+    "feature": "progressed Moon trine natal Sun",
+    "f": 513,
+    "z_half0": 2.262,
+    "delta_half0": 0.01802,
+    "sets": 444,
+    "nonzero": 46,
+    "direction": "+"
+  },
+  {
+    "type": "Death of mother",
+    "feature": "transit Node square natal Asc",
+    "f": 307,
+    "z_half0": 2.856,
+    "delta_half0": 0.03506,
+    "sets": 290,
+    "nonzero": 45,
+    "direction": "+"
+  },
+  {
+    "type": "Death of mother",
+    "feature": "transit Saturn square natal Mercury",
+    "f": 237,
+    "z_half0": 2.638,
+    "delta_half0": 0.03103,
+    "sets": 290,
+    "nonzero": 37,
+    "direction": "+"
+  },
+  {
+    "type": "Death of mother",
+    "feature": "transit Jupiter sextile natal MC",
+    "f": 221,
+    "z_half0": 2.455,
+    "delta_half0": 0.03218,
+    "sets": 290,
+    "nonzero": 51,
+    "direction": "+"
+  },
+  {
+    "type": "Death of mother",
+    "feature": "transit Mercury trine natal Moon",
+    "f": 53,
+    "z_half0": 2.342,
+    "delta_half0": 0.04282,
+    "sets": 290,
+    "nonzero": 62,
+    "direction": "+"
+  },
+  {
+    "type": "Death of mother",
+    "feature": "transit Jupiter opp natal Mercury",
+    "f": 194,
+    "z_half0": -2.245,
+    "delta_half0": -0.02213,
+    "sets": 290,
+    "nonzero": 33,
+    "direction": "-"
+  },
+  {
+    "type": "Death of mother",
+    "feature": "mahadasha Mars",
+    "f": 559,
+    "z_half0": 2.235,
+    "delta_half0": 0.02644,
+    "sets": 290,
+    "nonzero": 62,
+    "direction": "+"
+  },
+  {
+    "type": "Death of mother",
+    "feature": "transit Node trine natal MC",
+    "f": 313,
+    "z_half0": -2.189,
+    "delta_half0": -0.02816,
+    "sets": 290,
+    "nonzero": 50,
+    "direction": "-"
+  },
+  {
+    "type": "Death of mother",
+    "feature": "transit Node sextile natal Moon",
+    "f": 276,
+    "z_half0": 2.169,
+    "delta_half0": 0.02701,
+    "sets": 290,
+    "nonzero": 47,
+    "direction": "+"
+  },
+  {
+    "type": "Death of mother",
+    "feature": "mahadasha Moon",
+    "f": 558,
+    "z_half0": -2.139,
+    "delta_half0": -0.02443,
+    "sets": 290,
+    "nonzero": 62,
+    "direction": "-"
+  },
+  {
+    "type": "Death of mother",
+    "feature": "dasha Rahu-Venus",
+    "f": 619,
+    "z_half0": 2.102,
+    "delta_half0": 0.02356,
+    "sets": 290,
+    "nonzero": 45,
+    "direction": "+"
+  },
+  {
+    "type": "Death of mate",
+    "feature": "transit Jupiter sextile natal Venus",
+    "f": 196,
+    "z_half0": 3.652,
+    "delta_half0": 0.0351,
+    "sets": 520,
+    "nonzero": 77,
+    "direction": "+"
+  },
+  {
+    "type": "Death of mate",
+    "feature": "transit Sun square natal Venus",
+    "f": 12,
+    "z_half0": -2.782,
+    "delta_half0": -0.03077,
+    "sets": 520,
+    "nonzero": 30,
+    "direction": "-"
+  },
+  {
+    "type": "Death of mate",
+    "feature": "transit Node sextile natal Asc",
+    "f": 306,
+    "z_half0": 2.601,
+    "delta_half0": 0.02276,
+    "sets": 520,
+    "nonzero": 82,
+    "direction": "+"
+  },
+  {
+    "type": "Death of mate",
+    "feature": "progressed Moon trine natal Jupiter",
+    "f": 533,
+    "z_half0": 2.561,
+    "delta_half0": 0.02067,
+    "sets": 520,
+    "nonzero": 52,
+    "direction": "+"
+  },
+  {
+    "type": "Death of mate",
+    "feature": "mahadasha Ketu",
+    "f": 555,
+    "z_half0": 2.53,
+    "delta_half0": 0.01939,
+    "sets": 520,
+    "nonzero": 89,
+    "direction": "+"
+  },
+  {
+    "type": "Death of mate",
+    "feature": "dasha Mercury-Saturn",
+    "f": 652,
+    "z_half0": -2.444,
+    "delta_half0": -0.02356,
+    "sets": 520,
+    "nonzero": 91,
+    "direction": "-"
+  },
+  {
+    "type": "Death of mate",
+    "feature": "transit Neptune opp natal Moon",
+    "f": 374,
+    "z_half0": -2.443,
+    "delta_half0": -0.01474,
+    "sets": 520,
+    "nonzero": 47,
+    "direction": "-"
+  },
+  {
+    "type": "Death of mate",
+    "feature": "mahadasha Moon",
+    "f": 558,
+    "z_half0": -2.438,
+    "delta_half0": -0.01378,
+    "sets": 520,
+    "nonzero": 63,
+    "direction": "-"
+  },
+  {
+    "type": "Death of mate",
+    "feature": "transit Mars square natal Sun",
+    "f": 137,
+    "z_half0": 2.384,
+    "delta_half0": 0.02276,
+    "sets": 520,
+    "nonzero": 77,
+    "direction": "+"
+  },
+  {
+    "type": "Death of mate",
+    "feature": "transit Venus square natal Moon",
+    "f": 97,
+    "z_half0": -2.368,
+    "delta_half0": -0.02484,
+    "sets": 520,
+    "nonzero": 107,
+    "direction": "-"
+  }
+]

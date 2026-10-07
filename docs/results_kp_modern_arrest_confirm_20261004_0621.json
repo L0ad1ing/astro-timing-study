@@ -1,0 +1,91 @@
+{
+  "run_at": "2026-10-04T10:21:45.207849+00:00",
+  "prereg": "docs/prereg_kp_modern_arrest_confirm.md",
+  "timing_rules": 51,
+  "half": 1,
+  "Arrest": {
+    "sets": 615,
+    "verdict": "PASS",
+    "weighted": {
+      "n": 615,
+      "c_actual": 0.5201,
+      "c_actual_ci": [
+        0.5035,
+        0.5396
+      ],
+      "c_mismatched": 0.4881,
+      "delta": {
+        "delta_c": 0.032,
+        "ci95": [
+          0.0045,
+          0.0591
+        ],
+        "ci_bonferroni": [
+          0.0045,
+          0.0591
+        ]
+      },
+      "ties_all_dates": 0.294,
+      "placebo_delta": {
+        "delta_c": -0.0046,
+        "ci95": [
+          -0.0398,
+          0.0293
+        ],
+        "ci_bonferroni": [
+          -0.0398,
+          0.0293
+        ]
+      },
+      "checks": {
+        "beats_mismatched_bonferroni": true,
+        "above_chance": true,
+        "placebo_clean": true
+      }
+    },
+    "unweighted": {
+      "n": 615,
+      "c_actual": 0.5201,
+      "c_actual_ci": [
+        0.5036,
+        0.5393
+      ],
+      "c_mismatched": 0.4879,
+      "delta": {
+        "delta_c": 0.0322,
+        "ci95": [
+          0.0045,
+          0.0596
+        ],
+        "ci_bonferroni": [
+          0.0045,
+          0.0596
+        ]
+      },
+      "ties_all_dates": 0.299
+    },
+    "direct": {
+      "n": 615,
+      "c_actual": 0.5167,
+      "c_actual_ci": [
+        0.4989,
+        0.5356
+      ],
+      "c_mismatched": 0.4899,
+      "delta": {
+        "delta_c": 0.0268,
+        "ci95": [
+          -0.0001,
+          0.0528
+        ],
+        "ci_bonferroni": [
+          -0.0001,
+          0.0528
+        ]
+      },
+      "ties_all_dates": 0.332
+    }
+  },
+  "confirmed": true,
+  "seconds": 102
+}

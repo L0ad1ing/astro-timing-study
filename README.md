@@ -5,7 +5,9 @@
 This repository is a large, pre-registered test of that question. It uses about 75,000 dated life events
 (marriages, divorces, prizes, arrests, illnesses, deaths…) of famous people with recorded birth times. It tests
 23 classical timing techniques from seven traditions, a published marriage-timing rulebook, a practitioner's own
-method, machine learning on raw planetary geometry, and an automated search for new rules.
+method, machine learning on raw planetary geometry, and an automated search for new rules. Later, seven classical
+books (BPHS, Phaladeepika, Saravali, the KP Readers and later KP books, Vettius Valens and William Lilly) were each
+encoded in full, about 9,700 cited rules, and tested the same way (section 4b).
 
 **The answer, in one line:** once the test was airtight, almost nothing did better than chance. Not a single
 technique, not combinations of techniques, not the machine. The one exception so far is small and narrow: a set of
@@ -29,7 +31,8 @@ out to be a quirk of the data, and both are explained below because they are the
 1. [The question and why it is testable](#1-the-question-and-why-it-is-testable)
 2. [The data](#2-the-data)
 3. [How the test works](#3-how-the-test-works)
-4. [The experiments, in the order they were run](#4-the-experiments-in-the-order-they-were-run)
+4. [The experiments, in the order they were run](#4-the-experiments-in-the-order-they-were-run), and
+   [later tests of seven classical books](#4b-later-pre-registered-tests-2026-10-02-to-2026-10-05)
 5. [The two things that looked real and weren't](#5-the-two-things-that-looked-real-and-werent)
 6. [What it adds up to](#6-what-it-adds-up-to)
 7. [Limitations](#7-limitations)
@@ -247,7 +250,7 @@ had seen during training, and −0.10 to −0.01 for months it hadn't.
 | Adjust for each calendar year and the Olympic season pattern | 1 |
 | **Remove events that took place during an Olympic Games** | **0** |
 
-## 4b. Later pre-registered tests (2026-10-02 to 2026-10-04)
+## 4b. Later pre-registered tests (2026-10-02 to 2026-10-05)
 
 These were run after the first release, each pre-registered before running, with the leak-proof design (folds grouped
 by person and month where a model is fitted; event dates against the same person's other dates; a random other
@@ -258,10 +261,15 @@ person's chart as the null).
   planet. 0 of 11 event types improved on the base model (dC −0.064 to +0.024).
 - **Classical texts encoded in full as a rule engine.** Every predictive statement of Brihat Parasara Hora Sastra
   (both volumes), Mantreswara's Phaladeepika (all 28 chapters), Kalyana Varma's Saravali (both volumes, all 55
-  chapters) and K.S. Krishnamurti's KP Readers I–VI, and, as a separate set, the later KP literature, was turned into a
-  cited rule (about 7,700 rules, 2,900 of them timing rules),
-  with each book's own strength weighting and cancellations. Each book was scored on about 27,000 case-control sets
-  across 18 event types:
+  chapters), K.S. Krishnamurti's KP Readers I–VI and, as a separate set, the later KP literature, Vettius Valens'
+  *Anthologies* (books I–IX) and William Lilly's *Christian Astrology* Book III (1647), was turned into a cited rule
+  (about 9,700 rules, 3,800 of them timing rules), with each book's own strength weighting and cancellations. Each
+  book's own timing machinery was built as written: Vimshottari and the other dashas, Ashtakavarga and Shadbala, KP
+  star and sub lords, Saravali's Moola dasa, Valens' zodiacal releasing, operative year and 10-year-9-month periods,
+  and Lilly's Regiomontanus primary directions (Naibod key), profections and solar revolutions. Where a book has worked
+  examples, the code reproduces them. Each book was scored on about 27,000 case-control sets across 18 event types.
+  The primary statistic is dC: the C-index with the real chart minus the C-index with a random other person's chart on
+  the same dates (2,000 bootstraps, Bonferroni over the 18 types; a pass also needs C > 0.5 and a clean placebo):
 
   | Rule set | Types passing (of 18) | Single rules significant after FDR |
   |---|---|---|
@@ -272,6 +280,9 @@ person's chart as the null).
   | Later KP books | 0 (arrest: failed on half 0, then passed on half 1 — see below) | 0 |
   | Saravali (vol. I, then complete) | 0, 0 | 0, 0 |
   | BPHS + Phaladeepika + KP Readers together | 0 | 0 |
+  | Valens | 0 | 0 |
+  | Lilly | 0 | 0 |
+  | All seven books in one score | 0 | 0 |
 
   The closest call was the later KP books on arrests: on the first half they beat the wrong chart after correction
   but not chance, so they failed. A single pre-registered check on the held-back half (615 arrests) then **passed**:
@@ -283,8 +294,29 @@ person's chart as the null).
   used, so it should be treated as a lead for an independent dataset, not as a finding. Per-rule results went the
   books' way about as often as against them (for BPHS, 143 for and 143 against at p < .05; for the complete Saravali,
   13 for and 7 against out of 545). Saravali's closest type was illness (dC +0.054, Bonferroni interval
-  [−0.041, +0.142]). The rule base itself is
-  not included in this public copy because it paraphrases copyrighted translations.
+  [−0.041, +0.142]). Valens: death dC −0.001 [−0.011, +0.011]; 25 rules for and 31 against at p < .05. Lilly: death
+  dC +0.005 [−0.006, +0.015], marriage +0.006 [−0.018, +0.030]; 53 for and 57 against.
+- **Every rule, every check** (`prereg_full_programme.md`, 390 type-level tests). The design's blind spots were listed
+  first, then each was tested: AA-rated births only (birth-time quality); control dates at half-year offsets (so
+  rules tied to the Sun's place or the season are no longer identical on event and control dates); Lilly with a
+  ±1-year direction window and with Ptolemy's 1°-a-year key; and all seven books in a single score. **None passed.**
+  In the all-books run, 14,562 single-rule tests went 322 for and 338 against at p < .05, none after correction
+  (all-books death dC +0.004).
+- **The natal rules**, tested for the first time: 1,914 rules whose outcome Astro-Databank records (age at death for
+  15,816 people, violent vs natural death for 5,511, marriage, several marriages, divorce, age at first marriage,
+  widowhood, early loss of a parent, children, a child's death, arrest, illness), each person's real chart against the
+  chart of someone born within two years. No test passed. One rule crossed the FDR line (BPHS 45.74, short life;
+  z 4.3), but its mechanism (Saturn combust) is partly a season-of-birth marker and it has not been checked on the
+  held-back half. The other ~4,000 natal rules (wealth, status, character, fame…) have no outcome in this data and
+  remain untested.
+- **A fresh, book-free search** (`prereg_discovery_v3.md`). 654 transit, progression and Vimshottari features;
+  candidates mined on one half, then confirmed on the other. A recurrence test (are a person's repeated same-type
+  events more alike against their own chart than against a donor's?) found nothing: +0.003 [−0.005, +0.012]. 166
+  candidates were frozen before the confirmation half was opened, and **0 of 166 confirmed.**
+
+  The engine code (`src/rules/`), the runners, every pre-registration and every results file are in this repository.
+  The rule base itself (`rules/`, the paraphrased and cited rules) is not, because it paraphrases copyrighted
+  translations; the two tests that need it skip without it. Reviewers can ask for access.
 
 ## 5. The two things that looked real and weren't
 
@@ -323,13 +355,17 @@ regular rhythm in the data (Olympics, elections, biennial awards, fiscal years) 
 
 | Approach | Result |
 |---|---|
-| 706 classical features + machine learning | Tiny within-person signal; window prediction at chance |
+| 706 classical features + machine learning | Chance once shared-date leakage is blocked (0.47–0.51) |
 | K.N. Rao's marriage rules | Chance (34.3% vs 34.3%) |
 | BCP chain method | Chance (0.50) |
 | 23 techniques, alone | Chance; nothing replicated |
 | 23 techniques, combined | Chance (6.25 vs 6.22 techniques agreeing) |
 | Continuous geometry + machine learning | Date memorisation |
 | Automated rule mining | The Olympic calendar |
+| Seven classical books encoded in full (~9,700 rules) | 0 of 18 event types for every book, alone and together |
+| Robustness variants (AA only, half-year controls, Lilly variants) | 0 of 390 tests |
+| Natal rules against recorded outcomes | No test passed; one unconfirmed rule |
+| Book-free search, confirmed on held-back half | 0 of 166 |
 
 On this evidence, astrological techniques don't time life events better than chance. That holds for every technique
 tested, every way of combining them, and every rule a machine could find in the geometry.
@@ -386,6 +422,9 @@ src/bcp_chain.py              the Bhrigu Chakra chain method
 src/models.py, validation.py  ranking models, C-index, fake-date / shifted-window / swapped-chart tests, lock-box
 src/harmonic_features.py      continuous harmonic features, age baseline, SHAP importance
 src/discovery_v2/             matched controls, leak-free month split, rule miner, conditional-logit evaluator
+src/strength.py               planetary strength and dignity features
+src/rules/                    the classical rule engine: condition language, each book's own calculations (BPHS,
+                              Phaladeepika, Saravali, KP; Valens and Lilly in west.py / lilly.py), the reader
 src/context_builder.py, consultation_agent.py, interactive_cli.py, knowledge_base/
                               the reflection-only consultation layer
 scripts/                      one script per pre-registered experiment (run_*.py) plus the post-hoc checks
@@ -401,6 +440,11 @@ tests/                        unit tests on synthetic data and public example ch
 | 23 techniques | `prereg_methods.md` | `run_methods.py` | `results_methods_*.json` |
 | Continuous geometry | `prereg_harmonic.md` | `run_harmonic_pipeline.py`, `harmonic_date_leak_check.py` | `results_harmonic_*.json` |
 | Rule mining | `prereg_discovery_v2.md` | `run_discovery_v2.py`, `discovery_v2_parity_check.py` | `results_discovery_v2_*.json` |
+| Strength and dignity | `prereg_strength.md` | `run_strength.py` | `results_strength_*.json` |
+| Classical books (one per book) | `prereg_bphs_engine.md`, `prereg_phaladeepika_engine.md`, `prereg_kp_engine.md`, `prereg_kp_modern_engine.md`, `prereg_saravali_full_engine.md`, `prereg_valens_engine.md`, `prereg_lilly_engine.md` | `run_bphs_engine.py` | `results_engine_*.json`; write-up `writeup_classical_rule_engine.md` |
+| KP checks on the held-back half | `prereg_kp_modern_arrest_confirm.md`, `prereg_kp_relative_confirm.md` | `confirm_kp_*.py`, `diag_kp_modern_arrest.py` | `results_kp_*.json` |
+| Every rule, every check | `prereg_full_programme.md` | `run_programme.sh`, `run_natal.py` | `results_engine_*_{AA,halfyear,window1,ptolemy}_*.json`, `results_natal_*.json` |
+| Book-free search | `prereg_discovery_v3.md` | `run_discovery_v3.py` | `results_discovery_v3_*.json`, `discovery_v3_candidates.json` |
 
 **Running it:**
 1. Install the dependencies (Python 3.11+): `pip install -r requirements.txt`

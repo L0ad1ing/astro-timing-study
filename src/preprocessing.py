@@ -173,7 +173,11 @@ def death_dates(rows: list[tuple]) -> dict[str, float]:
     return out
 
 
-def control_offsets(category: str) -> tuple[int, ...]:
+def control_offsets(category: str) -> tuple:
+    """Whole-year offsets (the design of every pre-registered test); ASTRO_OFFSETS=half gives the half-year variant of
+    docs/prereg_full_programme.md (T2), under which annual-cycle rules differ between event and control dates."""
+    if os.environ.get("ASTRO_OFFSETS") == "half":
+        return (-4.5, -3.5, -2.5, -1.5) if category == "Death" else (-2.5, -0.5, 1.5, 3.5)
     return (-4, -3, -2, -1) if category == "Death" else (-3, -1, 1, 3)
 
 

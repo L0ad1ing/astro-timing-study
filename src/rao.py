@@ -132,6 +132,8 @@ def transit_signs(jd: float) -> dict[str, int]:
         signs = {p: _sign(c[0]) for p, c in calc.items()}
         signs["Ketu"] = _sign(calc["Rahu"][0] + 180)
         signs["_retro"] = {p for p in ("Jupiter", "Saturn") if calc[p][3] < 0}
+        signs["_nak"] = {p: int((c[0] % 360) // (360 / 27)) for p, c in calc.items()}   # 0 = Ashwini
+        signs["_nak"]["Ketu"] = int(((calc["Rahu"][0] + 180) % 360) // (360 / 27))
         _sky9[jd] = signs
     return _sky9[jd]
 

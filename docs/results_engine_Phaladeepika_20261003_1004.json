@@ -1,0 +1,2178 @@
+{
+  "run_at": "2026-10-03T14:04:22.484359+00:00",
+  "prereg": "docs/prereg_phaladeepika_engine.md",
+  "sources": [
+    "Phaladeepika"
+  ],
+  "timing_rules": 568,
+  "event_rules": 568,
+  "phase1_seconds": 288,
+  "sets_half0": 27352,
+  "primary": {
+    "Death": {
+      "sets": 17976,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 17976,
+        "c_actual": 0.4964,
+        "c_actual_ci": [
+          0.4913,
+          0.501
+        ],
+        "c_mismatched": 0.5017,
+        "delta": {
+          "delta_c": -0.0054,
+          "ci95": [
+            -0.0127,
+            0.0019
+          ],
+          "ci_bonferroni": [
+            -0.0161,
+            0.0067
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": 0.002,
+          "ci95": [
+            -0.0063,
+            0.0097
+          ],
+          "ci_bonferroni": [
+            -0.0063,
+            0.0097
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 17976,
+        "c_actual": 0.4962,
+        "c_actual_ci": [
+          0.4914,
+          0.5008
+        ],
+        "c_mismatched": 0.5014,
+        "delta": {
+          "delta_c": -0.0053,
+          "ci95": [
+            -0.0125,
+            0.0021
+          ],
+          "ci_bonferroni": [
+            -0.0158,
+            0.0058
+          ]
+        },
+        "ties_all_dates": 0.0
+      },
+      "direct": {
+        "n": 17976,
+        "c_actual": 0.498,
+        "c_actual_ci": [
+          0.4927,
+          0.5038
+        ],
+        "c_mismatched": 0.4992,
+        "delta": {
+          "delta_c": -0.0012,
+          "ci95": [
+            -0.009,
+            0.0064
+          ],
+          "ci_bonferroni": [
+            -0.012,
+            0.011
+          ]
+        },
+        "ties_all_dates": 0.0
+      }
+    },
+    "Marriage": {
+      "sets": 3663,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 3663,
+        "c_actual": 0.4914,
+        "c_actual_ci": [
+          0.4812,
+          0.5026
+        ],
+        "c_mismatched": 0.4972,
+        "delta": {
+          "delta_c": -0.0058,
+          "ci95": [
+            -0.0212,
+            0.0105
+          ],
+          "ci_bonferroni": [
+            -0.0282,
+            0.0182
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": 0.0023,
+          "ci95": [
+            -0.0155,
+            0.0216
+          ],
+          "ci_bonferroni": [
+            -0.0155,
+            0.0216
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 3663,
+        "c_actual": 0.49,
+        "c_actual_ci": [
+          0.4798,
+          0.5
+        ],
+        "c_mismatched": 0.4985,
+        "delta": {
+          "delta_c": -0.0084,
+          "ci95": [
+            -0.0236,
+            0.0069
+          ],
+          "ci_bonferroni": [
+            -0.0301,
+            0.0164
+          ]
+        },
+        "ties_all_dates": 0.002
+      },
+      "direct": {
+        "n": 3663,
+        "c_actual": 0.492,
+        "c_actual_ci": [
+          0.4817,
+          0.5025
+        ],
+        "c_mismatched": 0.4941,
+        "delta": {
+          "delta_c": -0.0021,
+          "ci95": [
+            -0.0174,
+            0.0135
+          ],
+          "ci_bonferroni": [
+            -0.0244,
+            0.0202
+          ]
+        },
+        "ties_all_dates": 0.001
+      }
+    },
+    "Divorce": {
+      "sets": 371,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 371,
+        "c_actual": 0.4784,
+        "c_actual_ci": [
+          0.4421,
+          0.5122
+        ],
+        "c_mismatched": 0.5321,
+        "delta": {
+          "delta_c": -0.0537,
+          "ci95": [
+            -0.1056,
+            -0.0047
+          ],
+          "ci_bonferroni": [
+            -0.1349,
+            0.0208
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": 0.041,
+          "ci95": [
+            -0.0109,
+            0.095
+          ],
+          "ci_bonferroni": [
+            -0.0109,
+            0.095
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 371,
+        "c_actual": 0.4779,
+        "c_actual_ci": [
+          0.4422,
+          0.5098
+        ],
+        "c_mismatched": 0.5266,
+        "delta": {
+          "delta_c": -0.0487,
+          "ci95": [
+            -0.0966,
+            -0.0025
+          ],
+          "ci_bonferroni": [
+            -0.1257,
+            0.0184
+          ]
+        },
+        "ties_all_dates": 0.0
+      },
+      "direct": {
+        "n": 371,
+        "c_actual": 0.5046,
+        "c_actual_ci": [
+          0.4799,
+          0.5317
+        ],
+        "c_mismatched": 0.4912,
+        "delta": {
+          "delta_c": 0.0134,
+          "ci95": [
+            -0.0226,
+            0.0477
+          ],
+          "ci_bonferroni": [
+            -0.0341,
+            0.0708
+          ]
+        },
+        "ties_all_dates": 0.208
+      }
+    },
+    "Birth_Child": {
+      "sets": 45,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 45,
+        "c_actual": 0.5444,
+        "c_actual_ci": [
+          0.4389,
+          0.6307
+        ],
+        "c_mismatched": 0.4685,
+        "delta": {
+          "delta_c": 0.0759,
+          "ci95": [
+            -0.0834,
+            0.2222
+          ],
+          "ci_bonferroni": [
+            -0.1576,
+            0.2866
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": 0.0167,
+          "ci95": [
+            -0.15,
+            0.1833
+          ],
+          "ci_bonferroni": [
+            -0.15,
+            0.1833
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 45,
+        "c_actual": 0.5194,
+        "c_actual_ci": [
+          0.4152,
+          0.6083
+        ],
+        "c_mismatched": 0.4824,
+        "delta": {
+          "delta_c": 0.037,
+          "ci95": [
+            -0.113,
+            0.1778
+          ],
+          "ci_bonferroni": [
+            -0.1864,
+            0.2353
+          ]
+        },
+        "ties_all_dates": 0.0
+      },
+      "direct": {
+        "n": 45,
+        "c_actual": 0.5213,
+        "c_actual_ci": [
+          0.4157,
+          0.6297
+        ],
+        "c_mismatched": 0.4991,
+        "delta": {
+          "delta_c": 0.0222,
+          "ci95": [
+            -0.1306,
+            0.1528
+          ],
+          "ci_bonferroni": [
+            -0.1976,
+            0.2194
+          ]
+        },
+        "ties_all_dates": 0.0
+      }
+    },
+    "Career_Peak": {
+      "sets": 608,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 608,
+        "c_actual": 0.5334,
+        "c_actual_ci": [
+          0.5064,
+          0.5601
+        ],
+        "c_mismatched": 0.4885,
+        "delta": {
+          "delta_c": 0.0449,
+          "ci95": [
+            0.007,
+            0.0835
+          ],
+          "ci_bonferroni": [
+            -0.0116,
+            0.1018
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": -0.0058,
+          "ci95": [
+            -0.0468,
+            0.0363
+          ],
+          "ci_bonferroni": [
+            -0.0468,
+            0.0363
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": true,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 608,
+        "c_actual": 0.5311,
+        "c_actual_ci": [
+          0.502,
+          0.5569
+        ],
+        "c_mismatched": 0.4856,
+        "delta": {
+          "delta_c": 0.0455,
+          "ci95": [
+            0.008,
+            0.084
+          ],
+          "ci_bonferroni": [
+            -0.0105,
+            0.1054
+          ]
+        },
+        "ties_all_dates": 0.0
+      },
+      "direct": {
+        "n": 608,
+        "c_actual": 0.5029,
+        "c_actual_ci": [
+          0.4728,
+          0.5278
+        ],
+        "c_mismatched": 0.4898,
+        "delta": {
+          "delta_c": 0.0131,
+          "ci95": [
+            -0.025,
+            0.0505
+          ],
+          "ci_bonferroni": [
+            -0.0426,
+            0.0677
+          ]
+        },
+        "ties_all_dates": 0.002
+      }
+    },
+    "Prize": {
+      "sets": 494,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 494,
+        "c_actual": 0.497,
+        "c_actual_ci": [
+          0.4666,
+          0.5264
+        ],
+        "c_mismatched": 0.5224,
+        "delta": {
+          "delta_c": -0.0255,
+          "ci95": [
+            -0.0678,
+            0.0152
+          ],
+          "ci_bonferroni": [
+            -0.083,
+            0.0385
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": -0.044,
+          "ci95": [
+            -0.0907,
+            0.0011
+          ],
+          "ci_bonferroni": [
+            -0.0907,
+            0.0011
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 494,
+        "c_actual": 0.492,
+        "c_actual_ci": [
+          0.4631,
+          0.521
+        ],
+        "c_mismatched": 0.5223,
+        "delta": {
+          "delta_c": -0.0303,
+          "ci95": [
+            -0.0693,
+            0.0091
+          ],
+          "ci_bonferroni": [
+            -0.0881,
+            0.0255
+          ]
+        },
+        "ties_all_dates": 0.0
+      },
+      "direct": {
+        "n": 494,
+        "c_actual": 0.5224,
+        "c_actual_ci": [
+          0.4914,
+          0.5515
+        ],
+        "c_mismatched": 0.5235,
+        "delta": {
+          "delta_c": -0.0012,
+          "ci95": [
+            -0.0408,
+            0.0392
+          ],
+          "ci_bonferroni": [
+            -0.0583,
+            0.0674
+          ]
+        },
+        "ties_all_dates": 0.0
+      }
+    },
+    "Job_Start": {
+      "sets": 541,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 541,
+        "c_actual": 0.4799,
+        "c_actual_ci": [
+          0.4487,
+          0.5066
+        ],
+        "c_mismatched": 0.5399,
+        "delta": {
+          "delta_c": -0.06,
+          "ci95": [
+            -0.1027,
+            -0.0202
+          ],
+          "ci_bonferroni": [
+            -0.1256,
+            -0.0027
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": 0.0135,
+          "ci95": [
+            -0.0298,
+            0.0567
+          ],
+          "ci_bonferroni": [
+            -0.0298,
+            0.0567
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 541,
+        "c_actual": 0.4861,
+        "c_actual_ci": [
+          0.4555,
+          0.5127
+        ],
+        "c_mismatched": 0.5418,
+        "delta": {
+          "delta_c": -0.0558,
+          "ci95": [
+            -0.0976,
+            -0.0168
+          ],
+          "ci_bonferroni": [
+            -0.1195,
+            0.004
+          ]
+        },
+        "ties_all_dates": 0.0
+      },
+      "direct": {
+        "n": 541,
+        "c_actual": 0.5062,
+        "c_actual_ci": [
+          0.4951,
+          0.517
+        ],
+        "c_mismatched": 0.5054,
+        "delta": {
+          "delta_c": 0.0008,
+          "ci95": [
+            -0.0159,
+            0.0169
+          ],
+          "ci_bonferroni": [
+            -0.0239,
+            0.0245
+          ]
+        },
+        "ties_all_dates": 0.706
+      }
+    },
+    "Job_End": {
+      "sets": 320,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 320,
+        "c_actual": 0.479,
+        "c_actual_ci": [
+          0.4397,
+          0.5165
+        ],
+        "c_mismatched": 0.4922,
+        "delta": {
+          "delta_c": -0.0132,
+          "ci95": [
+            -0.065,
+            0.0409
+          ],
+          "ci_bonferroni": [
+            -0.0915,
+            0.0676
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": -0.013,
+          "ci95": [
+            -0.0755,
+            0.0516
+          ],
+          "ci_bonferroni": [
+            -0.0755,
+            0.0516
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 320,
+        "c_actual": 0.4741,
+        "c_actual_ci": [
+          0.4368,
+          0.5117
+        ],
+        "c_mismatched": 0.4971,
+        "delta": {
+          "delta_c": -0.023,
+          "ci95": [
+            -0.0749,
+            0.0288
+          ],
+          "ci_bonferroni": [
+            -0.0971,
+            0.058
+          ]
+        },
+        "ties_all_dates": 0.0
+      },
+      "direct": {
+        "n": 320,
+        "c_actual": 0.4969,
+        "c_actual_ci": [
+          0.4636,
+          0.5298
+        ],
+        "c_mismatched": 0.5138,
+        "delta": {
+          "delta_c": -0.0169,
+          "ci95": [
+            -0.0607,
+            0.0245
+          ],
+          "ci_bonferroni": [
+            -0.0837,
+            0.049
+          ]
+        },
+        "ties_all_dates": 0.037
+      }
+    },
+    "Arrest": {
+      "sets": 620,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 620,
+        "c_actual": 0.5016,
+        "c_actual_ci": [
+          0.473,
+          0.53
+        ],
+        "c_mismatched": 0.5259,
+        "delta": {
+          "delta_c": -0.0243,
+          "ci95": [
+            -0.0639,
+            0.0165
+          ],
+          "ci_bonferroni": [
+            -0.086,
+            0.0366
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": 0.0322,
+          "ci95": [
+            -0.0145,
+            0.0754
+          ],
+          "ci_bonferroni": [
+            -0.0145,
+            0.0754
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 620,
+        "c_actual": 0.5068,
+        "c_actual_ci": [
+          0.4811,
+          0.5348
+        ],
+        "c_mismatched": 0.5163,
+        "delta": {
+          "delta_c": -0.0095,
+          "ci95": [
+            -0.0482,
+            0.0292
+          ],
+          "ci_bonferroni": [
+            -0.0677,
+            0.0526
+          ]
+        },
+        "ties_all_dates": 0.002
+      },
+      "direct": {
+        "n": 620,
+        "c_actual": 0.4985,
+        "c_actual_ci": [
+          0.493,
+          0.5035
+        ],
+        "c_mismatched": 0.4984,
+        "delta": {
+          "delta_c": 0.0001,
+          "ci95": [
+            -0.0077,
+            0.0075
+          ],
+          "ci_bonferroni": [
+            -0.012,
+            0.012
+          ]
+        },
+        "ties_all_dates": 0.918
+      }
+    },
+    "Trial": {
+      "sets": 293,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 293,
+        "c_actual": 0.5057,
+        "c_actual_ci": [
+          0.4649,
+          0.5441
+        ],
+        "c_mismatched": 0.506,
+        "delta": {
+          "delta_c": -0.0003,
+          "ci95": [
+            -0.0609,
+            0.058
+          ],
+          "ci_bonferroni": [
+            -0.0931,
+            0.0899
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": 0.0355,
+          "ci95": [
+            -0.0333,
+            0.1022
+          ],
+          "ci_bonferroni": [
+            -0.0333,
+            0.1022
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 293,
+        "c_actual": 0.5006,
+        "c_actual_ci": [
+          0.4609,
+          0.5383
+        ],
+        "c_mismatched": 0.5023,
+        "delta": {
+          "delta_c": -0.0017,
+          "ci95": [
+            -0.0589,
+            0.0548
+          ],
+          "ci_bonferroni": [
+            -0.0948,
+            0.0799
+          ]
+        },
+        "ties_all_dates": 0.0
+      },
+      "direct": {
+        "n": 293,
+        "c_actual": 0.502,
+        "c_actual_ci": [
+          0.4978,
+          0.5077
+        ],
+        "c_mismatched": 0.499,
+        "delta": {
+          "delta_c": 0.003,
+          "ci95": [
+            -0.0016,
+            0.009
+          ],
+          "ci_bonferroni": [
+            -0.0029,
+            0.0137
+          ]
+        },
+        "ties_all_dates": 0.983
+      }
+    },
+    "Illness": {
+      "sets": 273,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 273,
+        "c_actual": 0.5363,
+        "c_actual_ci": [
+          0.4924,
+          0.5824
+        ],
+        "c_mismatched": 0.5324,
+        "delta": {
+          "delta_c": 0.004,
+          "ci95": [
+            -0.0565,
+            0.0696
+          ],
+          "ci_bonferroni": [
+            -0.0906,
+            0.0973
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": -0.0788,
+          "ci95": [
+            -0.1636,
+            0.003
+          ],
+          "ci_bonferroni": [
+            -0.1636,
+            0.003
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 273,
+        "c_actual": 0.5278,
+        "c_actual_ci": [
+          0.4858,
+          0.5686
+        ],
+        "c_mismatched": 0.5345,
+        "delta": {
+          "delta_c": -0.0067,
+          "ci95": [
+            -0.0662,
+            0.056
+          ],
+          "ci_bonferroni": [
+            -0.0994,
+            0.0844
+          ]
+        },
+        "ties_all_dates": 0.004
+      },
+      "direct": {
+        "n": 273,
+        "c_actual": 0.4936,
+        "c_actual_ci": [
+          0.4554,
+          0.5352
+        ],
+        "c_mismatched": 0.5147,
+        "delta": {
+          "delta_c": -0.0211,
+          "ci95": [
+            -0.0775,
+            0.0328
+          ],
+          "ci_bonferroni": [
+            -0.1024,
+            0.0574
+          ]
+        },
+        "ties_all_dates": 0.022
+      }
+    },
+    "Accident": {
+      "sets": 228,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 228,
+        "c_actual": 0.4996,
+        "c_actual_ci": [
+          0.4497,
+          0.5499
+        ],
+        "c_mismatched": 0.4762,
+        "delta": {
+          "delta_c": 0.0234,
+          "ci95": [
+            -0.0435,
+            0.0947
+          ],
+          "ci_bonferroni": [
+            -0.0846,
+            0.1285
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": 0.0314,
+          "ci95": [
+            -0.0381,
+            0.101
+          ],
+          "ci_bonferroni": [
+            -0.0381,
+            0.101
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 228,
+        "c_actual": 0.4976,
+        "c_actual_ci": [
+          0.448,
+          0.5457
+        ],
+        "c_mismatched": 0.4724,
+        "delta": {
+          "delta_c": 0.0252,
+          "ci95": [
+            -0.0398,
+            0.0972
+          ],
+          "ci_bonferroni": [
+            -0.0701,
+            0.1288
+          ]
+        },
+        "ties_all_dates": 0.0
+      },
+      "direct": {
+        "n": 228,
+        "c_actual": 0.5066,
+        "c_actual_ci": [
+          0.4852,
+          0.5284
+        ],
+        "c_mismatched": 0.5075,
+        "delta": {
+          "delta_c": -0.0009,
+          "ci95": [
+            -0.0322,
+            0.0298
+          ],
+          "ci_bonferroni": [
+            -0.047,
+            0.0454
+          ]
+        },
+        "ties_all_dates": 0.61
+      }
+    },
+    "Relationship_Begin": {
+      "sets": 110,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 110,
+        "c_actual": 0.5311,
+        "c_actual_ci": [
+          0.4745,
+          0.5909
+        ],
+        "c_mismatched": 0.5042,
+        "delta": {
+          "delta_c": 0.0269,
+          "ci95": [
+            -0.0599,
+            0.1133
+          ],
+          "ci_bonferroni": [
+            -0.1008,
+            0.1565
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": -0.0128,
+          "ci95": [
+            -0.1042,
+            0.077
+          ],
+          "ci_bonferroni": [
+            -0.1042,
+            0.077
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 110,
+        "c_actual": 0.5477,
+        "c_actual_ci": [
+          0.4913,
+          0.6138
+        ],
+        "c_mismatched": 0.5254,
+        "delta": {
+          "delta_c": 0.0223,
+          "ci95": [
+            -0.0565,
+            0.1053
+          ],
+          "ci_bonferroni": [
+            -0.0974,
+            0.1418
+          ]
+        },
+        "ties_all_dates": 0.0
+      },
+      "direct": {
+        "n": 110,
+        "c_actual": 0.4898,
+        "c_actual_ci": [
+          0.4401,
+          0.5398
+        ],
+        "c_mismatched": 0.5159,
+        "delta": {
+          "delta_c": -0.0261,
+          "ci95": [
+            -0.0932,
+            0.0428
+          ],
+          "ci_bonferroni": [
+            -0.1206,
+            0.0802
+          ]
+        },
+        "ties_all_dates": 0.127
+      }
+    },
+    "Relationship_End": {
+      "sets": 59,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 59,
+        "c_actual": 0.5381,
+        "c_actual_ci": [
+          0.4576,
+          0.6166
+        ],
+        "c_mismatched": 0.4831,
+        "delta": {
+          "delta_c": 0.0551,
+          "ci95": [
+            -0.072,
+            0.178
+          ],
+          "ci_bonferroni": [
+            -0.1323,
+            0.2378
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": 0.0057,
+          "ci95": [
+            -0.1322,
+            0.1494
+          ],
+          "ci_bonferroni": [
+            -0.1322,
+            0.1494
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 59,
+        "c_actual": 0.5445,
+        "c_actual_ci": [
+          0.4682,
+          0.6198
+        ],
+        "c_mismatched": 0.4682,
+        "delta": {
+          "delta_c": 0.0763,
+          "ci95": [
+            -0.0424,
+            0.1907
+          ],
+          "ci_bonferroni": [
+            -0.0984,
+            0.2352
+          ]
+        },
+        "ties_all_dates": 0.0
+      },
+      "direct": {
+        "n": 59,
+        "c_actual": 0.4958,
+        "c_actual_ci": [
+          0.4831,
+          0.5064
+        ],
+        "c_mismatched": 0.5064,
+        "delta": {
+          "delta_c": -0.0106,
+          "ci95": [
+            -0.0297,
+            0.0085
+          ],
+          "ci_bonferroni": [
+            -0.0407,
+            0.0153
+          ]
+        },
+        "ties_all_dates": 0.915
+      }
+    },
+    "Death_of_relative": {
+      "sets": 1751,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 1751,
+        "c_actual": 0.4957,
+        "c_actual_ci": [
+          0.4804,
+          0.512
+        ],
+        "c_mismatched": 0.4985,
+        "delta": {
+          "delta_c": -0.0029,
+          "ci95": [
+            -0.0262,
+            0.0205
+          ],
+          "ci_bonferroni": [
+            -0.0372,
+            0.0314
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": 0.0271,
+          "ci95": [
+            0.0009,
+            0.0545
+          ],
+          "ci_bonferroni": [
+            0.0009,
+            0.0545
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": false
+        }
+      },
+      "unweighted": {
+        "n": 1751,
+        "c_actual": 0.4952,
+        "c_actual_ci": [
+          0.4799,
+          0.512
+        ],
+        "c_mismatched": 0.4973,
+        "delta": {
+          "delta_c": -0.0021,
+          "ci95": [
+            -0.0252,
+            0.0204
+          ],
+          "ci_bonferroni": [
+            -0.0347,
+            0.03
+          ]
+        },
+        "ties_all_dates": 0.002
+      },
+      "direct": {
+        "n": 1751,
+        "c_actual": 0.5034,
+        "c_actual_ci": [
+          0.4898,
+          0.5156
+        ],
+        "c_mismatched": 0.505,
+        "delta": {
+          "delta_c": -0.0015,
+          "ci95": [
+            -0.0209,
+            0.0176
+          ],
+          "ci_bonferroni": [
+            -0.0284,
+            0.0278
+          ]
+        },
+        "ties_all_dates": 0.087
+      }
+    },
+    "Death of father": {
+      "sets": 450,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 450,
+        "c_actual": 0.4917,
+        "c_actual_ci": [
+          0.4638,
+          0.5204
+        ],
+        "c_mismatched": 0.49,
+        "delta": {
+          "delta_c": 0.0017,
+          "ci95": [
+            -0.0406,
+            0.0428
+          ],
+          "ci_bonferroni": [
+            -0.0584,
+            0.062
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": 0.0247,
+          "ci95": [
+            -0.0252,
+            0.0759
+          ],
+          "ci_bonferroni": [
+            -0.0252,
+            0.0759
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 450,
+        "c_actual": 0.4906,
+        "c_actual_ci": [
+          0.4629,
+          0.5203
+        ],
+        "c_mismatched": 0.4888,
+        "delta": {
+          "delta_c": 0.0019,
+          "ci95": [
+            -0.037,
+            0.0408
+          ],
+          "ci_bonferroni": [
+            -0.0573,
+            0.0607
+          ]
+        },
+        "ties_all_dates": 0.0
+      },
+      "direct": {
+        "n": 450,
+        "c_actual": 0.4663,
+        "c_actual_ci": [
+          0.4381,
+          0.4945
+        ],
+        "c_mismatched": 0.5095,
+        "delta": {
+          "delta_c": -0.0432,
+          "ci95": [
+            -0.0822,
+            -0.0034
+          ],
+          "ci_bonferroni": [
+            -0.1018,
+            0.0191
+          ]
+        },
+        "ties_all_dates": 0.013
+      }
+    },
+    "Death of mother": {
+      "sets": 292,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 292,
+        "c_actual": 0.5223,
+        "c_actual_ci": [
+          0.4822,
+          0.5649
+        ],
+        "c_mismatched": 0.4943,
+        "delta": {
+          "delta_c": 0.028,
+          "ci95": [
+            -0.0288,
+            0.0842
+          ],
+          "ci_bonferroni": [
+            -0.0513,
+            0.1128
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": 0.0628,
+          "ci95": [
+            0.002,
+            0.123
+          ],
+          "ci_bonferroni": [
+            0.002,
+            0.123
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": false
+        }
+      },
+      "unweighted": {
+        "n": 292,
+        "c_actual": 0.5147,
+        "c_actual_ci": [
+          0.4739,
+          0.5558
+        ],
+        "c_mismatched": 0.4969,
+        "delta": {
+          "delta_c": 0.0178,
+          "ci95": [
+            -0.037,
+            0.0719
+          ],
+          "ci_bonferroni": [
+            -0.0645,
+            0.0959
+          ]
+        },
+        "ties_all_dates": 0.0
+      },
+      "direct": {
+        "n": 292,
+        "c_actual": 0.5441,
+        "c_actual_ci": [
+          0.5039,
+          0.5821
+        ],
+        "c_mismatched": 0.489,
+        "delta": {
+          "delta_c": 0.0551,
+          "ci95": [
+            0.0001,
+            0.1077
+          ],
+          "ci_bonferroni": [
+            -0.0198,
+            0.1359
+          ]
+        },
+        "ties_all_dates": 0.0
+      }
+    },
+    "Death of mate": {
+      "sets": 528,
+      "verdict": "no signal",
+      "weighted": {
+        "n": 528,
+        "c_actual": 0.4878,
+        "c_actual_ci": [
+          0.4571,
+          0.5159
+        ],
+        "c_mismatched": 0.506,
+        "delta": {
+          "delta_c": -0.0182,
+          "ci95": [
+            -0.0563,
+            0.0231
+          ],
+          "ci_bonferroni": [
+            -0.0754,
+            0.0479
+          ]
+        },
+        "ties_all_dates": 0.0,
+        "placebo_delta": {
+          "delta_c": 0.0099,
+          "ci95": [
+            -0.0411,
+            0.0605
+          ],
+          "ci_bonferroni": [
+            -0.0411,
+            0.0605
+          ]
+        },
+        "checks": {
+          "beats_mismatched_bonferroni": false,
+          "above_chance": false,
+          "placebo_clean": true
+        }
+      },
+      "unweighted": {
+        "n": 528,
+        "c_actual": 0.4922,
+        "c_actual_ci": [
+          0.4621,
+          0.519
+        ],
+        "c_mismatched": 0.4995,
+        "delta": {
+          "delta_c": -0.0073,
+          "ci95": [
+            -0.0448,
+            0.0312
+          ],
+          "ci_bonferroni": [
+            -0.0626,
+            0.0555
+          ]
+        },
+        "ties_all_dates": 0.002
+      },
+      "direct": {
+        "n": 528,
+        "c_actual": 0.5092,
+        "c_actual_ci": [
+          0.4809,
+          0.5338
+        ],
+        "c_mismatched": 0.5008,
+        "delta": {
+          "delta_c": 0.0084,
+          "ci95": [
+            -0.0316,
+            0.0439
+          ],
+          "ci_bonferroni": [
+            -0.0504,
+            0.0594
+          ]
+        },
+        "ties_all_dates": 0.019
+      }
+    }
+  },
+  "per_rule": {
+    "tests": 2642,
+    "fdr_agree": 0,
+    "fdr_oppose": 2,
+    "p05_agree": 65,
+    "p05_oppose": 76,
+    "top": [
+      {
+        "rule": "PD-20-24b",
+        "type": "Death of mate",
+        "n": 528,
+        "mean": -0.05082070454955101,
+        "t": -4.4544172286987305,
+        "p": 1.0278184163325932e-05,
+        "claimed": 1,
+        "fdr": true
+      },
+      {
+        "rule": "PD-26-N-Mo5",
+        "type": "Job_Start",
+        "n": 541,
+        "mean": -0.09642636775970459,
+        "t": -4.183475494384766,
+        "p": 3.3503347367513925e-05,
+        "claimed": 1,
+        "fdr": true
+      },
+      {
+        "rule": "PD-20-W04-2",
+        "type": "Job_End",
+        "n": 320,
+        "mean": 0.02447916753590107,
+        "t": 3.571920394897461,
+        "p": 0.00040901656029745936,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-19-17-3",
+        "type": "Death of mate",
+        "n": 528,
+        "mean": 0.027146466076374054,
+        "t": 3.528273105621338,
+        "p": 0.00045482878340408206,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-19-25-1",
+        "type": "Death of mate",
+        "n": 528,
+        "mean": 0.027146466076374054,
+        "t": 3.528273105621338,
+        "p": 0.00045482878340408206,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-21-SuVe-2",
+        "type": "Death of mate",
+        "n": 528,
+        "mean": 0.018465908244252205,
+        "t": 3.4694619178771973,
+        "p": 0.0005642132018692791,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-26-G-Ve",
+        "type": "Relationship_Begin",
+        "n": 110,
+        "mean": 0.2340909093618393,
+        "t": 3.322848320007324,
+        "p": 0.0012136403238400817,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-26-N-Mo2",
+        "type": "Career_Peak",
+        "n": 608,
+        "mean": 0.06798245757818222,
+        "t": 2.92165470123291,
+        "p": 0.0036112472880631685,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-26-N-Ke3",
+        "type": "Trial",
+        "n": 293,
+        "mean": -0.07394766807556152,
+        "t": -2.927414655685425,
+        "p": 0.003686760552227497,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-09-O-Ve",
+        "type": "Prize",
+        "n": 494,
+        "mean": 0.035087715834379196,
+        "t": 2.8942317962646484,
+        "p": 0.003969305660575628,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-26-N-Ve1",
+        "type": "Divorce",
+        "n": 371,
+        "mean": -0.05929918587207794,
+        "t": -2.87896728515625,
+        "p": 0.004221644718199968,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-26-N-Sa3",
+        "type": "Arrest",
+        "n": 620,
+        "mean": -0.04233871027827263,
+        "t": -2.8616855144500732,
+        "p": 0.004356315825134516,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-26-N-Ma6",
+        "type": "Divorce",
+        "n": 371,
+        "mean": -0.10422281175851822,
+        "t": -2.857304573059082,
+        "p": 0.00451400363817811,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-21-MeSa-1",
+        "type": "Death of mate",
+        "n": 528,
+        "mean": -0.027619946748018265,
+        "t": -2.8425509929656982,
+        "p": 0.004648931790143251,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-26-N-Ke3",
+        "type": "Death of mother",
+        "n": 292,
+        "mean": -0.06592465937137604,
+        "t": -2.810102939605713,
+        "p": 0.005288375075906515,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-09-F-Ve",
+        "type": "Job_Start",
+        "n": 541,
+        "mean": -0.036352433264255524,
+        "t": -2.7960400581359863,
+        "p": 0.005357543472200632,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-20-22a",
+        "type": "Job_Start",
+        "n": 541,
+        "mean": -0.016481822356581688,
+        "t": -2.767714500427246,
+        "p": 0.005838808603584766,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-20-41c",
+        "type": "Death of mother",
+        "n": 292,
+        "mean": 0.01969178020954132,
+        "t": 2.760364055633545,
+        "p": 0.006140248384326696,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-26-N-Sa6",
+        "type": "Marriage",
+        "n": 3663,
+        "mean": 0.017130767926573753,
+        "t": 2.730682611465454,
+        "p": 0.006350589916110039,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-19-17-3",
+        "type": "Trial",
+        "n": 293,
+        "mean": 0.019340159371495247,
+        "t": 2.748044967651367,
+        "p": 0.006368288770318031,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-19-25-1",
+        "type": "Trial",
+        "n": 293,
+        "mean": 0.019340159371495247,
+        "t": 2.748044967651367,
+        "p": 0.006368288770318031,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-09-D2-Sa",
+        "type": "Divorce",
+        "n": 371,
+        "mean": -0.019541779533028603,
+        "t": -2.7037558555603027,
+        "p": 0.007172490935772657,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-19-06-1",
+        "type": "Relationship_Begin",
+        "n": 110,
+        "mean": -0.032575756311416626,
+        "t": -2.653623342514038,
+        "p": 0.009153969585895538,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-21-RaMo-3",
+        "type": "Illness",
+        "n": 273,
+        "mean": -0.022893773391842842,
+        "t": -2.620077610015869,
+        "p": 0.009284920990467072,
+        "claimed": 1,
+        "fdr": false
+      },
+      {
+        "rule": "PD-26-N-Ma6",
+        "type": "Death of father",
+        "n": 450,
+        "mean": 0.08203703910112381,
+        "t": 2.5992605686187744,
+        "p": 0.00965008232742548,
+        "claimed": 1,
+        "fdr": false
+      }
+    ]
+  },
+  "learned": {
+    "Death": {
+      "sets": 17976,
+      "rules_c": 0.513,
+      "demo_c": 0.865,
+      "delta_vs_demo": {
+        "delta_c": -0.352,
+        "ci95": [
+          -0.3588,
+          -0.3452
+        ],
+        "ci_bonferroni": [
+          -0.3623,
+          -0.3418
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.5167,
+        "ci": [
+          0.5116,
+          0.5223
+        ],
+        "sets": 17926
+      }
+    },
+    "Marriage": {
+      "sets": 3663,
+      "rules_c": 0.5015,
+      "demo_c": 0.4987,
+      "delta_vs_demo": {
+        "delta_c": 0.0028,
+        "ci95": [
+          -0.0155,
+          0.0199
+        ],
+        "ci_bonferroni": [
+          -0.0277,
+          0.0274
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.507,
+        "ci": [
+          0.4949,
+          0.5204
+        ],
+        "sets": 2984
+      }
+    },
+    "Divorce": {
+      "sets": 371,
+      "rules_c": 0.4957,
+      "demo_c": 0.4885,
+      "delta_vs_demo": {
+        "delta_c": 0.0072,
+        "ci95": [
+          -0.0481,
+          0.0582
+        ],
+        "ci_bonferroni": [
+          -0.0757,
+          0.085
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.4817,
+        "ci": [
+          0.4451,
+          0.5242
+        ],
+        "sets": 337
+      }
+    },
+    "Career_Peak": {
+      "sets": 608,
+      "rules_c": 0.4786,
+      "demo_c": 0.4425,
+      "delta_vs_demo": {
+        "delta_c": 0.0361,
+        "ci95": [
+          -0.0014,
+          0.0727
+        ],
+        "ci_bonferroni": [
+          -0.0196,
+          0.0944
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.4721,
+        "ci": [
+          0.4421,
+          0.5003
+        ],
+        "sets": 574
+      }
+    },
+    "Prize": {
+      "sets": 494,
+      "rules_c": 0.4804,
+      "demo_c": 0.4882,
+      "delta_vs_demo": {
+        "delta_c": -0.0078,
+        "ci95": [
+          -0.0518,
+          0.0355
+        ],
+        "ci_bonferroni": [
+          -0.0815,
+          0.059
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.5081,
+        "ci": [
+          0.4749,
+          0.5433
+        ],
+        "sets": 474
+      }
+    },
+    "Job_Start": {
+      "sets": 541,
+      "rules_c": 0.5254,
+      "demo_c": 0.5169,
+      "delta_vs_demo": {
+        "delta_c": 0.0085,
+        "ci95": [
+          -0.0324,
+          0.0518
+        ],
+        "ci_bonferroni": [
+          -0.0545,
+          0.0687
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.5013,
+        "ci": [
+          0.4708,
+          0.534
+        ],
+        "sets": 532
+      }
+    },
+    "Job_End": {
+      "sets": 320,
+      "rules_c": 0.5523,
+      "demo_c": 0.4572,
+      "delta_vs_demo": {
+        "delta_c": 0.0952,
+        "ci95": [
+          0.0407,
+          0.15
+        ],
+        "ci_bonferroni": [
+          0.0242,
+          0.1811
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.5396,
+        "ci": [
+          0.4919,
+          0.582
+        ],
+        "sets": 307
+      }
+    },
+    "Arrest": {
+      "sets": 620,
+      "rules_c": 0.4918,
+      "demo_c": 0.5118,
+      "delta_vs_demo": {
+        "delta_c": -0.02,
+        "ci95": [
+          -0.0558,
+          0.0156
+        ],
+        "ci_bonferroni": [
+          -0.0759,
+          0.0349
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.4741,
+        "ci": [
+          0.4426,
+          0.5026
+        ],
+        "sets": 482
+      }
+    },
+    "Trial": {
+      "sets": 293,
+      "rules_c": 0.4838,
+      "demo_c": 0.4855,
+      "delta_vs_demo": {
+        "delta_c": -0.0017,
+        "ci95": [
+          -0.0568,
+          0.0516
+        ],
+        "ci_bonferroni": [
+          -0.0894,
+          0.0864
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.537,
+        "ci": [
+          0.4924,
+          0.5826
+        ],
+        "sets": 230
+      }
+    },
+    "Illness": {
+      "sets": 273,
+      "rules_c": 0.5336,
+      "demo_c": 0.502,
+      "delta_vs_demo": {
+        "delta_c": 0.0316,
+        "ci95": [
+          -0.0269,
+          0.0919
+        ],
+        "ci_bonferroni": [
+          -0.0506,
+          0.1197
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.4687,
+        "ci": [
+          0.4187,
+          0.5223
+        ],
+        "sets": 165
+      }
+    },
+    "Accident": {
+      "sets": 228,
+      "rules_c": 0.4028,
+      "demo_c": 0.4333,
+      "delta_vs_demo": {
+        "delta_c": -0.0305,
+        "ci95": [
+          -0.0921,
+          0.0333
+        ],
+        "ci_bonferroni": [
+          -0.1263,
+          0.0632
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.4905,
+        "ci": [
+          0.439,
+          0.5429
+        ],
+        "sets": 175
+      }
+    },
+    "Relationship_Begin": {
+      "sets": 110,
+      "rules_c": 0.5076,
+      "demo_c": 0.4989,
+      "delta_vs_demo": {
+        "delta_c": 0.0087,
+        "ci95": [
+          -0.0542,
+          0.0746
+        ],
+        "ci_bonferroni": [
+          -0.0835,
+          0.1032
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.5096,
+        "ci": [
+          0.4367,
+          0.5762
+        ],
+        "sets": 104
+      }
+    },
+    "Relationship_End": {
+      "sets": 59,
+      "rules_c": 0.5,
+      "demo_c": 0.5,
+      "delta_vs_demo": {
+        "delta_c": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci_bonferroni": [
+          0.0,
+          0.0
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.5,
+        "ci": [
+          0.5,
+          0.5
+        ],
+        "sets": 58
+      }
+    },
+    "Death_of_relative": {
+      "sets": 1751,
+      "rules_c": 0.4849,
+      "demo_c": 0.4614,
+      "delta_vs_demo": {
+        "delta_c": 0.0235,
+        "ci95": [
+          -0.0018,
+          0.0481
+        ],
+        "ci_bonferroni": [
+          -0.0142,
+          0.0581
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.4956,
+        "ci": [
+          0.4738,
+          0.5159
+        ],
+        "sets": 1433
+      }
+    },
+    "Death of father": {
+      "sets": 450,
+      "rules_c": 0.505,
+      "demo_c": 0.4841,
+      "delta_vs_demo": {
+        "delta_c": 0.0209,
+        "ci95": [
+          -0.0254,
+          0.068
+        ],
+        "ci_bonferroni": [
+          -0.0526,
+          0.0882
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.4876,
+        "ci": [
+          0.4531,
+          0.5233
+        ],
+        "sets": 391
+      }
+    },
+    "Death of mother": {
+      "sets": 292,
+      "rules_c": 0.4752,
+      "demo_c": 0.4827,
+      "delta_vs_demo": {
+        "delta_c": -0.0076,
+        "ci95": [
+          -0.0591,
+          0.0441
+        ],
+        "ci_bonferroni": [
+          -0.0824,
+          0.0857
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.506,
+        "ci": [
+          0.46,
+          0.5486
+        ],
+        "sets": 252
+      }
+    },
+    "Death of mate": {
+      "sets": 528,
+      "rules_c": 0.5022,
+      "demo_c": 0.5036,
+      "delta_vs_demo": {
+        "delta_c": -0.0014,
+        "ci95": [
+          -0.0449,
+          0.042
+        ],
+        "ci_bonferroni": [
+          -0.064,
+          0.0599
+        ]
+      },
+      "placebo_c": {
+        "placebo_c": 0.5164,
+        "ci": [
+          0.479,
+          0.5516
+        ],
+        "sets": 438
+      }
+    }
+  },
+  "confirmation": {},
+  "total_seconds": 323
+}
